@@ -1,0 +1,20 @@
+{
+  "season": 2026,
+  "week": 2,
+  "generated_at_utc": "2026-09-23T05:26:13.560565+00:00",
+  "generated_at_pt": "2026-09-22 22:26:13 PDT (PT)",
+  "predictions_locked": true,
+  "locked_at": "2026-09-23T05:26:13.563526+00:00",
+  "row_count": 1080,
+  "player_count": 270,
+  "espn_loaded": false,
+  "vegas_loaded": false,
+  "espn_note": "ESPN: not loaded \u2014 fill data/external/espn_projections.csv (see espn_projections_template.csv); never invent",
+  "vegas_note": "Vegas: not loaded \u2014 fill data/external/vegas_lines.csv (see vegas_lines_template.csv); never invent",
+  "ours_note": "MODEL ESTIMATES only \u2014 empirical-Bayes from nflverse trailing usage; not past results",
+  "trail_n": 6,
+  "prior_k": 3.0,
+  "include_bench": false,
+  "calibration_weeks": [],
+  "locked_at_pt": "2026-09-22 22:26:13 PDT (PT)"
+}

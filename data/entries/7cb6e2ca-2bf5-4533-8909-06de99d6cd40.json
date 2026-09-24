@@ -1,0 +1,187 @@
+{
+  "entry_id": "7cb6e2ca-2bf5-4533-8909-06de99d6cd40",
+  "season": 2026,
+  "week": 3,
+  "entry_size": 4,
+  "players": [
+    {
+      "gsis_id": "00-0040154",
+      "player_name": "Tai Felton",
+      "team": "MIN",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+      "position": "WR",
+      "jersey_number": null,
+      "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyritorbaz2enqayclln",
+      "role_bucket": "bench_warmer",
+      "depth_order": 4,
+      "opponent": "TB",
+      "ours_confidence": "low",
+      "props": [
+        {
+          "prop": "receiving_yards",
+          "ours_mean": 12.782,
+          "ours_sd": 25.817,
+          "actuals_mean": 2.6666666666666665,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": "low_confidence_bench"
+        },
+        {
+          "prop": "receptions",
+          "ours_mean": 1.047,
+          "ours_sd": 1.717,
+          "actuals_mean": 0.3333333333333333,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": "low_confidence_bench"
+        },
+        {
+          "prop": "rushing_yards",
+          "ours_mean": 0.164,
+          "ours_sd": 2.389,
+          "actuals_mean": 0.0,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": "low_confidence_bench"
+        },
+        {
+          "prop": "touches",
+          "ours_mean": 1.079,
+          "ours_sd": 1.744,
+          "actuals_mean": 0.3333333333333333,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": "low_confidence_bench"
+        }
+      ]
+    },
+    {
+      "gsis_id": "00-0033090",
+      "player_name": "Hunter Henry",
+      "team": "NE",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+      "position": "TE",
+      "jersey_number": null,
+      "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cvlunbqgztudbhjrug7l",
+      "role_bucket": "starter",
+      "depth_order": 1,
+      "opponent": "JAX",
+      "ours_confidence": "high",
+      "props": [
+        {
+          "prop": "receiving_yards",
+          "ours_mean": 27.751,
+          "ours_sd": 23.98,
+          "actuals_mean": 29.666666666666668,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "receptions",
+          "ours_mean": 2.421,
+          "ours_sd": 1.509,
+          "actuals_mean": 2.5,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "touches",
+          "ours_mean": 2.426,
+          "ours_sd": 1.517,
+          "actuals_mean": 2.5,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "gsis_id": "00-0034383",
+      "player_name": "Dalton Schultz",
+      "team": "HOU",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+      "position": "TE",
+      "jersey_number": null,
+      "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ym8sbkev8l4scnrc0vd8",
+      "role_bucket": "starter",
+      "depth_order": 1,
+      "opponent": "IND",
+      "ours_confidence": "high",
+      "props": [
+        {
+          "prop": "receiving_yards",
+          "ours_mean": 44.257,
+          "ours_sd": 42.342,
+          "actuals_mean": 54.333333333333336,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "receptions",
+          "ours_mean": 3.905,
+          "ours_sd": 3.33,
+          "actuals_mean": 4.666666666666667,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "touches",
+          "ours_mean": 3.921,
+          "ours_sd": 3.336,
+          "actuals_mean": 4.666666666666667,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "gsis_id": "00-0039912",
+      "player_name": "Ben Sinnott",
+      "team": "WAS",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "position": "TE",
+      "jersey_number": null,
+      "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ilkrv6dqajndnlsbmv8f",
+      "role_bucket": "rotation",
+      "depth_order": 2,
+      "opponent": "SEA",
+      "ours_confidence": "high",
+      "props": [
+        {
+          "prop": "receiving_yards",
+          "ours_mean": 16.273,
+          "ours_sd": 19.617,
+          "actuals_mean": 14.5,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "receptions",
+          "ours_mean": 1.676,
+          "ours_sd": 1.573,
+          "actuals_mean": 1.5,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "touches",
+          "ours_mean": 1.683,
+          "ours_sd": 1.583,
+          "actuals_mean": 1.5,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        }
+      ]
+    }
+  ],
+  "updated_at_pt": "2026-09-22 22:26:21 PDT (PT)",
+  "label": "MODEL ESTIMATES on card \u2014 not invented past results; ESPN/Vegas only if loaded"
+}

@@ -1,0 +1,238 @@
+{
+  "entry_id": "5ea5c20f-21e7-4bdf-aa38-10117bc9cb6e",
+  "season": 2026,
+  "week": 3,
+  "entry_size": 5,
+  "players": [
+    {
+      "gsis_id": "00-0035659",
+      "player_name": "Terry McLaurin",
+      "team": "WAS",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "position": "WR",
+      "jersey_number": null,
+      "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tmfl2zruajmkrtcg4zxp",
+      "role_bucket": "starter",
+      "depth_order": 1,
+      "opponent": "SEA",
+      "ours_confidence": "high",
+      "props": [
+        {
+          "prop": "receiving_yards",
+          "ours_mean": 44.087,
+          "ours_sd": 26.917,
+          "actuals_mean": 51.0,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "receptions",
+          "ours_mean": 2.909,
+          "ours_sd": 1.78,
+          "actuals_mean": 3.1666666666666665,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "rushing_yards",
+          "ours_mean": 0.174,
+          "ours_sd": 1.782,
+          "actuals_mean": 0.0,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "touches",
+          "ours_mean": 2.947,
+          "ours_sd": 1.818,
+          "actuals_mean": 3.1666666666666665,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "gsis_id": "00-0036637",
+      "player_name": "Noah Gray",
+      "team": "KC",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "position": "TE",
+      "jersey_number": null,
+      "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bpmlguml8jth2rbdfyp5",
+      "role_bucket": "rotation",
+      "depth_order": 2,
+      "opponent": "MIA",
+      "ours_confidence": "high",
+      "props": [
+        {
+          "prop": "receiving_yards",
+          "ours_mean": 14.708,
+          "ours_sd": 22.039,
+          "actuals_mean": 8.5,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "receptions",
+          "ours_mean": 1.561,
+          "ours_sd": 1.894,
+          "actuals_mean": 1.0,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "touches",
+          "ours_mean": 1.573,
+          "ours_sd": 1.906,
+          "actuals_mean": 1.0,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "gsis_id": "00-0040128",
+      "player_name": "Tyler Warren",
+      "team": "IND",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+      "position": "TE",
+      "jersey_number": null,
+      "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/f1mfwwrr3qvnxuiackgq",
+      "role_bucket": "starter",
+      "depth_order": 1,
+      "opponent": "HOU",
+      "ours_confidence": "high",
+      "props": [
+        {
+          "prop": "receiving_yards",
+          "ours_mean": 23.143,
+          "ours_sd": 17.613,
+          "actuals_mean": 25.333333333333332,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "receptions",
+          "ours_mean": 3.374,
+          "ours_sd": 1.665,
+          "actuals_mean": 4.166666666666667,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "touches",
+          "ours_mean": 3.5,
+          "ours_sd": 1.869,
+          "actuals_mean": 4.333333333333333,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "gsis_id": "00-0039894",
+      "player_name": "Xavier Worthy",
+      "team": "KC",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "position": "WR",
+      "jersey_number": null,
+      "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u6fmnffwteccoxn3uguq",
+      "role_bucket": "rotation",
+      "depth_order": 2,
+      "opponent": "MIA",
+      "ours_confidence": "high",
+      "props": [
+        {
+          "prop": "receiving_yards",
+          "ours_mean": 28.921,
+          "ours_sd": 26.881,
+          "actuals_mean": 29.0,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "receptions",
+          "ours_mean": 2.427,
+          "ours_sd": 2.036,
+          "actuals_mean": 2.5,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "rushing_yards",
+          "ours_mean": 0.373,
+          "ours_sd": 2.432,
+          "actuals_mean": 0.16666666666666666,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "touches",
+          "ours_mean": 2.702,
+          "ours_sd": 1.937,
+          "actuals_mean": 2.8333333333333335,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "gsis_id": "00-0036422",
+      "player_name": "Adam Trautman",
+      "team": "DEN",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+      "position": "TE",
+      "jersey_number": null,
+      "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bqsgkwkfolczyrxmdp1j",
+      "role_bucket": "rotation",
+      "depth_order": 2,
+      "opponent": "LA",
+      "ours_confidence": "high",
+      "props": [
+        {
+          "prop": "receiving_yards",
+          "ours_mean": 18.154,
+          "ours_sd": 18.933,
+          "actuals_mean": 18.666666666666668,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "receptions",
+          "ours_mean": 1.811,
+          "ours_sd": 1.406,
+          "actuals_mean": 1.8333333333333333,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        },
+        {
+          "prop": "touches",
+          "ours_mean": 1.819,
+          "ours_sd": 1.423,
+          "actuals_mean": 1.8333333333333333,
+          "espn_status": "not_loaded",
+          "vegas_status": "not_loaded",
+          "flags": ""
+        }
+      ]
+    }
+  ],
+  "updated_at_pt": "2026-09-22 22:25:57 PDT (PT)",
+  "label": "MODEL ESTIMATES on card \u2014 not invented past results; ESPN/Vegas only if loaded"
+}
