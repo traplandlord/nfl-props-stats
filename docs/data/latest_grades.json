@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "season": 2026,
+    "week": 2,
+    "graded_at_pt": "2026-09-22 22:26:14 PDT (PT)",
+    "predictions_locked": true,
+    "locked_at": "2026-09-23T05:26:13.563526+00:00",
+    "n_pred_rows": 1080,
+    "n_scored": 886,
+    "n_missing_actual": 194,
+    "overall_mae": 10.182836343115127,
+    "overall_within_1sd_rate": 0.7731376975169301,
+    "overall_bias": -0.35105304740406285,
+    "mae_by_prop": {
+      "passing_tds": 0.9721621621621621,
+      "passing_yards": 67.52256756756756,
+      "receiving_yards": 19.784906593406593,
+      "receptions": 1.50928021978022,
+      "rushing_tds": 0.360095238095238,
+      "rushing_yards": 12.178475903614459,
+      "touches": 2.5928447488584467
+    },
+    "within_1sd_by_prop": {
+      "passing_tds": 0.5405405405405406,
+      "passing_yards": 0.7567567567567568,
+      "receiving_yards": 0.7747252747252747,
+      "receptions": 0.7417582417582418,
+      "rushing_tds": 0.9206349206349206,
+      "rushing_yards": 0.8493975903614458,
+      "touches": 0.7397260273972602
+    }
+  },
+  "metrics": {
+    "season": 2026,
+    "week": 2,
+    "graded_at_pt": "2026-09-22 22:26:14 PDT (PT)",
+    "predictions_locked": true,
+    "locked_at": "2026-09-23T05:26:13.563526+00:00",
+    "n_pred_rows": 1080,
+    "n_scored": 886,
+    "n_missing_actual": 194,
+    "overall_mae": 10.182836343115127,
+    "overall_within_1sd_rate": 0.7731376975169301,
+    "overall_bias": -0.35105304740406285,
+    "mae_by_prop": {
+      "passing_tds": 0.9721621621621621,
+      "passing_yards": 67.52256756756756,
+      "receiving_yards": 19.784906593406593,
+      "receptions": 1.50928021978022,
+      "rushing_tds": 0.360095238095238,
+      "rushing_yards": 12.178475903614459,
+      "touches": 2.5928447488584467
+    },
+    "within_1sd_by_prop": {
+      "passing_tds": 0.5405405405405406,
+      "passing_yards": 0.7567567567567568,
+      "receiving_yards": 0.7747252747252747,
+      "receptions": 0.7417582417582418,
+      "rushing_tds": 0.9206349206349206,
+      "rushing_yards": 0.8493975903614458,
+      "touches": 0.7397260273972602
+    }
+  }
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "team_abbr": "ARI",
+    "team_name": "Arizona Cardinals",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+    "team_color": "#97233F",
+    "team_color2": "#000000"
+  },
+  {
+    "team_abbr": "ATL",
+    "team_name": "Atlanta Falcons",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+    "team_color": "#A71930",
+    "team_color2": "#000000"
+  },
+  {
+    "team_abbr": "BAL",
+    "team_name": "Baltimore Ravens",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+    "team_color": "#241773",
+    "team_color2": "#9E7C0C"
+  },
+  {
+    "team_abbr": "BUF",
+    "team_name": "Buffalo Bills",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+    "team_color": "#00338D",
+    "team_color2": "#C60C30"
+  },
+  {
+    "team_abbr": "CAR",
+    "team_name": "Carolina Panthers",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
+    "team_color": "#0085CA",
+    "team_color2": "#000000"
+  },
+  {
+    "team_abbr": "CHI",
+    "team_name": "Chicago Bears",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+    "team_color": "#0B162A",
+    "team_color2": "#E64100"
+  },
+  {
+    "team_abbr": "CIN",
+    "team_name": "Cincinnati Bengals",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+    "team_color": "#FB4F14",
+    "team_color2": "#000000"
+  },
+  {
+    "team_abbr": "CLE",
+    "team_name": "Cleveland Browns",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+    "team_color": "#FF3C00",
+    "team_color2": "#311D00"
+  },
+  {
+    "team_abbr": "DAL",
+    "team_name": "Dallas Cowboys",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+    "team_color": "#002244",
+    "team_color2": "#B0B7BC"
+  },
+  {
+    "team_abbr": "DEN",
+    "team_name": "Denver Broncos",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+    "team_color": "#002244",
+    "team_color2": "#FB4F14"
+  },
+  {
+    "team_abbr": "DET",
+    "team_name": "Detroit Lions",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+    "team_color": "#0076B6",
+    "team_color2": "#B0B7BC"
+  },
+  {
+    "team_abbr": "GB",
+    "team_name": "Green Bay Packers",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+    "team_color": "#203731",
+    "team_color2": "#FFB612"
+  },
+  {
+    "team_abbr": "HOU",
+    "team_name": "Houston Texans",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+    "team_color": "#03202F",
+    "team_color2": "#A71930"
+  },
+  {
+    "team_abbr": "IND",
+    "team_name": "Indianapolis Colts",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+    "team_color": "#002C5F",
+    "team_color2": "#a5acaf"
+  },
+  {
+    "team_abbr": "JAX",
+    "team_name": "Jacksonville Jaguars",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+    "team_color": "#006778",
+    "team_color2": "#000000"
+  },
+  {
+    "team_abbr": "KC",
+    "team_name": "Kansas City Chiefs",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+    "team_color": "#E31837",
+    "team_color2": "#FFB612"
+  },
+  {
+    "team_abbr": "LA",
+    "team_name": "Los Angeles Rams",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+    "team_color": "#003594",
+    "team_color2": "#FFD100"
+  },
+  {
+    "team_abbr": "LAC",
+    "team_name": "Los Angeles Chargers",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+    "team_color": "#007BC7",
+    "team_color2": "#ffc20e"
+  },
+  {
+    "team_abbr": "LAR",
+    "team_name": "Los Angeles Rams",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+    "team_color": "#003594",
+    "team_color2": "#FFD100"
+  },
+  {
+    "team_abbr": "LV",
+    "team_name": "Las Vegas Raiders",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+    "team_color": "#000000",
+    "team_color2": "#A5ACAF"
+  },
+  {
+    "team_abbr": "MIA",
+    "team_name": "Miami Dolphins",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+    "team_color": "#008E97",
+    "team_color2": "#F58220"
+  },
+  {
+    "team_abbr": "MIN",
+    "team_name": "Minnesota Vikings",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+    "team_color": "#4F2683",
+    "team_color2": "#FFC62F"
+  },
+  {
+    "team_abbr": "NE",
+    "team_name": "New England Patriots",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+    "team_color": "#002244",
+    "team_color2": "#C60C30"
+  },
+  {
+    "team_abbr": "NO",
+    "team_name": "New Orleans Saints",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+    "team_color": "#D3BC8D",
+    "team_color2": "#000000"
+  },
+  {
+    "team_abbr": "NYG",
+    "team_name": "New York Giants",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+    "team_color": "#0B2265",
+    "team_color2": "#A71930"
+  },
+  {
+    "team_abbr": "NYJ",
+    "team_name": "New York Jets",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+    "team_color": "#003F2D",
+    "team_color2": "#000000"
+  },
+  {
+    "team_abbr": "OAK",
+    "team_name": "Oakland Raiders",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+    "team_color": "#000000",
+    "team_color2": "#A5ACAF"
+  },
+  {
+    "team_abbr": "PHI",
+    "team_name": "Philadelphia Eagles",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+    "team_color": "#004C54",
+    "team_color2": "#A5ACAF"
+  },
+  {
+    "team_abbr": "PIT",
+    "team_name": "Pittsburgh Steelers",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+    "team_color": "#000000",
+    "team_color2": "#FFB612"
+  },
+  {
+    "team_abbr": "SD",
+    "team_name": "San Diego Chargers",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+    "team_color": "#007BC7",
+    "team_color2": "#ffc20e"
+  },
+  {
+    "team_abbr": "SEA",
+    "team_name": "Seattle Seahawks",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+    "team_color": "#002244",
+    "team_color2": "#69be28"
+  },
+  {
+    "team_abbr": "SF",
+    "team_name": "San Francisco 49ers",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+    "team_color": "#AA0000",
+    "team_color2": "#B3995D"
+  },
+  {
+    "team_abbr": "STL",
+    "team_name": "St. Louis Rams",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+    "team_color": "#003594",
+    "team_color2": "#FFD100"
+  },
+  {
+    "team_abbr": "TB",
+    "team_name": "Tampa Bay Buccaneers",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+    "team_color": "#A71930",
+    "team_color2": "#322F2B"
+  },
+  {
+    "team_abbr": "TEN",
+    "team_name": "Tennessee Titans",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+    "team_color": "#4495D2",
+    "team_color2": "#D50A0A"
+  },
+  {
+    "team_abbr": "WAS",
+    "team_name": "Washington Commanders",
+    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+    "team_color": "#5A1414",
+    "team_color2": "#FFB612"
+  }
+]

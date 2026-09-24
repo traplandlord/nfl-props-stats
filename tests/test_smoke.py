@@ -96,4 +96,7 @@ def test_config_port_data_dir():
 
     assert config.PORT == 5056 or isinstance(config.PORT, int)
     assert config.DATA_DIR == DATA.resolve() or config.DATA_DIR.is_dir()
-    assert "assistant" in config.access_message().lower() or "Grok" in config.access_message()
+    # Access message should reference local machine, not assistant/Grok
+    msg = config.access_message().lower()
+    assert "local" in msg or "machine" in msg
+    assert "grok" not in msg and "assistant" not in msg
