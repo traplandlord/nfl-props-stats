@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# One-command launcher for the NFL props UI on the ASSISTANT computer.
-# Your laptop's Chrome cannot reach this — open the Grok Bot desktop view first.
+# One-command launcher for the NFL props Flask UI on your local machine.
+# For a browser-only version, visit https://traplandlord.github.io/nfl-props-stats/
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
@@ -14,10 +14,11 @@ export NFL_PROPS_PORT="${NFL_PROPS_PORT:-5056}"
 export NFL_PROPS_DATA="${NFL_PROPS_DATA:-$ROOT/data}"
 
 echo "=============================================="
-echo " NFL Props UI — ASSISTANT BOX ONLY"
-echo " Open Grok Bot computer/desktop → browser →"
+echo " NFL Props Flask UI — Local Server"
+echo " Open your browser and go to:"
 echo "   http://${NFL_PROPS_HOST}:${NFL_PROPS_PORT}/"
-echo " Pasting localhost in YOUR Chrome will FAIL."
+echo " For browser-only version, visit:"
+echo "   https://traplandlord.github.io/nfl-props-stats/"
 echo " Health: $PY scripts/ui_healthcheck.py"
 echo "=============================================="
 exec "$PY" scripts/player_lookup_app.py

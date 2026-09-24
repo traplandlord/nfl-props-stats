@@ -1,12 +1,11 @@
 """Single source of truth for app paths and bind settings.
 
 Override with env:
-  NFL_PROPS_HOST   default 127.0.0.1  (box loopback — NOT the user's laptop)
+  NFL_PROPS_HOST   default 127.0.0.1
   NFL_PROPS_PORT   default 5056
-  NFL_PROPS_DATA    default <repo>/data
+  NFL_PROPS_DATA   default <repo>/data
 
-Access: UI runs on the assistant computer. Open the Grok Bot desktop/browser,
-then hit http://127.0.0.1:PORT/ — pasting localhost into your own Chrome fails.
+When running the Flask UI locally, it binds to 127.0.0.1 (your machine's localhost).
 """
 
 from __future__ import annotations
@@ -18,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 DATA_DIR = Path(os.environ.get("NFL_PROPS_DATA") or (ROOT / "data")).expanduser().resolve()
 
-# Prefer loopback on the assistant box. Do not default to 0.0.0.0.
+# Prefer loopback for local development. Do not default to 0.0.0.0.
 HOST = os.environ.get("NFL_PROPS_HOST", "127.0.0.1").strip() or "127.0.0.1"
 PORT = int(os.environ.get("NFL_PROPS_PORT", "5056"))
 
@@ -29,9 +28,8 @@ ENTRIES_DIR = DATA_DIR / "entries"
 GUIDE_DIR = DATA_DIR / "guide"
 
 ACCESS_BANNER = (
-    "This UI runs on the assistant computer (Grok Bot desktop), not your laptop. "
-    "Open the assistant desktop browser → http://{host}:{port}/ — "
-    "pasting localhost into your own Chrome will not work."
+    "This Flask UI runs on your local machine at http://{host}:{port}/. "
+    "For a browser-only version, visit https://traplandlord.github.io/nfl-props-stats/"
 )
 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Health-check the local Flask UI (assistant box only).
+"""Health-check the local Flask UI.
 
 Usage:
   ./.venv/bin/python scripts/ui_healthcheck.py
@@ -58,7 +58,7 @@ def main() -> int:
             file=sys.stderr,
         )
         return 1
-    print("\nPASS: UI healthy on the assistant box.")
+    print("\nPASS: UI healthy on your local machine.")
     print(json.dumps({"host": args.host, "port": args.port, "ok": True}))
     return 0
 

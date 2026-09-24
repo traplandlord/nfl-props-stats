@@ -1,0 +1,3002 @@
+[
+  {
+    "position": "RB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "DET",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "WAS",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "DEN",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "ARI",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "FB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "FB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "TB",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "SF",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "FB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "FB",
+    "team": "SEA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "FB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "FB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "PIT",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "BAL",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "NYJ",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "PHI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "FB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "NYG",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "BUF",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "CAR",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "NO",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "TE",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "FB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "FB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "FB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "NE",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "TE",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "QB",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "FB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "FB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "MIA",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "FB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "MIN",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "TE",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "QB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "FB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "FB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "LV",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "CHI",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "FB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "QB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "LAC",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "CIN",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "FB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "FB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "LA",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "FB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "FB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "FB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "JAX",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "KC",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "WR",
+    "team": "HOU",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "HOU",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "HOU",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "HOU",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "WR",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "QB",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "passing_tds"
+  },
+  {
+    "position": "QB",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "passing_yards"
+  },
+  {
+    "position": "QB",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "IND",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "CLE",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "WR",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "WR",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "WR",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "FB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "FB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "FB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "FB",
+    "team": "DAL",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "RB",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "RB",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "RB",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "rushing_tds"
+  },
+  {
+    "position": "RB",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "rushing_yards"
+  },
+  {
+    "position": "RB",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "GB",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "TE",
+    "team": "HOU",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  },
+  {
+    "position": "TE",
+    "team": "HOU",
+    "role_bucket": "starter",
+    "prop": "receptions"
+  },
+  {
+    "position": "TE",
+    "team": "HOU",
+    "role_bucket": "starter",
+    "prop": "touches"
+  },
+  {
+    "position": "WR",
+    "team": "HOU",
+    "role_bucket": "starter",
+    "prop": "receiving_yards"
+  }
+]

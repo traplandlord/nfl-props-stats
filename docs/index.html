@@ -3,215 +3,757 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NFL Props Stats - Real NFL Analytics</title>
+    <title>NFL Props Stats - Real Player Analytics</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+
+        :root {
+            --bg: #0f1419;
+            --card: #1a2332;
+            --text: #e7ecf3;
+            --muted: #9aa7b8;
+            --accent: #3d8bfd;
+            --border: #2a3545;
+            --starter: #2ecc71;
+            --rotation: #f1c40f;
+            --bench: #95a5a6;
+            --warn: #e67e22;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
             line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 2rem 1rem;
         }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            padding: 3rem;
+
+        .header {
+            background: var(--card);
+            border-bottom: 2px solid var(--border);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
-        h1 {
-            color: #2d3748;
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            font-weight: 700;
-        }
-        .tagline {
-            color: #718096;
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
-            font-weight: 500;
-        }
-        .rule {
-            background: #fff5f5;
-            border-left: 4px solid #fc8181;
-            padding: 1rem 1.5rem;
-            margin-bottom: 2rem;
-            border-radius: 4px;
-        }
-        .rule strong {
-            color: #c53030;
-        }
-        h2 {
-            color: #2d3748;
-            font-size: 1.75rem;
-            margin: 2rem 0 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 3px solid #667eea;
-        }
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin: 2rem 0;
-        }
-        .feature-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .feature-card h3 {
-            font-size: 1.25rem;
+
+        .header h1 {
+            font-size: 1.5rem;
             margin-bottom: 0.5rem;
         }
-        .feature-card p {
-            font-size: 0.95rem;
-            opacity: 0.95;
-        }
-        .setup {
-            background: #f7fafc;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin: 1.5rem 0;
-        }
-        code {
-            background: #2d3748;
-            color: #68d391;
-            padding: 0.2rem 0.5rem;
-            border-radius: 4px;
-            font-family: 'Monaco', 'Courier New', monospace;
-            font-size: 0.9em;
-        }
-        pre {
-            background: #2d3748;
-            color: #e2e8f0;
-            padding: 1rem;
-            border-radius: 6px;
-            overflow-x: auto;
-            margin: 1rem 0;
-        }
-        pre code {
-            background: none;
-            padding: 0;
-            color: inherit;
-        }
-        .links {
+
+        .nav {
             display: flex;
-            gap: 1rem;
-            margin-top: 2rem;
+            gap: 0.5rem;
             flex-wrap: wrap;
         }
-        .btn {
-            display: inline-block;
-            padding: 0.75rem 1.5rem;
-            background: #667eea;
+
+        .nav button {
+            padding: 0.5rem 1rem;
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--muted);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+        }
+
+        .nav button:hover {
+            background: #152033;
+            border-color: var(--accent);
+            color: var(--text);
+        }
+
+        .nav button.active {
+            background: var(--accent);
+            border-color: var(--accent);
             color: white;
-            text-decoration: none;
-            border-radius: 6px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 0.75rem;
+            background: #0c1016;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text);
+            font-size: 1rem;
+        }
+
+        .search-box button {
+            padding: 0.75rem 1.5rem;
+            background: var(--accent);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            cursor: pointer;
             font-weight: 600;
-            transition: all 0.3s ease;
         }
-        .btn:hover {
-            background: #5a67d8;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+
+        .search-box button:hover {
+            filter: brightness(1.1);
         }
-        .btn-secondary {
-            background: #48bb78;
+
+        .player-card {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            flex-wrap: wrap;
         }
-        .btn-secondary:hover {
-            background: #38a169;
-            box-shadow: 0 4px 12px rgba(72, 187, 120, 0.4);
+
+        .player-card img.headshot {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 12px;
+            background: #111;
+            border: 1px solid var(--border);
         }
-        ul {
-            margin-left: 1.5rem;
+
+        .player-info h2 {
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .player-info .meta {
+            color: var(--muted);
+            margin: 0.25rem 0;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-left: 0.5rem;
+        }
+
+        .badge.starter {
+            background: var(--starter);
+            color: #000;
+        }
+
+        .badge.rotation {
+            background: var(--rotation);
+            color: #000;
+        }
+
+        .badge.bench_warmer {
+            background: var(--bench);
+            color: #000;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            color: var(--muted);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .empty {
+            color: var(--muted);
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .team-logo {
+            width: 32px;
+            height: 32px;
+            vertical-align: middle;
+            margin-right: 0.5rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--muted);
+        }
+
+        .error {
+            background: #3a1a1a;
+            border: 1px solid #6a3030;
+            color: #f0b0b0;
+            padding: 1rem;
+            border-radius: 8px;
             margin-bottom: 1rem;
         }
-        li {
+
+        .banner {
+            background: #1e2a1e;
+            border: 1px solid #2d4a2d;
+            color: #b8e0b8;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+
+        .banner.warn {
+            background: #2a2218;
+            border-color: #5a4020;
+            color: #f0d9a8;
+        }
+
+        .card-builder {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .card-builder .selected-players {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .mini-player-card {
+            background: #0c1016;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .mini-player-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
             margin-bottom: 0.5rem;
+        }
+
+        .mini-player-card .name {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .mini-player-card .team {
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .mini-player-card button {
+            margin-top: 0.5rem;
+            padding: 0.4rem 0.8rem;
+            background: #8b3a3a;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+
+        .guide-section {
+            margin-bottom: 2rem;
+        }
+
+        .guide-section h3 {
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+
+        .game-card {
+            background: #0c1016;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .game-teams {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .game-date {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .header {
+                padding: 1rem;
+            }
+
+            .player-card {
+                flex-direction: column;
+            }
+
+            table {
+                font-size: 0.85rem;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="header">
         <h1>NFL Props Stats</h1>
-        <p class="tagline">Real NFL player and team statistics for PrizePicks-style props analytics</p>
-        
-        <div class="rule">
-            <strong>Rule: ZERO fabricated numbers.</strong> Every row is downloaded from public nflverse releases or locally aggregated from those rows. If a source fails, the error is recorded — data is never invented.
-        </div>
-
-        <h2>Features</h2>
-        <div class="features">
-            <div class="feature-card">
-                <h3>🔍 Search</h3>
-                <p>Fuzzy player name search with headshots, team logos, jersey numbers, and season/weekly stats from real parquet data.</p>
-            </div>
-            <div class="feature-card">
-                <h3>📊 Weekly Predictions</h3>
-                <p>Model estimates for player props with actuals, ESPN/Vegas comparisons (when loaded), and confidence flags.</p>
-            </div>
-            <div class="feature-card">
-                <h3>🎴 Build My Card</h3>
-                <p>PrizePicks-style entry builder with 2-6 player selections, team browser, randomize, and session persistence.</p>
-            </div>
-            <div class="feature-card">
-                <h3>📖 Guide</h3>
-                <p>Active games tracker, challenge locked cards with live actuals, and model improvement suggestions based on real signals.</p>
-            </div>
-        </div>
-
-        <h2>Data Sources</h2>
-        <p>All data comes from <strong>nflverse</strong> public releases via the <code>nflreadpy</code> Python package:</p>
-        <ul>
-            <li>Weekly player stats, snap counts, injuries</li>
-            <li>Team schedules, depth charts, player roles</li>
-            <li>Player usage metrics (derived from stats + snaps)</li>
-            <li>Team logos and player photo URLs (ESPN CDN)</li>
-        </ul>
-        <p>Optional external data (user-supplied CSV only): ESPN projections, Vegas lines — never invented.</p>
-
-        <h2>Running Locally</h2>
-        <div class="setup">
-            <p><strong>Setup and refresh data:</strong></p>
-            <pre><code>cd nfl-props-stats
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python scripts/refresh_nfl_stats.py</code></pre>
-            
-            <p style="margin-top: 1rem;"><strong>Start the Flask UI:</strong></p>
-            <pre><code>./scripts/run_ui.sh</code></pre>
-            
-            <p style="margin-top: 1rem;">Then open <code>http://127.0.0.1:5056/</code> in your browser.</p>
-            <p style="margin-top: 0.5rem; color: #718096; font-size: 0.9rem;">
-                <em>Note: The UI runs on your local machine. Default port is 5056; configure via <code>scripts/config.py</code>.</em>
-            </p>
-        </div>
-
-        <h2>Project Structure</h2>
-        <ul>
-            <li><code>scripts/</code> — Data refresh, player lookup, weekly predictions, entry builder, guide, grading</li>
-            <li><code>data/</code> — Parquet/CSV tables (stats, players, usage, predictions, grades, entries)</li>
-            <li><code>tests/</code> — Smoke tests ensuring real data only</li>
-            <li><code>README.md</code> — Full documentation with schemas, setup, and usage</li>
-            <li><code>DATA_MANIFEST.md</code> — Row counts, timestamps, and error logs</li>
-            <li><code>AUDIT_NOTES.md</code> — Quality audit scores and identified flaws</li>
-        </ul>
-
-        <div class="links">
-            <a href="https://github.com/traplandlord/nfl-props-stats" class="btn">View on GitHub</a>
-            <a href="https://github.com/traplandlord/nfl-props-stats/blob/main/README.md" class="btn btn-secondary">Read Full Docs</a>
+        <div class="nav">
+            <button class="nav-btn active" data-tab="search">Search</button>
+            <button class="nav-btn" data-tab="weekly">Weekly Predictions</button>
+            <button class="nav-btn" data-tab="builder">Build My Card</button>
+            <button class="nav-btn" data-tab="guide">Guide</button>
         </div>
     </div>
+
+    <div class="container">
+        <!-- Search Tab -->
+        <div id="search-tab" class="tab-content active">
+            <div class="banner">
+                <strong>Real data only.</strong> Search for any NFL player and see their stats, team, role, and recent performance. All data from official nflverse sources.
+            </div>
+
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search for a player (e.g., Patrick Mahomes, CMC)..." />
+                <button onclick="searchPlayer()">Search</button>
+            </div>
+
+            <div id="search-results"></div>
+        </div>
+
+        <!-- Weekly Predictions Tab -->
+        <div id="weekly-tab" class="tab-content">
+            <div class="banner">
+                <strong>Model predictions</strong> based on trailing game stats and player roles. ESPN and Vegas data not loaded (requires manual CSV upload).
+            </div>
+
+            <div id="weekly-content">
+                <div class="loading">Loading predictions...</div>
+            </div>
+        </div>
+
+        <!-- Build My Card Tab -->
+        <div id="builder-tab" class="tab-content">
+            <div class="banner">
+                <strong>Build your player card.</strong> Select 2-6 players from any teams. Your selections are saved in your browser.
+            </div>
+
+            <div class="card-builder">
+                <div>
+                    <h3>Your Card (<span id="card-count">0</span>/6)</h3>
+                    <div id="selected-players" class="selected-players">
+                        <div class="empty">No players selected yet. Search for players below to add them to your card.</div>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <button onclick="clearCard()" style="padding: 0.5rem 1rem; background: #8b3a3a; border: none; border-radius: 8px; color: white; cursor: pointer;">Clear Card</button>
+                        <button onclick="saveCard()" style="padding: 0.5rem 1rem; background: var(--accent); border: none; border-radius: 8px; color: white; cursor: pointer; margin-left: 0.5rem;">Save Card</button>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Add Players</h3>
+                    <div class="search-box">
+                        <input type="text" id="builder-search" placeholder="Search to add players..." />
+                        <button onclick="searchForBuilder()">Search</button>
+                    </div>
+                    <div id="builder-results"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Guide Tab -->
+        <div id="guide-tab" class="tab-content">
+            <div class="banner">
+                <strong>Plain-English guidance</strong> based on real schedule data and prediction quality. No fabricated scores or fake insights.
+            </div>
+
+            <div class="guide-section">
+                <h3>Upcoming Games</h3>
+                <div id="guide-games">
+                    <div class="loading">Loading schedule...</div>
+                </div>
+            </div>
+
+            <div class="guide-section">
+                <h3>How to Use This App</h3>
+                <div class="card">
+                    <p><strong>Search:</strong> Find any player to see their stats, team, position, and role (starter/rotation/bench). All data comes from nflverse official releases.</p>
+                    <p style="margin-top: 0.75rem;"><strong>Weekly Predictions:</strong> View model predictions based on recent performance. Predictions use empirical Bayes methods on trailing usage stats. ESPN and Vegas require manual CSV upload (not included).</p>
+                    <p style="margin-top: 0.75rem;"><strong>Build My Card:</strong> Create a PrizePicks-style card with 2-6 players from any teams. Your selections are saved locally in your browser.</p>
+                    <p style="margin-top: 0.75rem;"><strong>Model Quality:</strong> Week 2 grades show overall MAE of 10.2 with 77% of predictions within 1 standard deviation. Passing yards and receptions are the toughest to predict.</p>
+                </div>
+            </div>
+
+            <div class="guide-section">
+                <h3>About This Data</h3>
+                <div class="card">
+                    <p><strong>Zero fabricated numbers.</strong> Every stat comes from nflverse public data releases. If data is missing, it's marked as "not loaded" rather than invented.</p>
+                    <p style="margin-top: 0.75rem;"><strong>Sources:</strong> Player stats, snap counts, injuries, depth charts, and team data from <a href="https://github.com/nflverse/nflverse-data" target="_blank" style="color: var(--accent);">nflverse</a> via the nflreadpy package.</p>
+                    <p style="margin-top: 0.75rem;"><strong>Player photos:</strong> ESPN CDN URLs derived from nflverse player IDs. Team logos from nflverse team metadata.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global data stores
+        let players = [];
+        let teams = [];
+        let playerRoles = [];
+        let playerStats = [];
+        let predictions = [];
+        let schedule = [];
+        let myCard = [];
+
+        // Load data on page load
+        async function loadData() {
+            try {
+                const [playersRes, teamsRes, rolesRes, statsRes, predsRes, schedRes] = await Promise.all([
+                    fetch('data/players.json'),
+                    fetch('data/teams.json'),
+                    fetch('data/player_roles.json'),
+                    fetch('data/player_stats_2026.json'),
+                    fetch('data/latest_predictions.json'),
+                    fetch('data/schedule.json')
+                ]);
+
+                players = await playersRes.json();
+                teams = await teamsRes.json();
+                playerRoles = await rolesRes.json();
+                playerStats = await statsRes.json();
+                predictions = await predsRes.json();
+                schedule = await schedRes.json();
+
+                // Load saved card from localStorage
+                const savedCard = localStorage.getItem('nfl-props-card');
+                if (savedCard) {
+                    myCard = JSON.parse(savedCard);
+                    updateCardDisplay();
+                }
+
+                // Initialize other tabs
+                loadWeeklyPredictions();
+                loadGuideSectionGames();
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        // Tab switching
+        document.querySelectorAll('.nav-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const tabName = btn.dataset.tab;
+                
+                // Update active states
+                document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+                document.getElementById(`${tabName}-tab`).classList.add('active');
+            });
+        });
+
+        // Search functionality
+        function searchPlayer() {
+            const query = document.getElementById('search-input').value.trim().toLowerCase();
+            if (!query) return;
+
+            const results = players.filter(p => 
+                p.display_name.toLowerCase().includes(query) ||
+                (p.position && p.position.toLowerCase().includes(query))
+            ).slice(0, 10);
+
+            displaySearchResults(results);
+        }
+
+        function displaySearchResults(results) {
+            const container = document.getElementById('search-results');
+            
+            if (results.length === 0) {
+                container.innerHTML = '<div class="empty">No players found. Try a different search.</div>';
+                return;
+            }
+
+            container.innerHTML = results.map(player => {
+                const role = playerRoles.find(r => r.gsis_id === player.gsis_id);
+                const stats = playerStats.find(s => s.player_id === player.gsis_id);
+                const team = teams.find(t => t.team_abbr === player.latest_team);
+
+                return `
+                    <div class="card">
+                        <div class="player-card">
+                            <img class="headshot" src="${player.photo_url || 'https://via.placeholder.com/120?text=No+Photo'}" 
+                                 onerror="this.src='https://via.placeholder.com/120?text=No+Photo'" />
+                            <div class="player-info">
+                                <h2>
+                                    ${player.display_name}
+                                    ${role ? `<span class="badge ${role.role_bucket}">${role.role_bucket.replace('_', ' ')}</span>` : ''}
+                                </h2>
+                                <div class="meta">
+                                    ${team ? `<img class="team-logo" src="${team.team_logo_espn}" /> ` : ''}
+                                    ${player.position} · ${player.latest_team}
+                                    ${player.jersey_number ? ` · #${player.jersey_number}` : ''}
+                                </div>
+                                <div class="meta">Status: ${player.status || 'Unknown'}</div>
+                                ${stats ? `
+                                    <div style="margin-top: 1rem;">
+                                        <strong>2026 Averages (${stats.games_played} games):</strong>
+                                        <div style="margin-top: 0.5rem; color: var(--muted);">
+                                            ${stats.passing_yards > 0 ? `Pass: ${stats.passing_yards.toFixed(1)} yds<br>` : ''}
+                                            ${stats.rushing_yards > 0 ? `Rush: ${stats.rushing_yards.toFixed(1)} yds<br>` : ''}
+                                            ${stats.receiving_yards > 0 ? `Rec: ${stats.receptions.toFixed(1)} rec, ${stats.receiving_yards.toFixed(1)} yds<br>` : ''}
+                                        </div>
+                                    </div>
+                                ` : '<div style="margin-top: 1rem; color: var(--muted);">No 2026 stats available</div>'}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Enter key support for search
+        document.getElementById('search-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') searchPlayer();
+        });
+
+        // Weekly Predictions
+        function loadWeeklyPredictions() {
+            const container = document.getElementById('weekly-content');
+            
+            if (predictions.length === 0) {
+                container.innerHTML = '<div class="empty">No predictions loaded yet.</div>';
+                return;
+            }
+
+            // Group by team
+            const byTeam = {};
+            predictions.forEach(pred => {
+                if (!byTeam[pred.team]) byTeam[pred.team] = [];
+                byTeam[pred.team].push(pred);
+            });
+
+            container.innerHTML = Object.entries(byTeam).slice(0, 8).map(([teamAbbr, preds]) => {
+                const team = teams.find(t => t.team_abbr === teamAbbr);
+                
+                return `
+                    <div class="card">
+                        <h3>
+                            ${team ? `<img class="team-logo" src="${team.team_logo_espn}" />` : ''}
+                            ${teamAbbr}
+                        </h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Player</th>
+                                    <th>Pos</th>
+                                    <th>Role</th>
+                                    <th>Prop</th>
+                                    <th>Prediction</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${preds.slice(0, 10).map(p => `
+                                    <tr>
+                                        <td>${p.player_display_name}</td>
+                                        <td>${p.position}</td>
+                                        <td>${p.role_bucket ? `<span class="badge ${p.role_bucket}">${p.role_bucket.replace('_', ' ')}</span>` : '-'}</td>
+                                        <td>${p.prop.replace(/_/g, ' ')}</td>
+                                        <td>${p.mean.toFixed(1)} ± ${p.sd.toFixed(1)}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                        ${preds.length > 10 ? `<div style="margin-top: 0.5rem; color: var(--muted); font-size: 0.9rem;">... and ${preds.length - 10} more</div>` : ''}
+                    </div>
+                `;
+            }).join('') + '<div class="banner warn">Showing sample of predictions. Full data available locally.</div>';
+        }
+
+        // Card Builder
+        function searchForBuilder() {
+            const query = document.getElementById('builder-search').value.trim().toLowerCase();
+            if (!query) return;
+
+            const results = players.filter(p => 
+                p.display_name.toLowerCase().includes(query)
+            ).slice(0, 8);
+
+            const container = document.getElementById('builder-results');
+            
+            if (results.length === 0) {
+                container.innerHTML = '<div class="empty">No players found.</div>';
+                return;
+            }
+
+            container.innerHTML = '<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1rem; margin-top: 1rem;">' +
+                results.map(player => {
+                    const team = teams.find(t => t.team_abbr === player.latest_team);
+                    const alreadyAdded = myCard.some(p => p.gsis_id === player.gsis_id);
+                    
+                    return `
+                        <div class="mini-player-card">
+                            <img src="${player.photo_url || 'https://via.placeholder.com/80?text=No+Photo'}" 
+                                 onerror="this.src='https://via.placeholder.com/80?text=No+Photo'" />
+                            <div class="name">${player.display_name}</div>
+                            <div class="team">${player.position} · ${player.latest_team}</div>
+                            <button onclick='addToCard(${JSON.stringify(player).replace(/'/g, "\\'")})'
+                                    ${alreadyAdded || myCard.length >= 6 ? 'disabled' : ''}>
+                                ${alreadyAdded ? 'Added' : 'Add'}
+                            </button>
+                        </div>
+                    `;
+                }).join('') + '</div>';
+        }
+
+        document.getElementById('builder-search').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') searchForBuilder();
+        });
+
+        function addToCard(player) {
+            if (myCard.length >= 6) {
+                alert('Card is full (maximum 6 players)');
+                return;
+            }
+            
+            if (myCard.some(p => p.gsis_id === player.gsis_id)) {
+                return;
+            }
+            
+            myCard.push(player);
+            updateCardDisplay();
+            saveCardToStorage();
+        }
+
+        function removeFromCard(playerId) {
+            myCard = myCard.filter(p => p.gsis_id !== playerId);
+            updateCardDisplay();
+            saveCardToStorage();
+        }
+
+        function updateCardDisplay() {
+            const container = document.getElementById('selected-players');
+            const countEl = document.getElementById('card-count');
+            
+            countEl.textContent = myCard.length;
+            
+            if (myCard.length === 0) {
+                container.innerHTML = '<div class="empty">No players selected yet. Search for players below to add them to your card.</div>';
+                return;
+            }
+
+            container.innerHTML = myCard.map(player => {
+                const team = teams.find(t => t.team_abbr === player.latest_team);
+                const role = playerRoles.find(r => r.gsis_id === player.gsis_id);
+                
+                return `
+                    <div class="mini-player-card">
+                        <img src="${player.photo_url || 'https://via.placeholder.com/80?text=No+Photo'}" 
+                             onerror="this.src='https://via.placeholder.com/80?text=No+Photo'" />
+                        <div class="name">${player.display_name}</div>
+                        <div class="team">${player.position} · ${player.latest_team}</div>
+                        ${role ? `<span class="badge ${role.role_bucket}" style="margin-top: 0.5rem; font-size: 0.65rem;">${role.role_bucket.replace('_', ' ')}</span>` : ''}
+                        <button onclick="removeFromCard('${player.gsis_id}')">Remove</button>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function saveCardToStorage() {
+            localStorage.setItem('nfl-props-card', JSON.stringify(myCard));
+        }
+
+        function clearCard() {
+            if (myCard.length === 0) return;
+            if (confirm('Clear all players from your card?')) {
+                myCard = [];
+                updateCardDisplay();
+                saveCardToStorage();
+            }
+        }
+
+        function saveCard() {
+            if (myCard.length < 2) {
+                alert('Add at least 2 players to save a card');
+                return;
+            }
+            alert(`Card saved with ${myCard.length} players! Your card is stored in your browser.`);
+        }
+
+        // Guide
+        function loadGuideSectionGames() {
+            const container = document.getElementById('guide-games');
+            
+            if (schedule.length === 0) {
+                container.innerHTML = '<div class="empty">No upcoming games found.</div>';
+                return;
+            }
+
+            container.innerHTML = schedule.map(game => {
+                const awayTeam = teams.find(t => t.team_abbr === game.away_team);
+                const homeTeam = teams.find(t => t.team_abbr === game.home_team);
+                
+                return `
+                    <div class="game-card">
+                        <div class="game-teams">
+                            ${awayTeam ? `<img class="team-logo" src="${awayTeam.team_logo_espn}" />` : ''}
+                            <strong>${game.away_team}</strong>
+                            <span style="color: var(--muted);">@</span>
+                            ${homeTeam ? `<img class="team-logo" src="${homeTeam.team_logo_espn}" />` : ''}
+                            <strong>${game.home_team}</strong>
+                        </div>
+                        <div class="game-date">
+                            ${new Date(game.gameday).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
+                            ${game.away_score !== null ? `<br><strong>${game.away_score} - ${game.home_score}</strong>` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Initialize on load
+        loadData();
+    </script>
 </body>
 </html>

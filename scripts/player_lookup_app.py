@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Local web UI: Search | Weekly Predictions | Build my card | Guide.
+"""Local Flask UI: Search | Weekly Predictions | Build my card | Guide.
 
-Runs on the ASSISTANT computer only (Grok Bot desktop). Bind defaults to
-127.0.0.1:5056 via scripts/config.py (NFL_PROPS_HOST / NFL_PROPS_PORT / NFL_PROPS_DATA).
-Past pasting localhost into the user's own Chrome — open the assistant desktop browser.
+Runs locally on your machine. Bind defaults to 127.0.0.1:5056 via scripts/config.py
+(NFL_PROPS_HOST / NFL_PROPS_PORT / NFL_PROPS_DATA).
+
+For a browser-only version, visit https://traplandlord.github.io/nfl-props-stats/
 
 Hardening: bounded loads, paginated teams, debounced search API,
 error handlers, season rollups + week preds only (no 59k weekly dump).
@@ -48,9 +49,8 @@ NAV = """
     <a href="{{ url_for('entry') }}" class="{% if active=='entry' %}active{% endif %}">Build my card</a>
     <a href="{{ url_for('guide') }}" class="{% if active=='guide' %}active{% endif %}">Guide</a>
   </nav>
-  <div class="access-banner"><strong>Access path:</strong> This UI runs on the <em>assistant</em> computer.
-    Open the Grok Bot desktop/browser — do not paste localhost into your own Chrome.
-    Prefer <code>./scripts/run_ui.sh</code> then open the printed URL here.</div>
+  <div class="access-banner"><strong>Local Flask UI</strong> running on your machine.
+    For a browser-only version, visit <a href="https://traplandlord.github.io/nfl-props-stats/" target="_blank" style="color:#3d8bfd">the web app</a>.</div>
 """
 
 BASE_STYLE = """
@@ -224,7 +224,7 @@ WEEKLY_PAGE = """
       · Vegas: {% if meta.vegas_loaded %}loaded{% else %}<strong>not loaded</strong>{% endif %}</p>
   {% endif %}
   <div class="role-legend"><span class="badge starter">starter</span><span class="badge rotation">rotation</span><span class="badge bench_warmer">bench_warmer</span><span class="empty">· starters listed before bench</span></div>
-  {% if not teams %}<div class="card empty-state"><p>No predictions for this week.</p><p class="empty">On the assistant box run:<br><code>./.venv/bin/python scripts/predict_week.py --season {{ season }} --week {{ week }}</code></p></div>{% endif %}
+  {% if not teams %}<div class="card empty-state"><p>No predictions for this week.</p><p class="empty">To generate predictions, run:<br><code>./.venv/bin/python scripts/predict_week.py --season {{ season }} --week {{ week }}</code></p></div>{% endif %}
   {% for t in teams %}
   <details class="team card" {% if focus_team==t.abbr %}open{% endif %}>
     <summary><span class="team-chip">{% if t.logo %}<img class="logo-sm" src="{{ t.logo }}" alt="" referrerpolicy="no-referrer"/>{% endif %}
@@ -742,8 +742,8 @@ def _handle_err(e):
     return (
         "<!doctype html><html><body style='background:#0f1419;color:#f0b0b0;font-family:system-ui;padding:24px'>"
         f"<h1>Error</h1><p>{msg}</p>"
-        "<p class='access-banner' style='max-width:640px'>UI is on the assistant box — "
-        "open Grok Bot desktop, not your laptop localhost.</p>"
+        "<p class='access-banner' style='max-width:640px'>Flask UI running on your local machine. "
+        "For a browser-only version, visit <a href='https://traplandlord.github.io/nfl-props-stats/' target='_blank'>the web app</a>.</p>"
         "<p><a href='/' style='color:#3d8bfd'>Home</a></p></body></html>",
         500,
     )
@@ -987,7 +987,7 @@ def main() -> None:
     port = _pick_port(PORT)
     print(access_message(host, port))
     if port != PORT:
-        print(f"NOTE: preferred port {PORT} busy; using {port} on the assistant box.")
+        print(f"NOTE: preferred port {PORT} busy; using {port} on your local machine.")
     print(f"UI: http://{host}:{port}/")
     print(f"Weekly: http://{host}:{port}/weekly")
     print(f"Build my card: http://{host}:{port}/entry")

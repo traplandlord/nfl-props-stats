@@ -2,6 +2,10 @@
 
 Real NFL player and team statistics for PrizePicks-style props analytics.
 
+**Web App:** https://traplandlord.github.io/nfl-props-stats/ — Use the live app on any device (phone/laptop).
+
+**Project by:** [@traplandlord](https://github.com/traplandlord) (Valentino)
+
 **Rule: ZERO fabricated numbers.** Every row is downloaded from public nflverse releases (or locally aggregated from those rows). If a source fails, the error is recorded in `DATA_MANIFEST.md` / `data/ingest_errors.json` — data is never invented.
 
 ## Current generated data
@@ -63,7 +67,7 @@ nfl-props-stats/
   .venv/                    # local virtualenv
   scripts/
     refresh_nfl_stats.py
-    player_lookup_app.py          # Flask UI (assistant box)
+    player_lookup_app.py          # Flask UI (optional local server)
     config.py                     # HOST/PORT/DATA_DIR
     run_ui.sh / ui_healthcheck.py # launcher + health
     active_games/                # multi-sport active games
@@ -171,12 +175,22 @@ cd /workspace/nfl-props-stats
 
 If several names match, the CLI lists them; pass `--pick N` to choose. Clear top matches (e.g. `Mahomes`, `CMC`) auto-select.
 
-### How YOU open this (critical)
+### Web App (GitHub Pages)
 
-The Flask UI runs on the **assistant computer** (Grok Bot box/desktop), **not** on your laptop.
+**Live app:** https://traplandlord.github.io/nfl-props-stats/
 
-1. Open the **Grok Bot computer / desktop view** (assistant desktop browser).
-2. On that desktop, start the UI (one command):
+The web app runs entirely in your browser (phone or laptop) with no server required. It includes:
+
+- **Search** — Find players, see stats, team, position, and role
+- **Weekly Predictions** — Model predictions based on recent performance  
+- **Build My Card** — Create PrizePicks-style player cards (2-6 players)
+- **Guide** — Upcoming games and tips based on real data
+
+All data loads from JSON files. Your card selections save in your browser's local storage.
+
+### Running Flask UI Locally (Optional)
+
+You can also run the original Flask UI on your own computer:
 
 ```bash
 cd /workspace/nfl-props-stats
@@ -184,14 +198,11 @@ cd /workspace/nfl-props-stats
 # health: ./.venv/bin/python scripts/ui_healthcheck.py
 ```
 
-3. In the **assistant** browser go to `http://127.0.0.1:5056/` (or the port printed if 5056 was busy).
-   - Search `/` · Weekly `/weekly` · Build card `/entry` · Guide `/guide`
+Then open `http://127.0.0.1:5056/` in your browser.
 
-**Do not** paste `http://127.0.0.1:5056` into Chrome on your own machine — that localhost is yours, not the assistant box, so the link will fail.
+Config: `scripts/config.py` — env `NFL_PROPS_HOST` (default `127.0.0.1`), `NFL_PROPS_PORT` (default `5056`), `NFL_PROPS_DATA`.
 
-Config (single source): `scripts/config.py` — env `NFL_PROPS_HOST` (default `127.0.0.1`), `NFL_PROPS_PORT` (default `5056`), `NFL_PROPS_DATA`. Prefer keeping `127.0.0.1`; do not expose `0.0.0.0` unless you knowingly accept the risk.
-
-Nav: **Search | Weekly Predictions | Build my card | Guide** (access banner on every page).
+Nav: **Search | Weekly Predictions | Build my card | Guide**.
 
 #### Weekly Predictions (4 layers)
 
