@@ -52,7 +52,8 @@ def load_week_slate(df: pd.DataFrame, season: int, week: int) -> pd.DataFrame:
     # Load team schedule to find games
     try:
         import nflreadpy as nfl
-        schedules = nfl.load_schedules([season])
+        schedules_pl = nfl.load_schedules([season])
+        schedules = schedules_pl.to_pandas()
         week_games = schedules[(schedules["season"] == season) & (schedules["week"] == week)]
         
         if week_games.empty:
@@ -69,6 +70,8 @@ def load_week_slate(df: pd.DataFrame, season: int, week: int) -> pd.DataFrame:
         
     except Exception as e:
         print(f"Error loading schedule: {e}")
+        import traceback
+        traceback.print_exc()
         return pd.DataFrame()
     
     # Get active roster
@@ -89,6 +92,8 @@ def load_week_slate(df: pd.DataFrame, season: int, week: int) -> pd.DataFrame:
         
     except Exception as e:
         print(f"Error loading roles: {e}")
+        import traceback
+        traceback.print_exc()
         return pd.DataFrame()
 
 

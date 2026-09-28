@@ -88,7 +88,7 @@ Windows: 3-game, 6-game rolling averages + exponentially weighted moving average
 ### Train/Val/Test Split
 - **Training:** 2018–2023 seasons (6 years)
 - **Validation:** 2024 season (hyperparameters, calibration)
-- **Test:** 2025 weeks 3–18 + 2026 weeks played (honest holdout)
+- **Test:** 2025 weeks 3–18 + 2026 weeks 1–3 (honest holdout)
 
 This is a **walk-forward** approach: we only train on past data and test on future unseen weeks.
 
@@ -99,18 +99,6 @@ For a given line L, we:
 1. Interpolate the quantile predictions to estimate P(Y > L)
 2. Fit isotonic regression: uncalibrated P(over) → calibrated P(over)
 3. Evaluate reliability: when the model says 65% confidence, does the player go over ~65% of the time?
-
-**Calibration Table Example** (validation set):
-
-| Predicted P(over) | Actual Hit Rate | Sample Size |
-|-------------------|-----------------|-------------|
-| 50%-55%           | 52%             | 145         |
-| 55%-60%           | 58%             | 132         |
-| 60%-65%           | 63%             | 118         |
-| 65%-70%           | 68%             | 104         |
-| 70%-75%           | 72%             | 89          |
-| 75%-80%           | 77%             | 76          |
-| 80%+              | 81%             | 63          |
 
 Calibration is **critical** for honest probability estimates. We do not claim certainty; we provide calibrated likelihoods.
 
@@ -133,24 +121,29 @@ The user provided these baseline metrics from a simple shrinkage model (season-t
 
 ### ML Model Performance
 
-**Test Set:** 2025 weeks 3–18 + 2026 weeks 1–3
+**Test Set:** 2025 weeks 3–18 (measured on real data)
 
-| Stat             | ML MAE | Baseline MAE | Improvement | ML Median AE | 80% Coverage |
-|------------------|--------|--------------|-------------|--------------|--------------|
-| Passing Yards    | 62.3   | 66.6         | **+4.3**    | 49.8         | 79%          |
-| Passing TDs      | 0.94   | 1.00         | **+0.06**   | 0.82         | 81%          |
-| Receiving Yards  | 19.7   | 21.2         | **+1.5**    | 14.6         | 82%          |
-| Receptions       | 1.51   | 1.58         | **+0.07**   | 1.24         | 80%          |
-| Rushing Yards    | 18.9   | 20.3         | **+1.4**    | 13.2         | 81%          |
+| Stat             | Samples | ML MAE | Baseline MAE | Improvement | ML Median AE | Baseline Median AE | 80% Coverage |
+|------------------|---------|--------|--------------|-------------|--------------|---------------------|--------------|
+| Passing Yards    | 539     | 61.04  | 66.6         | **+5.56 (8.3%)** | 50.68   | 53.2               | 82.9%        |
+| Passing TDs      | 377     | 0.86   | 1.00         | **+0.14 (14.2%)** | 0.73   | 0.88               | 77.2%        |
+| Receiving Yards  | 3291    | 18.54  | 21.2         | **+2.66 (12.5%)** | 12.45  | 15.9               | 84.6%        |
+| Receptions       | 3383    | 1.33   | 1.58         | **+0.25 (15.7%)** | 0.99   | 1.31               | 84.3%        |
+| Rushing Yards    | 1747    | 17.93  | 20.3         | **+2.37 (11.7%)** | 10.75  | 14.1               | 76.6%        |
 
 **Key Findings:**
-- ML model beats baseline on all stats
-- 80% confidence intervals contain actual value ~80% of the time (well-calibrated)
-- Biggest improvements on volume stats (yards); smaller gains on discrete counts (TDs, receptions)
-- Median absolute error consistently 20–25% lower than MAE (heavy-tailed distribution)
+- ML model beats baseline on all stats by 8-16%
+- 80% confidence intervals contain actual value 77-85% of the time (reasonably well-calibrated)
+- Biggest percentage improvements on receptions (15.7%) and passing TDs (14.2%)
+- Receiving and receptions have best calibration (84.6%, 84.3% coverage)
+- Passing TDs and rushing yards slightly under-cover (77.2%, 76.6%) - predictive intervals could be wider
 
-### Out-of-Sample Coverage
-On 2025 week 3 (spot check), the ML model landed within the median-miss band **63%** of the time vs. baseline's 56%.
+**Test Set Details:**
+- 539 QB passing performances
+- 377 QB passing TD performances (games where QB threw a TD)
+- 3291 receiving performances (RB/WR/TE/FB/HB with receiving yards)
+- 3383 reception performances
+- 1747 rushing performances (QB/RB/WR/FB/HB with rushing yards)
 
 ---
 
@@ -212,7 +205,7 @@ On model changes, old models are overwritten. (Future: version control for model
 
 #### Train models:
 ```bash
-python scripts/ml_train.py \
+python3 scripts/ml_train.py \
   --seasons 2018 2019 2020 2021 2022 2023 2024 2025 2026 \
   --train-seasons 2018 2019 2020 2021 2022 2023 \
   --val-seasons 2024
@@ -220,7 +213,7 @@ python scripts/ml_train.py \
 
 #### Backtest:
 ```bash
-python scripts/ml_backtest.py \
+python3 scripts/ml_backtest.py \
   --test-seasons 2025 2026 \
   --test-weeks-2025 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 \
   --save-results data/backtest_results.json
@@ -228,12 +221,12 @@ python scripts/ml_backtest.py \
 
 #### Generate weekly predictions:
 ```bash
-python scripts/predict_week_ml.py --season 2026 --week 4 --lock
+python3 scripts/predict_week_ml.py --season 2026 --week 4 --lock
 ```
 
 #### Export to web:
 ```bash
-python scripts/export_ml_predictions.py --season 2026 --week 4
+python3 scripts/export_ml_predictions.py --season 2026 --week 4
 ```
 
 ### Web App
