@@ -121,29 +121,63 @@ The user provided these baseline metrics from a simple shrinkage model (season-t
 
 ### ML Model Performance
 
-**Test Set:** 2025 weeks 3–18 (measured on real data)
+**Test Set:** 2025 weeks 3–18, with role filtering to match user baseline:
+- QB: ≥15 attempts/game (season average)
+- RB: carries + targets ≥8/game
+- WR/TE: targets ≥3/game
 
-| Stat             | Samples | ML MAE | Baseline MAE | Improvement | ML Median AE | Baseline Median AE | 80% Coverage |
-|------------------|---------|--------|--------------|-------------|--------------|---------------------|--------------|
-| Passing Yards    | 539     | 61.04  | 66.6         | **+5.56 (8.3%)** | 50.68   | 53.2               | 82.9%        |
-| Passing TDs      | 377     | 0.86   | 1.00         | **+0.14 (14.2%)** | 0.73   | 0.88               | 77.2%        |
-| Receiving Yards  | 3291    | 18.54  | 21.2         | **+2.66 (12.5%)** | 12.45  | 15.9               | 84.6%        |
-| Receptions       | 3383    | 1.33   | 1.58         | **+0.25 (15.7%)** | 0.99   | 1.31               | 84.3%        |
-| Rushing Yards    | 1747    | 17.93  | 20.3         | **+2.37 (11.7%)** | 10.75  | 14.1               | 76.6%        |
+**Apples-to-Apples Comparison (same test rows for all three models):**
+
+| Stat | Samples | ML MAE | User Baseline MAE | Naive MAE | ML vs User | ML vs Naive | Coverage 80% |
+|------|---------|--------|-------------------|-----------|------------|-------------|--------------|
+| **Passing Yards** | 434 | **59.98** | 65.78 | 65.54 | **+5.79 (+8.8%)** | **+5.55 (+8.5%)** | 82.3% |
+| **Passing TDs** | 317 | **0.87** | 0.89 | 0.89 | **+0.02 (+2.5%)** | **+0.02 (+1.9%)** | 77.0% |
+| **Receiving Yards** | 1974 | **21.34** | 21.39 | 21.92 | **+0.05 (+0.2%)** | **+0.59 (+2.7%)** | 84.9% |
+| **Receptions** | 1977 | **1.51** | 1.52 | 1.56 | **+0.01 (+0.3%)** | **+0.04 (+2.7%)** | 85.9% |
+| **Rushing Yards** | 638 | **25.89** | 26.47 | 26.63 | **+0.58 (+2.2%)** | **+0.74 (+2.8%)** | 78.5% |
+
+**Median Absolute Error:**
+
+| Stat | ML | User Baseline | Naive | 
+|------|-----|---------------|-------|
+| Passing Yards | **50.32** | 53.79 | 53.10 |
+| Passing TDs | **0.73** | 0.71 | 0.71 |
+| Receiving Yards | **15.09** | 15.78 | 16.52 |
+| Receptions | **1.11** | 1.24 | 1.29 |
+| Rushing Yards | **18.62** | 19.75 | 20.25 |
+
+**Baselines Defined:**
+- **User Baseline:** `(n × season_avg + 3 × prior_avg) / (n + 3)` where prior requires ≥4 games, scaled by `√(implied_total/22.5)` for yardage stats
+- **Naive Baseline:** Season-to-date per-game average (no scaling)
 
 **Key Findings:**
-- ML model beats baseline on all stats by 8-16%
-- 80% confidence intervals contain actual value 77-85% of the time (reasonably well-calibrated)
-- Biggest percentage improvements on receptions (15.7%) and passing TDs (14.2%)
-- Receiving and receptions have best calibration (84.6%, 84.3% coverage)
-- Passing TDs and rushing yards slightly under-cover (77.2%, 76.6%) - predictive intervals could be wider
+- ML model beats user baseline on all stats (0.2-8.8% improvement)
+- Biggest improvement on passing yards (+8.8%)
+- Smaller improvements on receiving/receptions (0.2-0.3%) - these are already well-predicted by the shrinkage baseline
+- Beats naive baseline by larger margins (1.9-8.5%)
+- 80% confidence intervals well-calibrated (77-86% actual coverage)
 
-**Test Set Details:**
-- 539 QB passing performances
-- 377 QB passing TD performances (games where QB threw a TD)
-- 3291 receiving performances (RB/WR/TE/FB/HB with receiving yards)
-- 3383 reception performances
-- 1747 rushing performances (QB/RB/WR/FB/HB with rushing yards)
+### Calibration (Test Set)
+
+**Reliability of P(over) probabilities**, using user baseline projection (rounded to nearest 0.5) as the line:
+
+**Passing Yards** (434 samples):
+
+| Predicted P(over) | Actual Hit Rate | Count |
+|-------------------|-----------------|-------|
+| 55-60% | 60.0% | 5 |
+| 70-75% | 60.0% | 5 |
+| 80-100% | 100.0% | 6 |
+
+**Receiving Yards** (1974 samples):
+
+| Predicted P(over) | Actual Hit Rate | Count |
+|-------------------|-----------------|-------|
+| 50-55% | 59.4% | 106 |
+| 55-60% | 76.2% | 21 |
+| 60-65% | 55.6% | 9 |
+
+*Note:* Calibration measured on test set using baseline projection as pseudo-line. Small sample sizes in some bins. Passing TDs and receptions had insufficient samples (need ≥5 per bin) for reliable calibration tables on this test set. When real Vegas lines are available, calibration may differ as Vegas incorporates market information our model does not see.
 
 ---
 
