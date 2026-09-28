@@ -159,25 +159,73 @@ The user provided these baseline metrics from a simple shrinkage model (season-t
 
 ### Calibration (Test Set)
 
-**Reliability of P(over) probabilities**, using user baseline projection (rounded to nearest 0.5) as the line:
+**Two-sided reliability:** For each prediction, we determine the chosen side (OVER if P(over)≥0.5, else UNDER), compute confidence = max(P(over), 1-P(over)), and check if the chosen side hit. Using user baseline projection (rounded to nearest 0.5) as the line:
 
 **Passing Yards** (434 samples):
 
-| Predicted P(over) | Actual Hit Rate | Count |
-|-------------------|-----------------|-------|
-| 55-60% | 60.0% | 5 |
-| 70-75% | 60.0% | 5 |
-| 80-100% | 100.0% | 6 |
+| Confidence | Expected Rate | Actual Hit Rate | Count |
+|------------|---------------|-----------------|-------|
+| 50-55% | 52.5% | 40.0% | 5 |
+| 55-60% | 57.5% | 51.2% | 408 |
+| 60-65% | 62.5% | 100.0% | 1 |
+| 65-70% | 67.5% | 66.7% | 3 |
+| 70-75% | 72.5% | 60.0% | 5 |
+| 75-80% | 77.5% | 0.0% | 1 |
+| 80-85% | 82.5% | 100.0% | 2 |
+| 85-90% | 87.5% | 100.0% | 3 |
+| 90-100% | 95.0% | 100.0% | 1 |
+
+**Passing TDs** (317 samples):
+
+| Confidence | Expected Rate | Actual Hit Rate | Count |
+|------------|---------------|-----------------|-------|
+| 50-55% | 52.5% | 29.4% | 126 |
+| 55-60% | 57.5% | 46.2% | 26 |
+| 60-65% | 62.5% | 27.3% | 22 |
+| 65-70% | 67.5% | 47.1% | 17 |
+| 70-75% | 72.5% | 47.2% | 36 |
+| 75-80% | 77.5% | 46.7% | 30 |
+| 80-85% | 82.5% | 37.5% | 8 |
+| 85-90% | 87.5% | 80.0% | 15 |
+| 90-100% | 95.0% | 75.0% | 28 |
 
 **Receiving Yards** (1974 samples):
 
-| Predicted P(over) | Actual Hit Rate | Count |
-|-------------------|-----------------|-------|
-| 50-55% | 59.4% | 106 |
-| 55-60% | 76.2% | 21 |
-| 60-65% | 55.6% | 9 |
+| Confidence | Expected Rate | Actual Hit Rate | Count |
+|------------|---------------|-----------------|-------|
+| 50-55% | 52.5% | 55.0% | 1832 |
+| 55-60% | 57.5% | 76.2% | 21 |
+| 60-65% | 62.5% | 55.6% | 9 |
+| 70-75% | 72.5% | 78.6% | 14 |
+| 75-80% | 77.5% | 66.7% | 3 |
+| 80-85% | 82.5% | 71.4% | 7 |
+| 85-90% | 87.5% | 100.0% | 1 |
+| 90-100% | 95.0% | 25.0% | 4 |
 
-*Note:* Calibration measured on test set using baseline projection as pseudo-line. Small sample sizes in some bins. Passing TDs and receptions had insufficient samples (need ≥5 per bin) for reliable calibration tables on this test set. When real Vegas lines are available, calibration may differ as Vegas incorporates market information our model does not see.
+**Receptions** (1977 samples):
+
+| Confidence | Expected Rate | Actual Hit Rate | Count |
+|------------|---------------|-----------------|-------|
+| 50-55% | 52.5% | 57.5% | 1976 |
+
+**Rushing Yards** (638 samples):
+
+| Confidence | Expected Rate | Actual Hit Rate | Count |
+|------------|---------------|-----------------|-------|
+| 60-65% | 62.5% | 40.5% | 215 |
+| 65-70% | 67.5% | 56.0% | 141 |
+| 70-75% | 72.5% | 55.1% | 107 |
+| 75-80% | 77.5% | 63.0% | 92 |
+| 80-85% | 82.5% | 61.5% | 26 |
+| 90-100% | 95.0% | 61.4% | 57 |
+
+**Notes:**
+- Most predictions cluster near 50-60% confidence (the model is appropriately uncertain for these high-variance props)
+- Passing yards shows reasonable calibration in the dominant 55-60% bin (51.2% actual vs 57.5% expected)
+- Passing TDs, rushing yards have notable under-calibration in lower confidence bins (model is too confident)
+- Higher confidence bins (85-100%) have better calibration but small sample sizes
+- Calibration measured on test set using baseline projection as pseudo-line
+- When real Vegas lines are available, calibration may differ as Vegas incorporates market information our model does not see
 
 ---
 

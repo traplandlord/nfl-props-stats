@@ -159,9 +159,11 @@ def apply_role_filters(df: pd.DataFrame, stat: str) -> pd.DataFrame:
 
 def compute_calibration_table(y_actual, y_pred_baseline, models, X, calibrator):
     """
-    Compute P(over) calibration table using baseline prediction as the line.
+    Compute two-sided calibration table using baseline prediction as the line.
+    For each prediction, determines the chosen side (OVER if P(over)>=0.5, else UNDER),
+    computes confidence = max(P(over), 1-P(over)), and checks if the chosen side hit.
     
-    Returns: DataFrame with bins, predicted prob, actual rate, counts
+    Returns: DataFrame with bins, predicted confidence, actual hit rate, counts
     """
     results = []
     
@@ -193,25 +195,36 @@ def compute_calibration_table(y_actual, y_pred_baseline, models, X, calibrator):
         else:
             prob_over_cal = prob_over_uncal
         
+        # Two-sided: determine chosen side and confidence
+        if prob_over_cal >= 0.5:
+            chosen_side = 'OVER'
+            confidence = prob_over_cal
+            hit = float(actual > line)
+        else:
+            chosen_side = 'UNDER'
+            confidence = 1 - prob_over_cal
+            hit = float(actual <= line)
+        
         results.append({
-            'prob_over': prob_over_cal,
-            'actual_over': float(actual > line),
+            'confidence': confidence,
+            'hit': hit,
         })
     
     results_df = pd.DataFrame(results)
     
-    # Bin by probability
-    bins = [(0.5, 0.55), (0.55, 0.6), (0.6, 0.65), (0.65, 0.7), (0.7, 0.75), (0.75, 0.8), (0.8, 1.0)]
+    # Bin by confidence (50-100%)
+    bins = [(0.5, 0.55), (0.55, 0.6), (0.6, 0.65), (0.65, 0.7), (0.7, 0.75), 
+            (0.75, 0.8), (0.8, 0.85), (0.85, 0.9), (0.9, 1.0)]
     
     table = []
     for low, high in bins:
-        mask = (results_df['prob_over'] >= low) & (results_df['prob_over'] < high)
-        if mask.sum() >= 5:
-            actual_rate = results_df.loc[mask, 'actual_over'].mean()
-            count = mask.sum()
+        mask = (results_df['confidence'] >= low) & (results_df['confidence'] < high)
+        count = mask.sum()
+        if count > 0:
+            actual_rate = results_df.loc[mask, 'hit'].mean()
             table.append({
-                'bin': f'{low:.0%}-{high:.0%}',
-                'predicted_prob': (low + high) / 2,
+                'confidence_bin': f'{low:.0%}-{high:.0%}',
+                'expected_rate': (low + high) / 2,
                 'actual_rate': actual_rate,
                 'count': count,
             })
@@ -339,7 +352,7 @@ for stat in stats:
     
     # Calibration table
     if calibrator is not None:
-        print(f"\nCalibration (using user baseline as line):")
+        print(f"\nCalibration (two-sided, using user baseline as line):")
         cal_table = compute_calibration_table(y_actual, user_baseline_preds, models, X_valid, calibrator)
         if not cal_table.empty:
             print(cal_table.to_string(index=False))
@@ -367,7 +380,7 @@ results_df = pd.DataFrame(all_results)
 print(results_df.to_string(index=False))
 
 print(f"\n{'='*80}")
-print("CALIBRATION TABLES (P(over) using user baseline as line)")
+print("CALIBRATION TABLES (Two-sided: confidence in chosen side vs hit rate)")
 print('='*80)
 
 for stat, table in calibration_tables.items():
