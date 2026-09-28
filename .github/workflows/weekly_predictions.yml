@@ -1,0 +1,73 @@
+name: Weekly Predictions Update
+
+on:
+  schedule:
+    # Tuesday 9 AM PT (5 PM UTC)
+    - cron: '0 17 * * 2'
+    # Sunday 9 AM PT (5 PM UTC) 
+    - cron: '0 17 * * 0'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-predictions:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Refresh NFL stats data
+        run: |
+          python scripts/refresh_nfl_stats.py --seasons 2024 2025 2026
+      
+      - name: Train models (if not exist or weekly retrain)
+        run: |
+          if [ ! -d "data/ml_models" ] || [ "$(date +%u)" -eq 2 ]; then
+            echo "Training models..."
+            python scripts/ml_train.py \
+              --seasons 2018 2019 2020 2021 2022 2023 2024 2025 2026 \
+              --train-seasons 2018 2019 2020 2021 2022 2023 \
+              --val-seasons 2024
+          else
+            echo "Skipping model training (only Tuesdays or first run)"
+          fi
+      
+      - name: Generate predictions for current week
+        run: |
+          python scripts/predict_week_ml.py --lock
+      
+      - name: Export predictions to web format
+        run: |
+          # Get current season/week from nflverse
+          SEASON=$(python -c "import nflreadpy; print(nflreadpy.get_current_season())")
+          WEEK=$(python -c "import nflreadpy; print(nflreadpy.get_current_week())")
+          python scripts/export_ml_predictions.py --season $SEASON --week $WEEK
+      
+      - name: Export other web data
+        run: |
+          python scripts/export_web_data.py
+      
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/ docs/data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update predictions $(date +'%Y-%m-%d %H:%M PT')"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
