@@ -591,16 +591,23 @@
                                     <th>Role</th>
                                     <th>Prop</th>
                                     <th>Prediction</th>
+                                    <th>Confidence</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 ${preds.slice(0, 10).map(p => `
                                     <tr>
-                                        <td>${p.player_display_name}</td>
+                                        <td>${p.player_name || p.player_display_name}</td>
                                         <td>${p.position}</td>
                                         <td>${p.role_bucket ? `<span class="badge ${p.role_bucket}">${p.role_bucket.replace('_', ' ')}</span>` : '-'}</td>
                                         <td>${p.prop.replace(/_/g, ' ')}</td>
-                                        <td>${p.mean.toFixed(1)} ± ${p.sd.toFixed(1)}</td>
+                                        <td>
+                                            ${p.median ? p.median.toFixed(1) : (p.mean ? p.mean.toFixed(1) : '-')}
+                                            ${p.lower_80 && p.upper_80 ? `<br><small style="color: var(--muted);">[${p.lower_80.toFixed(1)}, ${p.upper_80.toFixed(1)}]</small>` : ''}
+                                        </td>
+                                        <td>
+                                            ${p.confidence ? `<span class="badge ${p.confidence === 'high' ? 'starter' : (p.confidence === 'medium' ? 'rotation' : 'bench_warmer')}">${p.confidence}</span>` : '-'}
+                                        </td>
                                     </tr>
                                 `).join('')}
                             </tbody>

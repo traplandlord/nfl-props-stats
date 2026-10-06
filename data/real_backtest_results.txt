@@ -1,0 +1,77 @@
+Loading data...
+Loading data for seasons [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]...
+  Loading weekly stats...
+  Loading snap counts...
+  Loading schedules...
+  Loading injuries...
+  Merging snap counts...
+Warning: Could not load rosters: Season must be between 1920 and 2026
+Warning: Could not map gsis_id to pfr_id for snap counts
+  Adding Vegas lines...
+  Adding injury flags...
+  Computing team totals for shares...
+Dataset complete: 147227 player-week rows
+Engineering features...
+  Adding rolling features...
+  Adding opponent defense features...
+  Adding Vegas features...
+  Adding injury features...
+  Adding rest and situational features...
+  Adding team pace features...
+Feature engineering complete: 230 columns
+Test set: 16360 rows
+
+Backtesting passing_yards...
+  539 samples (positions: ['QB'])
+  ML MAE: 61.04
+  ML Median AE: 50.68
+  80% coverage: 82.9%
+
+Backtesting passing_tds...
+  377 samples (positions: ['QB'])
+  ML MAE: 0.86
+  ML Median AE: 0.73
+  80% coverage: 77.2%
+
+Backtesting receiving_yards...
+  3291 samples (positions: ['RB', 'WR', 'TE', 'FB', 'HB'])
+  ML MAE: 18.54
+  ML Median AE: 12.45
+  80% coverage: 84.6%
+
+Backtesting receptions...
+  3383 samples (positions: ['RB', 'WR', 'TE', 'FB', 'HB'])
+  ML MAE: 1.33
+  ML Median AE: 0.99
+  80% coverage: 84.3%
+
+Backtesting rushing_yards...
+  1747 samples (positions: ['QB', 'RB', 'WR', 'FB', 'HB'])
+  ML MAE: 17.93
+  ML Median AE: 10.75
+  80% coverage: 76.6%
+
+=== BACKTEST RESULTS ===
+           stat  n_samples    ml_mae  ml_median_ae  coverage_80
+  passing_yards        539 61.041565     50.682651     0.829314
+    passing_tds        377  0.857674      0.726196     0.771883
+receiving_yards       3291 18.542608     12.452486     0.845640
+     receptions       3383  1.331533      0.992771     0.843039
+  rushing_yards       1747 17.929108     10.747222     0.766457
+
+=== BASELINE TO BEAT (user-provided, 2025 weeks 3-18) ===
+passing_yards:
+  MAE: ML 61.04 vs Baseline 66.60 → +5.56 (+8.3%)
+  Median AE: ML 50.68 vs Baseline 53.20 → +2.52
+passing_tds:
+  MAE: ML 0.86 vs Baseline 1.00 → +0.14 (+14.2%)
+  Median AE: ML 0.73 vs Baseline 0.88 → +0.15
+receiving_yards:
+  MAE: ML 18.54 vs Baseline 21.20 → +2.66 (+12.5%)
+  Median AE: ML 12.45 vs Baseline 15.90 → +3.45
+receptions:
+  MAE: ML 1.33 vs Baseline 1.58 → +0.25 (+15.7%)
+  Median AE: ML 0.99 vs Baseline 1.31 → +0.32
+rushing_yards:
+  MAE: ML 17.93 vs Baseline 20.30 → +2.37 (+11.7%)
+  Median AE: ML 10.75 vs Baseline 14.10 → +3.35

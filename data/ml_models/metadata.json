@@ -1,0 +1,71 @@
+{
+  "train_seasons": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "val_seasons": [
+    2024
+  ],
+  "stats": {
+    "passing_tds": {
+      "val_mae": 0.8286097493805922,
+      "val_median_ae": 0.8223613692868571,
+      "coverage_80": 0.8694404591104734,
+      "train_size": 3925,
+      "val_size": 697,
+      "n_features": 33
+    },
+    "passing_yards": {
+      "val_mae": 66.77038297885443,
+      "val_median_ae": 55.45264184081222,
+      "coverage_80": 0.7374461979913917,
+      "train_size": 3925,
+      "val_size": 697,
+      "n_features": 33
+    },
+    "receiving_yards": {
+      "val_mae": 15.543967848731336,
+      "val_median_ae": 9.422204896606564,
+      "coverage_80": 0.7988036976617727,
+      "train_size": 32165,
+      "val_size": 5517,
+      "n_features": 41
+    },
+    "receptions": {
+      "val_mae": 1.230738921964504,
+      "val_median_ae": 0.977152550830876,
+      "coverage_80": 0.818742069965561,
+      "train_size": 32165,
+      "val_size": 5517,
+      "n_features": 41
+    },
+    "rushing_tds": {
+      "val_mae": 0.24886728604425462,
+      "val_median_ae": 0.0,
+      "coverage_80": 0.8975155279503105,
+      "train_size": 9290,
+      "val_size": 1610,
+      "n_features": 41
+    },
+    "rushing_yards": {
+      "val_mae": 8.472540092215722,
+      "val_median_ae": 0.639647540161539,
+      "coverage_80": 0.8060336100425187,
+      "train_size": 28784,
+      "val_size": 4939,
+      "n_features": 41
+    },
+    "touches": {
+      "val_mae": 2.03695957624611,
+      "val_median_ae": 1.2205950827700864,
+      "coverage_80": 0.7555519794013518,
+      "train_size": 36090,
+      "val_size": 6214,
+      "n_features": 42
+    }
+  }
+}

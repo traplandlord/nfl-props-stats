@@ -1,0 +1,186 @@
+Loading data...
+Loading data for seasons [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]...
+  Loading weekly stats...
+  Loading snap counts...
+  Loading schedules...
+  Loading injuries...
+  Merging snap counts...
+Warning: Could not load rosters: Season must be between 1920 and 2026
+Warning: Could not map gsis_id to pfr_id for snap counts
+  Adding Vegas lines...
+  Adding injury flags...
+  Computing team totals for shares...
+Dataset complete: 147227 player-week rows
+Engineering features...
+  Adding rolling features...
+  Adding opponent defense features...
+  Adding Vegas features...
+  Adding injury features...
+  Adding rest and situational features...
+  Adding team pace features...
+Feature engineering complete: 230 columns
+Test set: 16360 rows
+
+
+============================================================
+STAT: passing_yards
+============================================================
+Before role filtering: 539 rows
+After role filtering: 434 rows
+Valid predictions: 434 rows
+
+ML Model:
+  MAE: 59.98
+  Median AE: 50.32
+  80% coverage: 82.3%
+
+User Baseline (shrinkage + Vegas scale):
+  MAE: 65.78
+  Median AE: 53.79
+
+Naive Baseline (season average):
+  MAE: 65.54
+  Median AE: 53.10
+
+ML vs User Baseline: +5.79 (+8.8%)
+ML vs Naive Baseline: +5.55 (+8.5%)
+
+Calibration (using user baseline as line):
+     bin  predicted_prob  actual_rate  count
+ 55%-60%           0.575          0.6      5
+ 70%-75%           0.725          0.6      5
+80%-100%           0.900          1.0      6
+
+============================================================
+STAT: passing_tds
+============================================================
+Before role filtering: 377 rows
+After role filtering: 317 rows
+Valid predictions: 317 rows
+
+ML Model:
+  MAE: 0.87
+  Median AE: 0.73
+  80% coverage: 77.0%
+
+User Baseline (shrinkage + Vegas scale):
+  MAE: 0.89
+  Median AE: 0.71
+
+Naive Baseline (season average):
+  MAE: 0.89
+  Median AE: 0.71
+
+ML vs User Baseline: +0.02 (+2.5%)
+ML vs Naive Baseline: +0.02 (+1.9%)
+
+Calibration (using user baseline as line):
+
+============================================================
+STAT: receiving_yards
+============================================================
+Before role filtering: 3291 rows
+After role filtering: 1974 rows
+Valid predictions: 1974 rows
+
+ML Model:
+  MAE: 21.34
+  Median AE: 15.09
+  80% coverage: 84.9%
+
+User Baseline (shrinkage + Vegas scale):
+  MAE: 21.39
+  Median AE: 15.78
+
+Naive Baseline (season average):
+  MAE: 21.92
+  Median AE: 16.52
+
+ML vs User Baseline: +0.05 (+0.2%)
+ML vs Naive Baseline: +0.59 (+2.7%)
+
+Calibration (using user baseline as line):
+    bin  predicted_prob  actual_rate  count
+50%-55%           0.525     0.594340    106
+55%-60%           0.575     0.761905     21
+60%-65%           0.625     0.555556      9
+
+============================================================
+STAT: receptions
+============================================================
+Before role filtering: 3383 rows
+After role filtering: 1977 rows
+Valid predictions: 1977 rows
+
+ML Model:
+  MAE: 1.51
+  Median AE: 1.11
+  80% coverage: 85.9%
+
+User Baseline (shrinkage + Vegas scale):
+  MAE: 1.52
+  Median AE: 1.24
+
+Naive Baseline (season average):
+  MAE: 1.56
+  Median AE: 1.29
+
+ML vs User Baseline: +0.01 (+0.3%)
+ML vs Naive Baseline: +0.04 (+2.7%)
+
+Calibration (using user baseline as line):
+
+============================================================
+STAT: rushing_yards
+============================================================
+Before role filtering: 1747 rows
+After role filtering: 638 rows
+Valid predictions: 638 rows
+
+ML Model:
+  MAE: 25.89
+  Median AE: 18.62
+  80% coverage: 78.5%
+
+User Baseline (shrinkage + Vegas scale):
+  MAE: 26.47
+  Median AE: 19.75
+
+Naive Baseline (season average):
+  MAE: 26.63
+  Median AE: 20.25
+
+ML vs User Baseline: +0.58 (+2.2%)
+ML vs Naive Baseline: +0.74 (+2.8%)
+
+Calibration (using user baseline as line):
+
+
+================================================================================
+SUMMARY TABLE
+================================================================================
+           stat  n_samples    ml_mae  ml_median_ae  user_mae  user_median_ae  naive_mae  naive_median_ae  ml_vs_user  ml_vs_naive  coverage_80
+  passing_yards        434 59.983505     50.315686 65.775771       53.789837  65.537053        53.100000    5.792267     5.553548     0.822581
+    passing_tds        317  0.869751      0.726196  0.891642        0.713333   0.886874         0.714286    0.021891     0.017123     0.769716
+receiving_yards       1974 21.337244     15.094372 21.389942       15.775486  21.923844        16.519231    0.052698     0.586600     0.848531
+     receptions       1977  1.512730      1.114777  1.517818        1.244898   1.555049         1.285714    0.005088     0.042319     0.858877
+  rushing_yards        638 25.892664     18.618648 26.472190       19.752087  26.632372        20.250000    0.579526     0.739707     0.785266
+
+================================================================================
+CALIBRATION TABLES (P(over) using user baseline as line)
+================================================================================
+
+passing_yards:
+     bin  predicted_prob  actual_rate  count
+ 55%-60%           0.575          0.6      5
+ 70%-75%           0.725          0.6      5
+80%-100%           0.900          1.0      6
+
+receiving_yards:
+    bin  predicted_prob  actual_rate  count
+50%-55%           0.525     0.594340    106
+55%-60%           0.575     0.761905     21
+60%-65%           0.625     0.555556      9
+
+
+Results saved to /workspace/data/apples_to_apples_comparison.csv
