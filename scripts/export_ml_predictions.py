@@ -18,6 +18,8 @@ try:
 except ImportError:
     DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
+from active_players import filter_to_active_players
+
 DOCS_DIR = Path(__file__).resolve().parents[1] / "docs"
 PRED_DIR = DATA_DIR / "predictions"
 
@@ -51,7 +53,11 @@ def export_ml_predictions(season: int, week: int):
         return
     
     pred_df = pd.read_parquet(pred_file)
-    
+    before = len(pred_df)
+    # Same gate as predict_week_ml: do not publish props for players who will not play.
+    pred_df = filter_to_active_players(pred_df, season, week, id_col="player_id")
+    print(f"Active-player filter removed {before - len(pred_df)} of {before} props before export")
+
     # Convert to JSON format
     records = pred_df.to_dict(orient="records")
     

@@ -32,6 +32,7 @@ except ImportError:
     EXT_DIR = DATA / "external"
     GRADES_DIR = DATA / "grades"
 
+from active_players import filter_to_active_players
 from ml_data_pipeline import build_ml_dataset
 from ml_features import engineer_all_features
 from ml_train import load_model_bundle, MODEL_DIR, POS_STATS
@@ -266,7 +267,16 @@ def build_week_predictions(
             slate = roles[roles["position"].isin(skill_positions)].copy()
         except Exception as e:
             print(f"Error including bench: {e}")
-    
+
+    # Drop ruled-out, inactive, IR, and bye-week players before predicting.
+    # Does not change how models are trained.
+    slate = filter_to_active_players(slate, season, week, id_col="gsis_id")
+    if slate.empty:
+        raise ValueError(
+            f"No active players for season {season} week {week} "
+            "after dropping ruled out, inactive, IR, and bye teams"
+        )
+
     # Generate predictions for each player
     predictions_list = []
     

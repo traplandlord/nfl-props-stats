@@ -8,6 +8,13 @@ on:
     - cron: '0 17 * * 0'
   workflow_dispatch:  # Allow manual trigger
 
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-predictions
+  cancel-in-progress: false
+
 jobs:
   update-predictions:
     runs-on: ubuntu-latest
@@ -15,6 +22,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -33,7 +43,9 @@ jobs:
       
       - name: Train models (if not exist or weekly retrain)
         run: |
-          if [ ! -d "data/ml_models" ] || [ "$(date +%u)" -eq 2 ]; then
+          # data/ml_models/ exists in git (metadata.json) but *.pkl are gitignored,
+          # so check for actual model files, not just the directory.
+          if ! ls data/ml_models/*.pkl >/dev/null 2>&1 || [ "$(date +%u)" -eq 2 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "Training models..."
             python scripts/ml_train.py \
               --seasons 2018 2019 2020 2021 2022 2023 2024 2025 2026 \
@@ -41,6 +53,10 @@ jobs:
               --val-seasons 2024
           else
             echo "Skipping model training (only Tuesdays or first run)"
+          fi
+          if ! ls data/ml_models/*.pkl >/dev/null 2>&1; then
+            echo "::error::No trained models in data/ml_models after training step"
+            exit 1
           fi
       
       - name: Generate predictions for current week
@@ -53,6 +69,12 @@ jobs:
           SEASON=$(python -c "import nflreadpy; print(nflreadpy.get_current_season())")
           WEEK=$(python -c "import nflreadpy; print(nflreadpy.get_current_week())")
           python scripts/export_ml_predictions.py --season $SEASON --week $WEEK
+          COUNT=$(python -c "import json; print(len(json.load(open('docs/data/latest_predictions.json'))))")
+          echo "Exported $COUNT predictions for $SEASON week $WEEK"
+          if [ "$COUNT" -eq 0 ]; then
+            echo "::error::0 predictions exported - refusing to publish an empty board"
+            exit 1
+          fi
       
       - name: Export other web data
         run: |
@@ -67,7 +89,8 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update predictions $(date +'%Y-%m-%d %H:%M PT')"
-            git push
+            git pull --rebase origin ${{ github.ref_name }}
+            git push origin HEAD:${{ github.ref_name }}
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
