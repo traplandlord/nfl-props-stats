@@ -89,7 +89,23 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update predictions $(date +'%Y-%m-%d %H:%M PT')"
-            git pull --rebase origin ${{ github.ref_name }}
+            # refresh_nfl_stats.py rewrites tracked README.md and DATA_MANIFEST.md,
+            # which sit outside data/ and docs/data/. Those unstaged edits make
+            # `git pull --rebase` abort with "You have unstaged changes."
+            # Park every leftover generated file, then autostash so a dirty
+            # tree cannot fail the rebase. Do not commit README.md: the refresh
+            # script rewrites it from a template and would clobber the curated file.
+            if ! git diff --quiet || [ -n "$(git status --porcelain)" ]; then
+              echo "Stashing leftover generated files before rebase:"
+              git status --short
+              git stash push --include-untracked -m "weekly-predictions leftover generated files"
+            fi
+            # checkout uses fetch-depth 1; rebase needs the commits that landed
+            # on the branch while this job was training.
+            if [ -f "$(git rev-parse --git-path shallow)" ]; then
+              git fetch --unshallow origin
+            fi
+            git pull --rebase --autostash origin ${{ github.ref_name }}
             git push origin HEAD:${{ github.ref_name }}
           fi
         env:
