@@ -18,8 +18,8 @@
     "gameday": "2026-10-15",
     "away_team": "SEA",
     "home_team": "DEN",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_HOU_JAX",
@@ -29,8 +29,8 @@
     "gameday": "2026-10-18",
     "away_team": "HOU",
     "home_team": "JAX",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_CHI_ATL",
@@ -40,8 +40,8 @@
     "gameday": "2026-10-18",
     "away_team": "CHI",
     "home_team": "ATL",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_BAL_CLE",
@@ -51,8 +51,8 @@
     "gameday": "2026-10-18",
     "away_team": "BAL",
     "home_team": "CLE",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_TEN_IND",
@@ -62,8 +62,8 @@
     "gameday": "2026-10-18",
     "away_team": "TEN",
     "home_team": "IND",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_NYJ_NE",
@@ -73,8 +73,8 @@
     "gameday": "2026-10-18",
     "away_team": "NYJ",
     "home_team": "NE",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_NO_NYG",
@@ -84,8 +84,8 @@
     "gameday": "2026-10-18",
     "away_team": "NO",
     "home_team": "NYG",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_CAR_PHI",
@@ -95,8 +95,8 @@
     "gameday": "2026-10-18",
     "away_team": "CAR",
     "home_team": "PHI",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_PIT_TB",
@@ -106,8 +106,8 @@
     "gameday": "2026-10-18",
     "away_team": "PIT",
     "home_team": "TB",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_ARI_LA",
@@ -117,8 +117,8 @@
     "gameday": "2026-10-18",
     "away_team": "ARI",
     "home_team": "LA",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_LAC_KC",
@@ -128,8 +128,8 @@
     "gameday": "2026-10-18",
     "away_team": "LAC",
     "home_team": "KC",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_BUF_LV",
@@ -139,8 +139,8 @@
     "gameday": "2026-10-18",
     "away_team": "BUF",
     "home_team": "LV",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_DAL_GB",
@@ -150,8 +150,8 @@
     "gameday": "2026-10-18",
     "away_team": "DAL",
     "home_team": "GB",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_06_WAS_SF",
@@ -161,8 +161,8 @@
     "gameday": "2026-10-19",
     "away_team": "WAS",
     "home_team": "SF",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   },
   {
     "game_id": "2026_07_NE_CHI",
@@ -172,7 +172,7 @@
     "gameday": "2026-10-22",
     "away_team": "NE",
     "home_team": "CHI",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": null,
+    "home_score": null
   }
 ]
