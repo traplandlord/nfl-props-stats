@@ -445,6 +445,25 @@
         let predictions = [];
         let schedule = [];
         let myCard = [];
+        let availability = null;
+
+        function unavailableIdSet() {
+            if (!availability || !Array.isArray(availability.unavailable) || predictions.length === 0) {
+                return new Set();
+            }
+            const season = Number(predictions[0].season);
+            const week = Number(predictions[0].week);
+            if (Number(availability.season) !== season || Number(availability.week) !== week) {
+                return new Set();
+            }
+            return new Set(availability.unavailable.map(player => player.gsis_id).filter(Boolean));
+        }
+
+        function predictionsOnBoard() {
+            const hidden = unavailableIdSet();
+            if (hidden.size === 0) return predictions;
+            return predictions.filter(pred => !hidden.has(pred.player_id) && !hidden.has(pred.gsis_id));
+        }
 
         // Load data on page load
         async function loadData() {
@@ -464,6 +483,16 @@
                 playerStats = await statsRes.json();
                 predictions = await predsRes.json();
                 schedule = await schedRes.json();
+
+                try {
+                    const availRes = await fetch('data/player_availability.json');
+                    if (availRes.ok) {
+                        availability = await availRes.json();
+                    }
+                } catch (availError) {
+                    console.warn('Injury availability file not loaded', availError);
+                    availability = null;
+                }
 
                 // Load saved card from localStorage
                 const savedCard = localStorage.getItem('nfl-props-card');
@@ -561,20 +590,33 @@
         // Weekly Predictions
         function loadWeeklyPredictions() {
             const container = document.getElementById('weekly-content');
+            const board = predictionsOnBoard();
+            const hidden = unavailableIdSet();
+            const hiddenIds = new Set(
+                predictions
+                    .filter(pred => hidden.has(pred.player_id) || hidden.has(pred.gsis_id))
+                    .map(pred => pred.player_id || pred.gsis_id)
+            );
+            const checked = availability && availability.generated_at_pt
+                ? ` Injury report checked ${availability.generated_at_pt}.`
+                : '';
+            const hideBanner = hiddenIds.size
+                ? `<div class="banner warn"><strong>${hiddenIds.size} players hidden</strong> (out, IR, or inactive). Locked prediction numbers were not changed.${checked}</div>`
+                : '';
             
-            if (predictions.length === 0) {
-                container.innerHTML = '<div class="empty">No predictions loaded yet.</div>';
+            if (board.length === 0) {
+                container.innerHTML = hideBanner + '<div class="empty">No predictions loaded yet.</div>';
                 return;
             }
 
-            // Group by team
+            // Group by team. Flagged out / IR / inactive players stay in the locked file and are omitted here.
             const byTeam = {};
-            predictions.forEach(pred => {
+            board.forEach(pred => {
                 if (!byTeam[pred.team]) byTeam[pred.team] = [];
                 byTeam[pred.team].push(pred);
             });
 
-            container.innerHTML = Object.entries(byTeam).slice(0, 8).map(([teamAbbr, preds]) => {
+            container.innerHTML = hideBanner + Object.entries(byTeam).slice(0, 8).map(([teamAbbr, preds]) => {
                 const team = teams.find(t => t.team_abbr === teamAbbr);
                 
                 return `
