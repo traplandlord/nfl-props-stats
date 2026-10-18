@@ -1,0 +1,62 @@
+name: Injury availability refresh
+
+on:
+  schedule:
+    # Saturday 6:00 PM PT (01:00 UTC Sunday). GitHub cron is UTC.
+    # October kickoff is PDT (UTC-7), same offset the weekly job uses for 9 AM PT.
+    - cron: '0 1 * * 0'
+    # Sunday 8:00 AM PT (15:00 UTC Sunday), before the 9 AM PT full predictions job.
+    - cron: '0 15 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: injury-availability
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Flag out, IR, and inactive players
+        run: |
+          # Re-pull injuries and weekly rosters. Writes docs/data/player_availability.json only.
+          # Does not train and does not rewrite docs/data/latest_predictions.json.
+          python scripts/refresh_injury_availability.py
+
+      - name: Commit availability file
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/data/player_availability.json
+          if git diff --staged --quiet; then
+            echo "No availability changes"
+          else
+            git commit -m "Refresh injury availability $(date +'%Y-%m-%d %H:%M PT')"
+            if [ -f "$(git rev-parse --git-path shallow)" ]; then
+              git fetch --unshallow origin
+            fi
+            git pull --rebase --autostash origin ${{ github.ref_name }}
+            git push origin HEAD:${{ github.ref_name }}
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
