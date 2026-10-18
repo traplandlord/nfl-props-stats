@@ -1,8 +1,8 @@
 {
   "season": 2026,
   "week": 6,
-  "generated_at_utc": "2026-10-18T16:02:20.898509+00:00",
-  "generated_at_pt": "2026-10-18 09:02:20 PDT (PT)",
+  "generated_at_utc": "2026-10-18T17:54:58.294340+00:00",
+  "generated_at_pt": "2026-10-18 10:54:58 PDT (PT)",
   "source": "nflverse injuries and weekly rosters",
   "predictions_file": "docs/data/latest_predictions.json",
   "predictions_unchanged": true,
