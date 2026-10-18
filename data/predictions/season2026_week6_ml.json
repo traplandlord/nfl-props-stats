@@ -1,13 +1,13 @@
 {
   "season": 2026,
   "week": 6,
-  "generated_at_utc": "2026-10-15T15:50:55.204759+00:00",
-  "generated_at_pt": "2026-10-15 08:50:55 PDT (PT)",
+  "generated_at_utc": "2026-10-18T19:16:50.668875+00:00",
+  "generated_at_pt": "2026-10-18 12:16:50 PDT (PT)",
   "predictions_locked": true,
-  "locked_at": "2026-10-15T15:50:55.209364+00:00",
+  "locked_at": "2026-10-18T19:16:50.674261+00:00",
   "model_type": "LightGBM_quantile_regression",
-  "row_count": 928,
-  "player_count": 232,
+  "row_count": 855,
+  "player_count": 215,
   "include_bench": false,
-  "locked_at_pt": "2026-10-15 08:50:55 PDT (PT)"
+  "locked_at_pt": "2026-10-18 12:16:50 PDT (PT)"
 }
