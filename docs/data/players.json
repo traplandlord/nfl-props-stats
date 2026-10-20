@@ -99,6 +99,17 @@
     "espn_id": "4429160"
   },
   {
+    "gsis_id": "00-0041221",
+    "display_name": "Jackson Acker",
+    "position": "RB",
+    "position_group": "RB",
+    "latest_team": "SEA",
+    "status": "DEV",
+    "jersey_number": NaN,
+    "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wkeuy1ijmm6fcfir7ndk",
+    "espn_id": NaN
+  },
+  {
     "gsis_id": "00-0032637",
     "display_name": "Andrew Adams",
     "position": "DB",
@@ -863,7 +874,7 @@
     "position": "CB",
     "position_group": "DB",
     "latest_team": "WAS",
-    "status": "RSR",
+    "status": "ACT",
     "jersey_number": "23",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cxabcu8nz9p6k6sqsw4t",
     "espn_id": "4574689"
@@ -1325,7 +1336,7 @@
     "position": "WR",
     "position_group": "WR",
     "latest_team": "KC",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "85",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hkw32xqnimm6dvx2qfvl",
     "espn_id": "5093923"
@@ -3712,7 +3723,7 @@
     "position": "LS",
     "position_group": "SPEC",
     "latest_team": "JAX",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cjpwsinxkggwwfhaahga",
     "espn_id": "3925443"
@@ -5461,7 +5472,7 @@
     "position": "OT",
     "position_group": "OL",
     "latest_team": "LAC",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lrak5cbjwhudqx5wiigo",
     "espn_id": "2976117"
@@ -6681,9 +6692,9 @@
     "display_name": "DeAndre Carter",
     "position": "WR",
     "position_group": "WR",
-    "latest_team": "CLE",
-    "status": "RES",
-    "jersey_number": "2",
+    "latest_team": "DET",
+    "status": "DEV",
+    "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jx4io3owliw3l5xve6ta",
     "espn_id": "2580216"
   },
@@ -8794,7 +8805,7 @@
     "position": "RB",
     "position_group": "RB",
     "latest_team": "WAS",
-    "status": "ACT",
+    "status": "RES",
     "jersey_number": "22",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qew4qhlj4yuf50voko61",
     "espn_id": "4575131"
@@ -9134,9 +9145,9 @@
     "display_name": "Andy Dalton",
     "position": "QB",
     "position_group": "QB",
-    "latest_team": "PHI",
-    "status": "CUT",
-    "jersey_number": "14",
+    "latest_team": "ATL",
+    "status": "ACT",
+    "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sfsneh0bn46e2kwve7sr",
     "espn_id": "14012"
   },
@@ -10069,8 +10080,8 @@
     "display_name": "Josiah Deguara",
     "position": "TE",
     "position_group": "TE",
-    "latest_team": "PHI",
-    "status": "CUT",
+    "latest_team": "SEA",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wivlyvbmlm0aogcvl2yz",
     "espn_id": "3914151"
@@ -10829,7 +10840,7 @@
     "position": "WR",
     "position_group": "WR",
     "latest_team": "NE",
-    "status": "ACT",
+    "status": "RES",
     "jersey_number": "87",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d27wez0jqd5vfcrjizpb",
     "espn_id": "4361432"
@@ -11445,7 +11456,7 @@
     "position": "OT",
     "position_group": "OL",
     "latest_team": "BAL",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/daovqppglueevdbutt7k",
     "espn_id": "3701582"
@@ -12329,6 +12340,17 @@
     "jersey_number": "73",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nbj1vlphldopkgfwpr77",
     "espn_id": "4373280"
+  },
+  {
+    "gsis_id": "00-0041166",
+    "display_name": "KC Eziomume",
+    "position": "DB",
+    "position_group": "DB",
+    "latest_team": "CHI",
+    "status": "DEV",
+    "jersey_number": NaN,
+    "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dd5sdiwbmihn77jttbxd",
+    "espn_id": NaN
   },
   {
     "gsis_id": "00-0039428",
@@ -13348,7 +13370,7 @@
     "position": "LB",
     "position_group": "LB",
     "latest_team": "NYG",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "48",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wfwaqxn21kdhpybvhqih",
     "espn_id": "4427207"
@@ -15262,7 +15284,7 @@
     "position": "LB",
     "position_group": "LB",
     "latest_team": "SF",
-    "status": "DEV",
+    "status": "ACT",
     "jersey_number": "41",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yx3s8vah183b6x6jt8z8",
     "espn_id": "4570410"
@@ -15834,7 +15856,7 @@
     "position": "K",
     "position_group": "SPEC",
     "latest_team": "LA",
-    "status": "ACT",
+    "status": "RES",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/de3vz6xjjo9paba6encd",
     "espn_id": "4259619"
@@ -16164,7 +16186,7 @@
     "position": "CB",
     "position_group": "DB",
     "latest_team": "HOU",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "34",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y12zzoocat1f5thpdmf5",
     "espn_id": "4037584"
@@ -17957,7 +17979,7 @@
     "position": "G",
     "position_group": "OL",
     "latest_team": "BAL",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/c0lvxs9aaybnyyacvvtz",
     "espn_id": "4384683"
@@ -18914,7 +18936,7 @@
     "position": "DT",
     "position_group": "DL",
     "latest_team": "TEN",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "94",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oyicb9r9spccby8tpsxg",
     "espn_id": "4045701"
@@ -19233,7 +19255,7 @@
     "position": "TE",
     "position_group": "TE",
     "latest_team": "CIN",
-    "status": "ACT",
+    "status": "RES",
     "jersey_number": "87",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyl2bpjw0vy4idcseama",
     "espn_id": "3050481"
@@ -19332,7 +19354,7 @@
     "position": "RB",
     "position_group": "RB",
     "latest_team": "ARI",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "26",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nljdoot20e71vinaigbe",
     "espn_id": "4569609"
@@ -20080,7 +20102,7 @@
     "position": "OT",
     "position_group": "OL",
     "latest_team": "LA",
-    "status": "SUS",
+    "status": "EXE",
     "jersey_number": "77",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/p7eblgie3na4hjdl6pzb",
     "espn_id": "4036135"
@@ -20245,7 +20267,7 @@
     "position": "LB",
     "position_group": "LB",
     "latest_team": "ATL",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x8ndvrqtk5q076kwedxg",
     "espn_id": "4569511"
@@ -20718,7 +20740,7 @@
     "position": "LB",
     "position_group": "LB",
     "latest_team": "PHI",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "50",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dhu2y8agagcv0nixplkj",
     "espn_id": "5165139"
@@ -20729,7 +20751,7 @@
     "position": "DB",
     "position_group": "DB",
     "latest_team": "NE",
-    "status": "DEV",
+    "status": "CUT",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zebcrm1sjtsiflv4bium",
     "espn_id": "4362082"
@@ -20806,7 +20828,7 @@
     "position": "LB",
     "position_group": "LB",
     "latest_team": "WAS",
-    "status": "ACT",
+    "status": "RES",
     "jersey_number": "41",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bmal2stgfn8j8hdlrhe4",
     "espn_id": "4361357"
@@ -21312,7 +21334,7 @@
     "position": "WR",
     "position_group": "WR",
     "latest_team": "PIT",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pjdx1jdr9snczoeyevli",
     "espn_id": "4035198"
@@ -21488,7 +21510,7 @@
     "position": "LB",
     "position_group": "LB",
     "latest_team": "CHI",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "47",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/aa4htfuz4uxcprkmmvii",
     "espn_id": "4240900"
@@ -22830,7 +22852,7 @@
     "position": "RB",
     "position_group": "RB",
     "latest_team": "HOU",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "25",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dfmute7vcxghlrgmx9ch",
     "espn_id": "4429939"
@@ -23127,7 +23149,7 @@
     "position": "DT",
     "position_group": "DL",
     "latest_team": "CLE",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "92",
     "photo_url": "https://static.www.nfl.com/image/private/f_auto,q_auto/league/aakuha494hvtrja3dwjn",
     "espn_id": "4033855"
@@ -23336,7 +23358,7 @@
     "position": "LB",
     "position_group": "LB",
     "latest_team": "NYJ",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "48",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/duxi42g5xtjzketv36eb",
     "espn_id": "4700756"
@@ -23457,7 +23479,7 @@
     "position": "CB",
     "position_group": "DB",
     "latest_team": "DAL",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "15",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rhmkstzb8ox2thtdo4k3",
     "espn_id": "4360307"
@@ -23567,7 +23589,7 @@
     "position": "LB",
     "position_group": "LB",
     "latest_team": "WAS",
-    "status": "ACT",
+    "status": "CUT",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cs4nlk2pdnx0bbesyghu",
     "espn_id": "4429185"
@@ -23632,10 +23654,10 @@
     "display_name": "Amari Kight",
     "position": "OT",
     "position_group": "OL",
-    "latest_team": "SEA",
-    "status": "RES",
-    "jersey_number": "79",
-    "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/geobk1ufvn2wvlwmss3w",
+    "latest_team": "LV",
+    "status": "DEV",
+    "jersey_number": NaN,
+    "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sfygfpa3uvxcmq8x2u9u",
     "espn_id": "4567135"
   },
   {
@@ -23797,8 +23819,8 @@
     "display_name": "Darian Kinnard",
     "position": "G",
     "position_group": "OL",
-    "latest_team": "NYG",
-    "status": "CUT",
+    "latest_team": "LV",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d6dwdg6jwec8mroofmxn",
     "espn_id": "4362611"
@@ -24480,7 +24502,7 @@
     "position": "DB",
     "position_group": "DB",
     "latest_team": "LA",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "21",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b9fxxgtih7cqzny6tnpq",
     "espn_id": "4427752"
@@ -26174,7 +26196,7 @@
     "position": "LB",
     "position_group": "LB",
     "latest_team": "WAS",
-    "status": "RSR",
+    "status": "ACT",
     "jersey_number": "58",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/smdokbnjckcbpc9yfxwt",
     "espn_id": "4568617"
@@ -26185,7 +26207,7 @@
     "position": "LB",
     "position_group": "LB",
     "latest_team": "WAS",
-    "status": "DEV",
+    "status": "ACT",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gzwkqtfyk6wukjkpil64",
     "espn_id": "5278092"
@@ -26768,7 +26790,7 @@
     "position": "RB",
     "position_group": "RB",
     "latest_team": "MIN",
-    "status": "RES",
+    "status": "RSR",
     "jersey_number": "27",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xe3i1lsb3rsioqy61krt",
     "espn_id": "4360569"
@@ -28165,7 +28187,7 @@
     "position": "RB",
     "position_group": "RB",
     "latest_team": "SEA",
-    "status": "DEV",
+    "status": "CUT",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iptvbpnqkwbbmogetkfq",
     "espn_id": "4427971"
@@ -28297,7 +28319,7 @@
     "position": "RB",
     "position_group": "RB",
     "latest_team": "WAS",
-    "status": "RSR",
+    "status": "ACT",
     "jersey_number": "26",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xcrgrtlk6ukrshtlnr5e",
     "espn_id": "3127586"
@@ -28429,7 +28451,7 @@
     "position": "WR",
     "position_group": "WR",
     "latest_team": "SEA",
-    "status": "DEV",
+    "status": "CUT",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/apgmlcxyj2cngrcwkbno",
     "espn_id": "4570636"
@@ -28912,9 +28934,9 @@
     "display_name": "Ryan Miller",
     "position": "WR",
     "position_group": "WR",
-    "latest_team": "MIA",
-    "status": "CUT",
-    "jersey_number": "84",
+    "latest_team": "NE",
+    "status": "DEV",
+    "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/k9wcjjdx7p06ex9cd2kc",
     "espn_id": "4369466"
   },
@@ -29914,7 +29936,7 @@
     "position": "DE",
     "position_group": "DL",
     "latest_team": "GB",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "53",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/siq8ayl7lif3uddghbum",
     "espn_id": "4242996"
@@ -30057,7 +30079,7 @@
     "position": "CB",
     "position_group": "DB",
     "latest_team": "JAX",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "37",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ik6uynmak0jbmwnjztd3",
     "espn_id": "4432440"
@@ -30541,7 +30563,7 @@
     "position": "TE",
     "position_group": "TE",
     "latest_team": "LV",
-    "status": "DEV",
+    "status": "CUT",
     "jersey_number": "41",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zyedrh1lvylrutfof4ld",
     "espn_id": "3138744"
@@ -30684,7 +30706,7 @@
     "position": "G",
     "position_group": "OL",
     "latest_team": "LV",
-    "status": "DEV",
+    "status": "CUT",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tpjt1d0bqg3m2xw1qfbt",
     "espn_id": "4567134"
@@ -32037,7 +32059,7 @@
     "position": "FS",
     "position_group": "DB",
     "latest_team": "TEN",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kkjrgyvwont6cdbhu9y2",
     "espn_id": "3915437"
@@ -32411,7 +32433,7 @@
     "position": "WR",
     "position_group": "WR",
     "latest_team": "GB",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cjnhiftygnypqumwfphq",
     "espn_id": "4578436"
@@ -34150,7 +34172,7 @@
     "position_group": "DB",
     "latest_team": "DAL",
     "status": "ACT",
-    "jersey_number": NaN,
+    "jersey_number": "25",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pcan3dqynqusx1ltmecf",
     "espn_id": "4426506"
   },
@@ -35227,7 +35249,7 @@
     "position": "SAF",
     "position_group": "DB",
     "latest_team": "ARI",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ygd9fpabvecg1sqw0c10",
     "espn_id": "4570084"
@@ -35964,7 +35986,7 @@
     "position": "C",
     "position_group": "OL",
     "latest_team": "NE",
-    "status": "CUT",
+    "status": "DEV",
     "jersey_number": "64",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iybxv6epoaz9qfgx4c3t",
     "espn_id": "4695758"
@@ -36272,7 +36294,7 @@
     "position": "SAF",
     "position_group": "DB",
     "latest_team": "ATL",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "34",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gdrw83ybkzdjloi6p5b0",
     "espn_id": "4430411"
@@ -36459,7 +36481,7 @@
     "position": "CB",
     "position_group": "DB",
     "latest_team": "CAR",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "38",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/toslxinwiwnk7etw4tkx",
     "espn_id": "4032200"
@@ -37043,8 +37065,8 @@
     "position_group": "OL",
     "latest_team": "NE",
     "status": "DEV",
-    "jersey_number": NaN,
-    "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jkbyyccmhaxdkuxsqpmn",
+    "jersey_number": "67",
+    "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ygdxvo80hta7vz3el0na",
     "espn_id": "4916597"
   },
   {
@@ -37053,7 +37075,7 @@
     "position": "QB",
     "position_group": "QB",
     "latest_team": "ATL",
-    "status": "ACT",
+    "status": "CUT",
     "jersey_number": "13",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rvpk214lubzxw5ibbhjd",
     "espn_id": "2972515"
@@ -37988,7 +38010,7 @@
     "position": "RB",
     "position_group": "RB",
     "latest_team": "CHI",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/z8sqpgdoyuv5rask15vn",
     "espn_id": "4257364"
@@ -39088,7 +39110,7 @@
     "position": "LB",
     "position_group": "LB",
     "latest_team": "LV",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "48",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t27ear9faclf1tdibwj9",
     "espn_id": "5153665"
@@ -39242,7 +39264,7 @@
     "position": "WR",
     "position_group": "WR",
     "latest_team": "PIT",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "87",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/h4ezdffu0biwqoxn7bql",
     "espn_id": "4240577"
@@ -40331,7 +40353,7 @@
     "position": "QB",
     "position_group": "QB",
     "latest_team": "TB",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rspxeh6kxzfr7ftkcywh",
     "espn_id": "3120590"
@@ -41838,7 +41860,7 @@
     "position": "DB",
     "position_group": "DB",
     "latest_team": "DAL",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qelzpivpkpwghq6aeozg",
     "espn_id": "4360590"
@@ -42377,7 +42399,7 @@
     "position": "WR",
     "position_group": "WR",
     "latest_team": "NO",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lthk2v1lyrx3aqbmtljg",
     "espn_id": "4369863"
@@ -42685,7 +42707,7 @@
     "position": "G",
     "position_group": "OL",
     "latest_team": "SF",
-    "status": "RES",
+    "status": "CUT",
     "jersey_number": "78",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yre7lmnvlmd2mj9sijiu",
     "espn_id": "3129116"
@@ -43235,7 +43257,7 @@
     "position": "WR",
     "position_group": "WR",
     "latest_team": "SF",
-    "status": "DEV",
+    "status": "ACT",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pwrijrdgfdsqe00naun5",
     "espn_id": "3115928"
@@ -43367,7 +43389,7 @@
     "position": "RB",
     "position_group": "RB",
     "latest_team": "CAR",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "34",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ycph0v6jfxwkcycuztk0",
     "espn_id": "4709392"
@@ -44940,7 +44962,7 @@
     "position": "WR",
     "position_group": "WR",
     "latest_team": "KC",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qupxjfqxueke4sgmlrk3",
     "espn_id": "3118892"
@@ -45083,7 +45105,7 @@
     "position": "DB",
     "position_group": "DB",
     "latest_team": "LAC",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": NaN,
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t95edoropxwx1zlmwt9m",
     "espn_id": "4574105"
@@ -46018,7 +46040,7 @@
     "position": "DT",
     "position_group": "DL",
     "latest_team": "CLE",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "53",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vznnciqhfciaxujb2a8i",
     "espn_id": "4034530"
@@ -46326,7 +46348,7 @@
     "position": "RB",
     "position_group": "RB",
     "latest_team": "TB",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "18",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/c2zxbiz8153usfggosvv",
     "espn_id": "4568024"
@@ -47173,7 +47195,7 @@
     "position": "SAF",
     "position_group": "DB",
     "latest_team": "PHI",
-    "status": "ACT",
+    "status": "DEV",
     "jersey_number": "38",
     "photo_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fsbuuec4tzp33ufdsgdi",
     "espn_id": "4693345"

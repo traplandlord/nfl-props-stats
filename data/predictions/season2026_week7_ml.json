@@ -1,0 +1,13 @@
+{
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-20T20:18:54.535210+00:00",
+  "generated_at_pt": "2026-10-20 13:18:54 PDT (PT)",
+  "predictions_locked": true,
+  "locked_at": "2026-10-20T20:18:54.536605+00:00",
+  "model_type": "LightGBM_quantile_regression",
+  "row_count": 864,
+  "player_count": 217,
+  "include_bench": false,
+  "locked_at_pt": "2026-10-20 13:18:54 PDT (PT)"
+}
