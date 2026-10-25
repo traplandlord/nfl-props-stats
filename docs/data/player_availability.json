@@ -1,12 +1,12 @@
 {
   "season": 2026,
   "week": 7,
-  "generated_at_utc": "2026-10-25T05:35:05.764783+00:00",
-  "generated_at_pt": "2026-10-24 22:35:05 PDT (PT)",
+  "generated_at_utc": "2026-10-25T18:16:22.152074+00:00",
+  "generated_at_pt": "2026-10-25 11:16:22 PDT (PT)",
   "source": "nflverse injuries and weekly rosters",
   "predictions_file": "docs/data/latest_predictions.json",
   "predictions_unchanged": true,
-  "unavailable_count": 5,
+  "unavailable_count": 6,
   "unavailable": [
     {
       "gsis_id": "00-0037746",
@@ -21,16 +21,28 @@
       "roster_status_description_abbr": null
     },
     {
-      "gsis_id": "00-0036425",
-      "player_name": "DeeJay Dallas",
-      "team": "MIN",
-      "availability": "inactive",
-      "report_status": null,
-      "report_week": null,
-      "practice_status": null,
+      "gsis_id": "00-0036912",
+      "player_name": "DeVonta Smith",
+      "team": "PHI",
+      "availability": "out",
+      "report_status": "Out",
+      "report_week": 7,
+      "practice_status": "Did Not Participate In Practice",
       "carried_forward": false,
-      "roster_status": "CUT",
-      "roster_status_description_abbr": "A01"
+      "roster_status": null,
+      "roster_status_description_abbr": null
+    },
+    {
+      "gsis_id": "00-0038393",
+      "player_name": "Dontayvion Wicks",
+      "team": "PHI",
+      "availability": "out",
+      "report_status": "Out",
+      "report_week": 7,
+      "practice_status": "Did Not Participate In Practice",
+      "carried_forward": false,
+      "roster_status": null,
+      "roster_status_description_abbr": null
     },
     {
       "gsis_id": "00-0035719",
