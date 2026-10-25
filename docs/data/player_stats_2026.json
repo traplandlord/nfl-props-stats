@@ -439,7 +439,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0031235",
@@ -504,7 +504,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0031360",
@@ -660,7 +660,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0031588",
@@ -994,11 +994,11 @@
     "team": "CHI",
     "passing_yards": 0.0,
     "rushing_yards": -0.3,
-    "receiving_yards": 40.7,
-    "receptions": 4.3,
-    "targets": 4.8,
-    "carries": 0.2,
-    "games_played": 6
+    "receiving_yards": 34.9,
+    "receptions": 3.7,
+    "targets": 4.4,
+    "carries": 0.1,
+    "games_played": 7
   },
   {
     "player_id": "00-0032569",
@@ -1306,11 +1306,11 @@
     "team": "NE",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 37.5,
-    "receptions": 3.2,
-    "targets": 4.0,
+    "receiving_yards": 42.3,
+    "receptions": 3.7,
+    "targets": 4.4,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0033093",
@@ -1414,7 +1414,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0033217",
@@ -2454,7 +2454,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0034333",
@@ -2717,6 +2717,19 @@
     "games_played": 6
   },
   {
+    "player_id": "00-0034417",
+    "player_display_name": "Matt Pryor",
+    "position": "OT",
+    "team": "NE",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
     "player_id": "00-0034419",
     "player_display_name": "Braxton Berrios",
     "position": "WR",
@@ -2948,7 +2961,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0034721",
@@ -3403,7 +3416,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0034959",
@@ -4001,7 +4014,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0035358",
@@ -4144,7 +4157,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0035526",
@@ -4209,7 +4222,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0035594",
@@ -4491,11 +4504,11 @@
     "team": "NE",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 26.5,
+    "receiving_yards": 33.7,
     "receptions": 3.0,
-    "targets": 7.0,
+    "targets": 6.7,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0035678",
@@ -4508,7 +4521,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0035679",
@@ -5452,12 +5465,12 @@
     "position": "RB",
     "team": "CHI",
     "passing_yards": 0.0,
-    "rushing_yards": 66.3,
-    "receiving_yards": 23.3,
-    "receptions": 3.0,
-    "targets": 3.5,
-    "carries": 15.7,
-    "games_played": 6
+    "rushing_yards": 68.0,
+    "receiving_yards": 21.7,
+    "receptions": 3.1,
+    "targets": 3.6,
+    "carries": 16.6,
+    "games_played": 7
   },
   {
     "player_id": "00-0036280",
@@ -5544,11 +5557,11 @@
     "team": "CHI",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 9.8,
-    "receptions": 1.2,
-    "targets": 1.8,
+    "receiving_yards": 12.4,
+    "receptions": 1.4,
+    "targets": 2.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0036292",
@@ -5561,7 +5574,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0036293",
@@ -5639,7 +5652,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0036309",
@@ -5795,7 +5808,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0036338",
@@ -5964,7 +5977,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0036369",
@@ -6991,7 +7004,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0036816",
@@ -7134,7 +7147,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0036874",
@@ -7155,12 +7168,12 @@
     "position": "RB",
     "team": "NE",
     "passing_yards": 0.0,
-    "rushing_yards": 43.8,
-    "receiving_yards": 18.5,
-    "receptions": 2.5,
-    "targets": 3.2,
-    "carries": 11.8,
-    "games_played": 6
+    "rushing_yards": 40.7,
+    "receiving_yards": 29.1,
+    "receptions": 2.9,
+    "targets": 3.4,
+    "carries": 11.0,
+    "games_played": 7
   },
   {
     "player_id": "00-0036876",
@@ -7381,7 +7394,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0036919",
@@ -7719,7 +7732,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0036982",
@@ -8200,7 +8213,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0037109",
@@ -8668,7 +8681,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0037254",
@@ -8811,7 +8824,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0037275",
@@ -9227,7 +9240,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0037500",
@@ -10020,7 +10033,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0037844",
@@ -10228,7 +10241,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0038112",
@@ -10514,7 +10527,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0038393",
@@ -10683,7 +10696,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0038454",
@@ -11485,11 +11498,11 @@
     "team": "NE",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 38.8,
+    "receiving_yards": 36.6,
     "receptions": 3.3,
-    "targets": 5.0,
+    "targets": 4.9,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0038623",
@@ -11632,7 +11645,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0038660",
@@ -12087,7 +12100,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0038933",
@@ -12420,12 +12433,12 @@
     "position": "RB",
     "team": "CHI",
     "passing_yards": 0.0,
-    "rushing_yards": 18.2,
-    "receiving_yards": 18.8,
-    "receptions": 2.0,
-    "targets": 2.5,
-    "carries": 5.5,
-    "games_played": 4
+    "rushing_yards": 17.2,
+    "receiving_yards": 15.0,
+    "receptions": 1.6,
+    "targets": 2.0,
+    "carries": 4.8,
+    "games_played": 5
   },
   {
     "player_id": "00-0039031",
@@ -12698,7 +12711,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0039074",
@@ -12906,7 +12919,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0039148",
@@ -13166,7 +13179,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0039299",
@@ -13962,6 +13975,19 @@
     "games_played": 2
   },
   {
+    "player_id": "00-0039461",
+    "player_display_name": "Jamree Kromah",
+    "position": "DE",
+    "team": "CHI",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
     "player_id": "00-0039465",
     "player_display_name": "Reddy Steward",
     "position": "DB",
@@ -14427,7 +14453,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0039746",
@@ -14505,7 +14531,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0039772",
@@ -14846,6 +14872,19 @@
     "games_played": 4
   },
   {
+    "player_id": "00-0039828",
+    "player_display_name": "Walter Rouse",
+    "position": "OT",
+    "team": "NE",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
     "player_id": "00-0039829",
     "player_display_name": "Darius Muasau",
     "position": "LB",
@@ -14856,7 +14895,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0039831",
@@ -14934,7 +14973,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0039841",
@@ -15045,13 +15084,13 @@
     "player_display_name": "Drake Maye",
     "position": "QB",
     "team": "NE",
-    "passing_yards": 243.8,
-    "rushing_yards": 30.8,
+    "passing_yards": 254.9,
+    "rushing_yards": 30.1,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 5.7,
-    "games_played": 6
+    "carries": 5.4,
+    "games_played": 7
   },
   {
     "player_id": "00-0039852",
@@ -15578,13 +15617,13 @@
     "player_display_name": "Caleb Williams",
     "position": "QB",
     "team": "CHI",
-    "passing_yards": 237.3,
-    "rushing_yards": 36.7,
+    "passing_yards": 255.0,
+    "rushing_yards": 32.0,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 6.3,
-    "games_played": 3
+    "carries": 6.0,
+    "games_played": 4
   },
   {
     "player_id": "00-0039919",
@@ -15593,11 +15632,11 @@
     "team": "CHI",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 52.0,
-    "receptions": 3.3,
-    "targets": 5.5,
+    "receiving_yards": 54.4,
+    "receptions": 3.4,
+    "targets": 5.4,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0039920",
@@ -16100,11 +16139,11 @@
     "team": "CHI",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 29.2,
-    "receptions": 3.2,
-    "targets": 5.0,
+    "receiving_yards": 34.9,
+    "receptions": 3.7,
+    "targets": 6.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040127",
@@ -16152,11 +16191,11 @@
     "team": "NE",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 24.5,
-    "receptions": 1.0,
-    "targets": 1.8,
+    "receiving_yards": 21.0,
+    "receptions": 0.9,
+    "targets": 1.7,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040132",
@@ -16858,7 +16897,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040201",
@@ -16884,7 +16923,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0040205",
@@ -17231,11 +17270,11 @@
     "team": "CHI",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 0.3,
-    "receptions": 0.3,
-    "targets": 0.7,
+    "receiving_yards": 0.2,
+    "receptions": 0.2,
+    "targets": 0.5,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0040279",
@@ -17409,7 +17448,7 @@
   {
     "player_id": "00-0040390",
     "player_display_name": "Jackson Meeks",
-    "position": "WR",
+    "position": "TE",
     "team": "DET",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
@@ -17672,12 +17711,12 @@
     "position": "RB",
     "team": "NE",
     "passing_yards": 0.0,
-    "rushing_yards": 23.0,
-    "receiving_yards": 2.7,
+    "rushing_yards": 21.6,
+    "receiving_yards": 2.3,
     "receptions": 0.3,
     "targets": 0.3,
-    "carries": 5.2,
-    "games_played": 6
+    "carries": 5.0,
+    "games_played": 7
   },
   {
     "player_id": "00-0040560",
@@ -17697,13 +17736,13 @@
     "player_display_name": "Efton Chism III",
     "position": "WR",
     "team": "NE",
-    "passing_yards": 3.2,
-    "rushing_yards": 0.4,
-    "receiving_yards": 19.6,
-    "receptions": 1.8,
-    "targets": 2.8,
+    "passing_yards": 2.7,
+    "rushing_yards": 0.3,
+    "receiving_yards": 19.0,
+    "receptions": 1.7,
+    "targets": 2.5,
     "carries": 0.2,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0040568",
@@ -17729,7 +17768,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040579",
@@ -18327,7 +18366,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0040705",
@@ -18431,7 +18470,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0040718",
@@ -18608,12 +18647,12 @@
     "position": "RB",
     "team": "NE",
     "passing_yards": 0.0,
-    "rushing_yards": 38.8,
-    "receiving_yards": 6.2,
-    "receptions": 0.6,
-    "targets": 1.0,
-    "carries": 9.8,
-    "games_played": 5
+    "rushing_yards": 33.8,
+    "receiving_yards": 7.5,
+    "receptions": 0.8,
+    "targets": 1.2,
+    "carries": 8.7,
+    "games_played": 6
   },
   {
     "player_id": "00-0040735",
@@ -18621,12 +18660,12 @@
     "position": "WR",
     "team": "CHI",
     "passing_yards": 0.0,
-    "rushing_yards": 3.7,
-    "receiving_yards": 60.2,
-    "receptions": 5.2,
-    "targets": 7.2,
-    "carries": 1.2,
-    "games_played": 6
+    "rushing_yards": 4.1,
+    "receiving_yards": 70.1,
+    "receptions": 5.0,
+    "targets": 6.7,
+    "carries": 1.1,
+    "games_played": 7
   },
   {
     "player_id": "00-0040736",
@@ -18704,7 +18743,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0040742",
@@ -19557,12 +19596,12 @@
     "position": "WR",
     "team": "CHI",
     "passing_yards": 0.0,
-    "rushing_yards": 2.2,
-    "receiving_yards": 7.4,
-    "receptions": 1.0,
-    "targets": 1.0,
+    "rushing_yards": 1.8,
+    "receiving_yards": 6.2,
+    "receptions": 0.8,
+    "targets": 0.8,
     "carries": 0.2,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0041052",
@@ -19627,7 +19666,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0041063",
@@ -20173,7 +20212,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0041182",
@@ -20481,11 +20520,11 @@
     "team": "NE",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 22.4,
-    "receptions": 1.8,
-    "targets": 2.4,
+    "receiving_yards": 28.0,
+    "receptions": 2.0,
+    "targets": 2.7,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0041397",
@@ -21252,7 +21291,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0041543",
@@ -21434,7 +21473,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0041579",
