@@ -296,7 +296,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0030140",
@@ -708,11 +708,11 @@
     "team": "CAR",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 33.0,
-    "receptions": 2.3,
-    "targets": 3.8,
+    "receiving_yards": 29.9,
+    "receptions": 2.1,
+    "targets": 3.6,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0031763",
@@ -1852,11 +1852,11 @@
     "team": "CAR",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 6.8,
+    "receiving_yards": 5.4,
     "receptions": 0.2,
-    "targets": 1.0,
+    "targets": 0.8,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0033662",
@@ -3689,7 +3689,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0035144",
@@ -4118,7 +4118,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0035357",
@@ -4599,7 +4599,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0035672",
@@ -4716,7 +4716,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0035689",
@@ -4776,12 +4776,12 @@
     "position": "RB",
     "team": "GB",
     "passing_yards": 0.0,
-    "rushing_yards": 36.0,
-    "receiving_yards": 55.0,
-    "receptions": 5.0,
-    "targets": 7.0,
-    "carries": 11.0,
-    "games_played": 1
+    "rushing_yards": 37.5,
+    "receiving_yards": 34.0,
+    "receptions": 5.5,
+    "targets": 6.5,
+    "carries": 16.0,
+    "games_played": 2
   },
   {
     "player_id": "00-0035702",
@@ -5002,7 +5002,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0035891",
@@ -5184,7 +5184,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0036158",
@@ -5340,7 +5340,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0036221",
@@ -5568,13 +5568,13 @@
     "player_display_name": "Jordan Love",
     "position": "QB",
     "team": "GB",
-    "passing_yards": 279.7,
-    "rushing_yards": 1.4,
+    "passing_yards": 280.8,
+    "rushing_yards": 1.2,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 1.6,
-    "games_played": 7
+    "carries": 1.4,
+    "games_played": 8
   },
   {
     "player_id": "00-0036265",
@@ -5782,7 +5782,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0036306",
@@ -5942,7 +5942,7 @@
   },
   {
     "player_id": "00-0036335",
-    "player_display_name": "D.J. Wonnum",
+    "player_display_name": "DJ Wonnum",
     "position": "DE",
     "team": "DET",
     "passing_yards": 0.0,
@@ -6068,7 +6068,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0036358",
@@ -6224,7 +6224,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0036389",
@@ -6596,12 +6596,12 @@
     "position": "RB",
     "team": "CAR",
     "passing_yards": 0.0,
-    "rushing_yards": 76.5,
-    "receiving_yards": 18.7,
-    "receptions": 2.5,
-    "targets": 3.0,
-    "carries": 16.0,
-    "games_played": 6
+    "rushing_yards": 77.1,
+    "receiving_yards": 21.4,
+    "receptions": 3.1,
+    "targets": 3.7,
+    "carries": 16.9,
+    "games_played": 7
   },
   {
     "player_id": "00-0036556",
@@ -6965,7 +6965,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0036653",
@@ -7004,7 +7004,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0036660",
@@ -7423,6 +7423,19 @@
     "games_played": 7
   },
   {
+    "player_id": "00-0036884",
+    "player_display_name": "Marco Wilson",
+    "position": "CB",
+    "team": "CAR",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
     "player_id": "00-0036887",
     "player_display_name": "Luke Farrell",
     "position": "TE",
@@ -7823,7 +7836,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0036963",
@@ -8222,11 +8235,11 @@
     "team": "CAR",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 22.7,
-    "receptions": 2.7,
-    "targets": 3.5,
+    "receiving_yards": 22.1,
+    "receptions": 2.4,
+    "targets": 3.4,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0037007",
@@ -8239,7 +8252,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0037009",
@@ -8317,7 +8330,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0037076",
@@ -8404,11 +8417,11 @@
     "team": "GB",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 4.9,
-    "receptions": 0.7,
-    "targets": 1.4,
+    "receiving_yards": 4.2,
+    "receptions": 0.6,
+    "targets": 1.2,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0037092",
@@ -8668,7 +8681,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0037205",
@@ -8837,7 +8850,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0037246",
@@ -9357,7 +9370,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0037380",
@@ -9604,7 +9617,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0037557",
@@ -9717,11 +9730,11 @@
     "team": "CAR",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 20.0,
-    "receptions": 1.8,
-    "targets": 3.4,
+    "receiving_yards": 19.0,
+    "receptions": 2.0,
+    "targets": 3.3,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0037615",
@@ -10418,12 +10431,12 @@
     "position": "RB",
     "team": "GB",
     "passing_yards": 0.0,
-    "rushing_yards": 17.5,
-    "receiving_yards": 25.0,
-    "receptions": 4.0,
-    "targets": 5.0,
-    "carries": 8.0,
-    "games_played": 2
+    "rushing_yards": 12.3,
+    "receiving_yards": 16.7,
+    "receptions": 2.7,
+    "targets": 3.3,
+    "carries": 5.7,
+    "games_played": 3
   },
   {
     "player_id": "00-0038100",
@@ -10627,11 +10640,11 @@
     "team": "GB",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 85.0,
-    "receptions": 4.9,
-    "targets": 8.0,
+    "receiving_yards": 88.5,
+    "receptions": 5.2,
+    "targets": 8.2,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0038125",
@@ -11008,7 +11021,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0038476",
@@ -12304,11 +12317,11 @@
     "team": "CAR",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 19.2,
+    "receiving_yards": 18.0,
     "receptions": 1.0,
-    "targets": 1.7,
+    "targets": 1.6,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0038848",
@@ -12602,12 +12615,12 @@
     "position": "TE",
     "team": "GB",
     "passing_yards": 0.0,
-    "rushing_yards": 0.7,
-    "receiving_yards": 42.4,
-    "receptions": 4.1,
+    "rushing_yards": 0.6,
+    "receiving_yards": 43.8,
+    "receptions": 4.4,
     "targets": 6.1,
-    "carries": 0.3,
-    "games_played": 7
+    "carries": 0.2,
+    "games_played": 8
   },
   {
     "player_id": "00-0038997",
@@ -13075,7 +13088,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0039077",
@@ -13153,7 +13166,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0039137",
@@ -13303,13 +13316,13 @@
     "player_display_name": "Bryce Young",
     "position": "QB",
     "team": "CAR",
-    "passing_yards": 285.3,
-    "rushing_yards": 5.7,
+    "passing_yards": 274.4,
+    "rushing_yards": 4.9,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 1.7,
-    "games_played": 6
+    "carries": 1.4,
+    "games_played": 7
   },
   {
     "player_id": "00-0039151",
@@ -14024,7 +14037,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0039383",
@@ -14449,11 +14462,11 @@
     "team": "CAR",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 65.6,
-    "receptions": 5.0,
-    "targets": 7.8,
+    "receiving_yards": 60.7,
+    "receptions": 4.5,
+    "targets": 7.3,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0039498",
@@ -15124,12 +15137,12 @@
     "position": "RB",
     "team": "GB",
     "passing_yards": 0.0,
-    "rushing_yards": 20.3,
-    "receiving_yards": 10.0,
-    "receptions": 1.7,
-    "targets": 2.3,
-    "carries": 7.7,
-    "games_played": 7
+    "rushing_yards": 18.6,
+    "receiving_yards": 9.9,
+    "receptions": 1.6,
+    "targets": 2.1,
+    "carries": 7.1,
+    "games_played": 8
   },
   {
     "player_id": "00-0039812",
@@ -15142,7 +15155,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0039813",
@@ -15155,7 +15168,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0039814",
@@ -15220,7 +15233,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0039819",
@@ -15311,7 +15324,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0039834",
@@ -15623,7 +15636,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0039868",
@@ -16138,12 +16151,12 @@
     "position": "WR",
     "team": "GB",
     "passing_yards": 0.0,
-    "rushing_yards": 6.5,
-    "receiving_yards": 39.5,
-    "receptions": 3.5,
-    "targets": 3.5,
-    "carries": 2.0,
-    "games_played": 2
+    "rushing_yards": 10.3,
+    "receiving_yards": 28.0,
+    "receptions": 2.7,
+    "targets": 3.0,
+    "carries": 1.7,
+    "games_played": 3
   },
   {
     "player_id": "00-0040010",
@@ -16156,7 +16169,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0040011",
@@ -16196,6 +16209,19 @@
     "targets": 0.0,
     "carries": 0.0,
     "games_played": 6
+  },
+  {
+    "player_id": "00-0040023",
+    "player_display_name": "John Williams",
+    "position": "G",
+    "team": "GB",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
   },
   {
     "player_id": "00-0040024",
@@ -16516,11 +16542,11 @@
     "team": "CAR",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 85.2,
+    "receiving_yards": 81.3,
     "receptions": 6.0,
-    "targets": 9.0,
+    "targets": 9.3,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040125",
@@ -16650,7 +16676,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040137",
@@ -16923,7 +16949,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040160",
@@ -17191,12 +17217,12 @@
     "position": "TE",
     "team": "CAR",
     "passing_yards": 0.0,
-    "rushing_yards": 0.2,
-    "receiving_yards": 17.5,
-    "receptions": 1.3,
+    "rushing_yards": 0.1,
+    "receiving_yards": 18.1,
+    "receptions": 1.4,
     "targets": 1.7,
-    "carries": 0.2,
-    "games_played": 6
+    "carries": 0.1,
+    "games_played": 7
   },
   {
     "player_id": "00-0040188",
@@ -17703,13 +17729,26 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040283",
     "player_display_name": "Jared Harrison-Hunte",
     "position": "DT",
     "team": "ARI",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
+    "player_id": "00-0040289",
+    "player_display_name": "Bam Martin-Scott",
+    "position": "LB",
+    "team": "CAR",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
     "receiving_yards": 0.0,
@@ -17833,7 +17872,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0040363",
@@ -17893,12 +17932,12 @@
     "position": "RB",
     "team": "CAR",
     "passing_yards": 0.0,
-    "rushing_yards": 7.7,
+    "rushing_yards": 5.8,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 1.0,
-    "games_played": 3
+    "carries": 0.8,
+    "games_played": 4
   },
   {
     "player_id": "00-0040405",
@@ -17989,7 +18028,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0040460",
@@ -18439,12 +18478,12 @@
     "position": "RB",
     "team": "CAR",
     "passing_yards": 0.0,
-    "rushing_yards": 3.5,
-    "receiving_yards": 8.5,
-    "receptions": 1.0,
-    "targets": 1.0,
-    "carries": 3.5,
-    "games_played": 2
+    "rushing_yards": 2.7,
+    "receiving_yards": 5.7,
+    "receptions": 0.7,
+    "targets": 0.7,
+    "carries": 2.7,
+    "games_played": 3
   },
   {
     "player_id": "00-0040645",
@@ -18595,12 +18634,12 @@
     "position": "WR",
     "team": "GB",
     "passing_yards": 0.0,
-    "rushing_yards": 0.9,
-    "receiving_yards": 77.1,
-    "receptions": 5.1,
-    "targets": 9.9,
+    "rushing_yards": 0.8,
+    "receiving_yards": 77.4,
+    "receptions": 5.4,
+    "targets": 10.2,
     "carries": 0.1,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0040668",
@@ -18756,7 +18795,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0040691",
@@ -19003,7 +19042,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0040727",
@@ -19406,7 +19445,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0040870",
@@ -19471,7 +19510,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0040878",
@@ -19627,7 +19666,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0040905",
@@ -19688,11 +19727,11 @@
     "team": "GB",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 3.7,
-    "receptions": 0.5,
+    "receiving_yards": 5.4,
+    "receptions": 0.6,
     "targets": 0.7,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040957",
@@ -19848,7 +19887,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0041036",
@@ -20121,7 +20160,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0041064",
@@ -20251,7 +20290,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0041078",
@@ -20537,7 +20576,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0041125",
@@ -20628,7 +20667,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0041159",
@@ -20681,6 +20720,19 @@
     "targets": 0.0,
     "carries": 0.0,
     "games_played": 6
+  },
+  {
+    "player_id": "00-0041188",
+    "player_display_name": "Malcolm DeWalt IV",
+    "position": "CB",
+    "team": "CAR",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
   },
   {
     "player_id": "00-0041194",
@@ -21343,7 +21395,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0041471",
@@ -21382,7 +21434,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0041479",
