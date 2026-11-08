@@ -1,159 +1,5 @@
 [
   {
-    "game_id": "2026_08_CAR_GB",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-10-29",
-    "away_team": "CAR",
-    "home_team": "GB",
-    "away_score": 19.0,
-    "home_score": 27.0
-  },
-  {
-    "game_id": "2026_08_BAL_BUF",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "BAL",
-    "home_team": "BUF",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_TEN_CIN",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "TEN",
-    "home_team": "CIN",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_ARI_DAL",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "ARI",
-    "home_team": "DAL",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_MIN_DET",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "MIN",
-    "home_team": "DET",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_IND_JAX",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "IND",
-    "home_team": "JAX",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_LV_NYJ",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "LV",
-    "home_team": "NYJ",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_CLE_PIT",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "CLE",
-    "home_team": "PIT",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_ATL_TB",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "ATL",
-    "home_team": "TB",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_LAC_LA",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "LAC",
-    "home_team": "LA",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_KC_DEN",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "KC",
-    "home_team": "DEN",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_NE_MIA",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "NE",
-    "home_team": "MIA",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_PHI_WAS",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-01",
-    "away_team": "PHI",
-    "home_team": "WAS",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
-    "game_id": "2026_08_CHI_SEA",
-    "season": 2026,
-    "week": 8,
-    "game_type": "REG",
-    "gameday": "2026-11-02",
-    "away_team": "CHI",
-    "home_team": "SEA",
-    "away_score": NaN,
-    "home_score": NaN
-  },
-  {
     "game_id": "2026_09_JAX_BAL",
     "season": 2026,
     "week": 9,
@@ -161,8 +7,8 @@
     "gameday": "2026-11-05",
     "away_team": "JAX",
     "home_team": "BAL",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": 33.0,
+    "home_score": 10.0
   },
   {
     "game_id": "2026_09_CIN_ATL",
@@ -172,8 +18,8 @@
     "gameday": "2026-11-08",
     "away_team": "CIN",
     "home_team": "ATL",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": 34.0,
+    "home_score": 17.0
   },
   {
     "game_id": "2026_09_DEN_CAR",
@@ -216,8 +62,8 @@
     "gameday": "2026-11-08",
     "away_team": "DET",
     "home_team": "MIA",
-    "away_score": NaN,
-    "home_score": NaN
+    "away_score": 19.0,
+    "home_score": 9.0
   },
   {
     "game_id": "2026_09_CLE_NO",
@@ -304,6 +150,160 @@
     "gameday": "2026-11-08",
     "away_team": "TB",
     "home_team": "CHI",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_09_BUF_MIN",
+    "season": 2026,
+    "week": 9,
+    "game_type": "REG",
+    "gameday": "2026-11-09",
+    "away_team": "BUF",
+    "home_team": "MIN",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_WAS_NYG",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-12",
+    "away_team": "WAS",
+    "home_team": "NYG",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_NE_DET",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "NE",
+    "home_team": "DET",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_KC_ATL",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "KC",
+    "home_team": "ATL",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_HOU_CLE",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "HOU",
+    "home_team": "CLE",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_MIN_GB",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "MIN",
+    "home_team": "GB",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_MIA_IND",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "MIA",
+    "home_team": "IND",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_CAR_NO",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "CAR",
+    "home_team": "NO",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_BUF_NYJ",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "BUF",
+    "home_team": "NYJ",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_JAX_TEN",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "JAX",
+    "home_team": "TEN",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_LA_ARI",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "LA",
+    "home_team": "ARI",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_SEA_LV",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "SEA",
+    "home_team": "LV",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_SF_DAL",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "SF",
+    "home_team": "DAL",
+    "away_score": NaN,
+    "home_score": NaN
+  },
+  {
+    "game_id": "2026_10_PIT_CIN",
+    "season": 2026,
+    "week": 10,
+    "game_type": "REG",
+    "gameday": "2026-11-15",
+    "away_team": "PIT",
+    "home_team": "CIN",
     "away_score": NaN,
     "home_score": NaN
   }
