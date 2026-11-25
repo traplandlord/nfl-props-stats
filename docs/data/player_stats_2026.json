@@ -212,13 +212,13 @@
     "player_display_name": "Kirk Cousins",
     "position": "QB",
     "team": "MIN",
-    "passing_yards": 207.0,
-    "rushing_yards": 11.0,
+    "passing_yards": 221.0,
+    "rushing_yards": 5.5,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 3.0,
-    "games_played": 1
+    "carries": 2.0,
+    "games_played": 2
   },
   {
     "player_id": "00-0029606",
@@ -231,7 +231,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0029607",
@@ -244,7 +244,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0029692",
@@ -291,12 +291,12 @@
     "position": "FB",
     "team": "SF",
     "passing_yards": 0.0,
-    "rushing_yards": 0.7,
+    "rushing_yards": 0.6,
     "receiving_yards": 12.7,
-    "receptions": 1.3,
-    "targets": 1.8,
-    "carries": 0.2,
-    "games_played": 6
+    "receptions": 1.4,
+    "targets": 1.9,
+    "carries": 0.1,
+    "games_played": 7
   },
   {
     "player_id": "00-0030061",
@@ -348,7 +348,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0030279",
@@ -370,11 +370,11 @@
     "team": "SF",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 61.0,
-    "receptions": 5.0,
-    "targets": 7.0,
+    "receiving_yards": 49.5,
+    "receptions": 4.0,
+    "targets": 5.5,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0030294",
@@ -387,7 +387,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0030506",
@@ -420,13 +420,13 @@
     "player_display_name": "Geno Smith",
     "position": "QB",
     "team": "NYJ",
-    "passing_yards": 222.6,
-    "rushing_yards": 5.4,
+    "passing_yards": 218.4,
+    "rushing_yards": 5.3,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 2.4,
-    "games_played": 10
+    "carries": 2.3,
+    "games_played": 11
   },
   {
     "player_id": "00-0030615",
@@ -465,7 +465,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0031054",
@@ -543,7 +543,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0031279",
@@ -582,7 +582,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0031364",
@@ -630,11 +630,11 @@
     "team": "SF",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 70.0,
-    "receptions": 4.5,
-    "targets": 6.5,
+    "receiving_yards": 75.6,
+    "receptions": 4.7,
+    "targets": 6.6,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0031411",
@@ -656,11 +656,11 @@
     "team": "NYG",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 0.0,
-    "receptions": 0.0,
-    "targets": 0.0,
+    "receiving_yards": 3.5,
+    "receptions": 0.2,
+    "targets": 0.2,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0031492",
@@ -680,13 +680,13 @@
     "player_display_name": "Jameis Winston",
     "position": "QB",
     "team": "NYG",
-    "passing_yards": 128.5,
-    "rushing_yards": 7.8,
+    "passing_yards": 114.2,
+    "rushing_yards": 7.4,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 2.5,
-    "games_played": 8
+    "carries": 2.6,
+    "games_played": 9
   },
   {
     "player_id": "00-0031550",
@@ -747,11 +747,11 @@
     "team": "WAS",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 48.2,
-    "receptions": 4.5,
-    "targets": 7.4,
+    "receiving_yards": 47.9,
+    "receptions": 4.4,
+    "targets": 7.2,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0031595",
@@ -803,7 +803,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0031933",
@@ -881,7 +881,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0032104",
@@ -889,12 +889,12 @@
     "position": "RB",
     "team": "JAX",
     "passing_yards": 0.0,
-    "rushing_yards": 11.0,
+    "rushing_yards": 9.8,
     "receiving_yards": 0.2,
     "receptions": 0.2,
-    "targets": 0.4,
-    "carries": 2.9,
-    "games_played": 8
+    "targets": 0.3,
+    "carries": 2.6,
+    "games_played": 9
   },
   {
     "player_id": "00-0032146",
@@ -920,7 +920,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0032228",
@@ -998,7 +998,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0032385",
@@ -1007,11 +1007,11 @@
     "team": "NYJ",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 1.5,
-    "receptions": 0.5,
-    "targets": 1.0,
+    "receiving_yards": 9.0,
+    "receptions": 1.0,
+    "targets": 1.3,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0032387",
@@ -1102,7 +1102,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0032445",
@@ -1154,7 +1154,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0032580",
@@ -1304,13 +1304,13 @@
     "player_display_name": "Carson Wentz",
     "position": "QB",
     "team": "MIN",
-    "passing_yards": 119.0,
-    "rushing_yards": 1.7,
+    "passing_yards": 96.5,
+    "rushing_yards": 1.2,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 3.0,
-    "games_played": 3
+    "carries": 2.2,
+    "games_played": 4
   },
   {
     "player_id": "00-0032951",
@@ -1643,12 +1643,12 @@
     "position": "RB",
     "team": "SF",
     "passing_yards": 0.0,
-    "rushing_yards": 57.7,
-    "receiving_yards": 47.9,
-    "receptions": 4.4,
-    "targets": 5.4,
-    "carries": 12.8,
-    "games_played": 9
+    "rushing_yards": 56.8,
+    "receiving_yards": 44.4,
+    "receptions": 4.2,
+    "targets": 5.2,
+    "carries": 12.7,
+    "games_played": 10
   },
   {
     "player_id": "00-0033281",
@@ -1670,11 +1670,11 @@
     "team": "SF",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 61.9,
-    "receptions": 4.9,
-    "targets": 6.9,
+    "receiving_yards": 59.1,
+    "receptions": 4.7,
+    "targets": 6.5,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0033290",
@@ -1687,7 +1687,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0033293",
@@ -1695,12 +1695,12 @@
     "position": "RB",
     "team": "MIN",
     "passing_yards": 0.0,
-    "rushing_yards": 57.9,
-    "receiving_yards": 11.4,
-    "receptions": 1.9,
-    "targets": 2.6,
-    "carries": 14.0,
-    "games_played": 9
+    "rushing_yards": 55.1,
+    "receiving_yards": 11.6,
+    "receptions": 1.8,
+    "targets": 2.4,
+    "carries": 13.4,
+    "games_played": 10
   },
   {
     "player_id": "00-0033294",
@@ -1726,7 +1726,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0033303",
@@ -1778,7 +1778,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0033375",
@@ -1787,11 +1787,11 @@
     "team": "NYJ",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 20.5,
-    "receptions": 1.5,
-    "targets": 3.0,
+    "receiving_yards": 15.3,
+    "receptions": 1.3,
+    "targets": 2.3,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0033376",
@@ -1869,7 +1869,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0033526",
@@ -1877,12 +1877,12 @@
     "position": "RB",
     "team": "CIN",
     "passing_yards": 0.0,
-    "rushing_yards": 21.4,
-    "receiving_yards": 10.6,
-    "receptions": 1.3,
-    "targets": 1.7,
+    "rushing_yards": 21.9,
+    "receiving_yards": 16.6,
+    "receptions": 1.6,
+    "targets": 1.9,
     "carries": 5.8,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0033537",
@@ -1921,7 +1921,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0033548",
@@ -1947,7 +1947,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0033555",
@@ -2033,12 +2033,12 @@
     "position": "RB",
     "team": "WAS",
     "passing_yards": 0.0,
-    "rushing_yards": 18.2,
-    "receiving_yards": 12.3,
+    "rushing_yards": 21.4,
+    "receiving_yards": 11.0,
     "receptions": 1.7,
-    "targets": 2.0,
-    "carries": 5.5,
-    "games_played": 6
+    "targets": 2.1,
+    "carries": 5.7,
+    "games_played": 7
   },
   {
     "player_id": "00-0033729",
@@ -2116,7 +2116,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0033860",
@@ -2216,11 +2216,11 @@
     "team": "DEN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 18.8,
-    "receptions": 1.9,
-    "targets": 3.3,
+    "receiving_yards": 24.3,
+    "receptions": 2.3,
+    "targets": 3.8,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0033884",
@@ -2242,11 +2242,11 @@
     "team": "LAC",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 33.5,
-    "receptions": 3.0,
+    "receiving_yards": 29.3,
+    "receptions": 2.7,
     "targets": 4.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0033886",
@@ -2389,7 +2389,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0033935",
@@ -2610,7 +2610,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0034163",
@@ -2636,7 +2636,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0034234",
@@ -2662,7 +2662,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0034270",
@@ -2701,7 +2701,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0034277",
@@ -2753,7 +2753,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0034320",
@@ -2827,11 +2827,11 @@
     "team": "DEN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 29.6,
-    "receptions": 2.8,
-    "targets": 5.1,
+    "receiving_yards": 26.6,
+    "receptions": 2.5,
+    "targets": 4.8,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0034350",
@@ -2883,7 +2883,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0034357",
@@ -2918,11 +2918,11 @@
     "team": "LV",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 14.6,
+    "receiving_yards": 15.3,
     "receptions": 1.2,
     "targets": 1.2,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0034373",
@@ -2935,7 +2935,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0034376",
@@ -2948,7 +2948,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0034377",
@@ -3026,7 +3026,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0034397",
@@ -3039,7 +3039,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0034413",
@@ -3052,7 +3052,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0034417",
@@ -3117,7 +3117,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0034446",
@@ -3143,7 +3143,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0034473",
@@ -3156,7 +3156,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0034485",
@@ -3176,6 +3176,19 @@
     "player_display_name": "Trent Sherfield",
     "position": "WR",
     "team": "BUF",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
+    "player_id": "00-0034488",
+    "player_display_name": "Tavierre Thomas",
+    "position": "SAF",
+    "team": "NYG",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
     "receiving_yards": 0.0,
@@ -3302,6 +3315,19 @@
     "games_played": 9
   },
   {
+    "player_id": "00-0034675",
+    "player_display_name": "Jessie Bates",
+    "position": "FS",
+    "team": "JAX",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
     "player_id": "00-0034720",
     "player_display_name": "Robert Spillane",
     "position": "LB",
@@ -3367,6 +3393,19 @@
     "games_played": 9
   },
   {
+    "player_id": "00-0034759",
+    "player_display_name": "Kolton Miller",
+    "position": "OT",
+    "team": "LV",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
     "player_id": "00-0034760",
     "player_display_name": "Nathan Shepherd",
     "position": "DE",
@@ -3429,7 +3468,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0034789",
@@ -3442,7 +3481,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0034790",
@@ -3468,7 +3507,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0034796",
@@ -3507,7 +3546,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0034801",
@@ -3572,7 +3611,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0034825",
@@ -3607,11 +3646,11 @@
     "team": "CIN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 32.6,
-    "receptions": 2.5,
-    "targets": 3.5,
+    "receiving_yards": 37.6,
+    "receptions": 2.8,
+    "targets": 3.8,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0034832",
@@ -3792,8 +3831,8 @@
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 0.4,
-    "games_played": 5
+    "carries": 0.3,
+    "games_played": 6
   },
   {
     "player_id": "00-0034960",
@@ -3802,11 +3841,11 @@
     "team": "JAX",
     "passing_yards": 0.0,
     "rushing_yards": 0.2,
-    "receiving_yards": 45.3,
-    "receptions": 3.2,
-    "targets": 4.8,
+    "receiving_yards": 49.3,
+    "receptions": 3.3,
+    "targets": 5.3,
     "carries": 0.2,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0034967",
@@ -3832,7 +3871,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0034974",
@@ -4034,13 +4073,13 @@
     "player_display_name": "AJ Cole",
     "position": "P",
     "team": "LV",
-    "passing_yards": 1.3,
+    "passing_yards": 1.2,
     "rushing_yards": 0.0,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0035192",
@@ -4066,7 +4105,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0035208",
@@ -4114,11 +4153,11 @@
     "team": "MIN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 41.0,
-    "receptions": 4.4,
-    "targets": 5.5,
+    "receiving_yards": 42.6,
+    "receptions": 4.6,
+    "targets": 5.7,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0035230",
@@ -4157,7 +4196,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0035237",
@@ -4196,7 +4235,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0035248",
@@ -4209,7 +4248,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0035249",
@@ -4230,12 +4269,12 @@
     "position": "RB",
     "team": "NYG",
     "passing_yards": 0.0,
-    "rushing_yards": 19.0,
-    "receiving_yards": 10.5,
-    "receptions": 1.7,
-    "targets": 2.0,
-    "carries": 6.7,
-    "games_played": 6
+    "rushing_yards": 17.0,
+    "receiving_yards": 9.7,
+    "receptions": 1.6,
+    "targets": 1.9,
+    "carries": 5.9,
+    "games_played": 7
   },
   {
     "player_id": "00-0035253",
@@ -4313,7 +4352,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0035272",
@@ -4326,7 +4365,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0035276",
@@ -4339,7 +4378,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0035277",
@@ -4365,7 +4404,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0035280",
@@ -4482,7 +4521,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0035378",
@@ -4560,7 +4599,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0035413",
@@ -4725,11 +4764,11 @@
     "team": "CIN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 12.6,
-    "receptions": 2.0,
-    "targets": 2.2,
+    "receiving_yards": 12.0,
+    "receptions": 1.8,
+    "targets": 2.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0035632",
@@ -4807,7 +4846,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0035643",
@@ -4898,7 +4937,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0035667",
@@ -5028,7 +5067,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0035685",
@@ -5210,7 +5249,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0035718",
@@ -5231,12 +5270,12 @@
     "position": "WR",
     "team": "SF",
     "passing_yards": 0.0,
-    "rushing_yards": 26.0,
-    "receiving_yards": 39.5,
-    "receptions": 3.2,
-    "targets": 3.8,
+    "rushing_yards": 26.1,
+    "receiving_yards": 36.7,
+    "receptions": 3.1,
+    "targets": 3.9,
     "carries": 2.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0035763",
@@ -5249,7 +5288,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0035795",
@@ -5262,7 +5301,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0035821",
@@ -5275,7 +5314,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0035827",
@@ -5295,6 +5334,19 @@
     "player_display_name": "Chris Williams",
     "position": "DT",
     "team": "CLE",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
+    "player_id": "00-0035857",
+    "player_display_name": "Chris Williams",
+    "position": "DT",
+    "team": "LV",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
     "receiving_yards": 0.0,
@@ -5349,11 +5401,11 @@
     "team": "LV",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 16.8,
-    "receptions": 1.1,
-    "targets": 2.5,
+    "receiving_yards": 14.9,
+    "receptions": 1.0,
+    "targets": 2.2,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0035895",
@@ -5556,12 +5608,12 @@
     "position": "RB",
     "team": "DEN",
     "passing_yards": 0.0,
-    "rushing_yards": 36.0,
-    "receiving_yards": 3.4,
-    "receptions": 1.0,
-    "targets": 1.1,
-    "carries": 10.9,
-    "games_played": 9
+    "rushing_yards": 32.4,
+    "receiving_yards": 3.1,
+    "receptions": 0.9,
+    "targets": 1.0,
+    "carries": 9.9,
+    "games_played": 10
   },
   {
     "player_id": "00-0036159",
@@ -5613,7 +5665,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0036182",
@@ -5908,11 +5960,11 @@
     "team": "MIN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 9.0,
-    "receptions": 1.0,
-    "targets": 1.7,
+    "receiving_yards": 10.6,
+    "receptions": 1.3,
+    "targets": 2.3,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0036260",
@@ -6029,7 +6081,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0036281",
@@ -6081,7 +6133,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036287",
@@ -6133,7 +6185,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0036298",
@@ -6206,12 +6258,12 @@
     "position": "WR",
     "team": "NYG",
     "passing_yards": 0.0,
-    "rushing_yards": 3.1,
-    "receiving_yards": 19.4,
-    "receptions": 1.6,
-    "targets": 3.4,
+    "rushing_yards": 2.8,
+    "receiving_yards": 17.5,
+    "receptions": 1.4,
+    "targets": 3.6,
     "carries": 0.4,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036313",
@@ -6245,12 +6297,12 @@
     "position": "WR",
     "team": "MIN",
     "passing_yards": 0.0,
-    "rushing_yards": -1.4,
-    "receiving_yards": 58.4,
-    "receptions": 5.0,
-    "targets": 8.0,
-    "carries": 0.1,
-    "games_played": 8
+    "rushing_yards": -1.1,
+    "receiving_yards": 61.4,
+    "receptions": 5.2,
+    "targets": 8.1,
+    "carries": 0.2,
+    "games_played": 9
   },
   {
     "player_id": "00-0036323",
@@ -6302,7 +6354,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0036331",
@@ -6367,7 +6419,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0036339",
@@ -6419,7 +6471,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036349",
@@ -6439,13 +6491,13 @@
     "player_display_name": "Justin Herbert",
     "position": "QB",
     "team": "LAC",
-    "passing_yards": 191.1,
-    "rushing_yards": 26.8,
+    "passing_yards": 185.1,
+    "rushing_yards": 27.3,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.1,
-    "carries": 4.6,
-    "games_played": 9
+    "carries": 4.9,
+    "games_played": 10
   },
   {
     "player_id": "00-0036356",
@@ -6727,11 +6779,11 @@
     "team": "CIN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 91.6,
-    "receptions": 5.9,
-    "targets": 8.1,
+    "receiving_yards": 86.7,
+    "receptions": 5.5,
+    "targets": 7.6,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036411",
@@ -6753,11 +6805,11 @@
     "team": "WAS",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 29.0,
-    "receptions": 2.5,
-    "targets": 4.0,
+    "receiving_yards": 19.3,
+    "receptions": 1.7,
+    "targets": 3.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0036416",
@@ -6805,11 +6857,11 @@
     "team": "DEN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 11.0,
+    "receiving_yards": 9.3,
     "receptions": 1.2,
-    "targets": 2.0,
+    "targets": 1.8,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0036425",
@@ -6817,12 +6869,12 @@
     "position": "RB",
     "team": "MIN",
     "passing_yards": 0.0,
-    "rushing_yards": 1.6,
-    "receiving_yards": 4.0,
+    "rushing_yards": 1.4,
+    "receiving_yards": 4.6,
     "receptions": 0.6,
     "targets": 0.6,
     "carries": 0.4,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036428",
@@ -6835,7 +6887,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036429",
@@ -6868,13 +6920,13 @@
     "player_display_name": "Joe Burrow",
     "position": "QB",
     "team": "CIN",
-    "passing_yards": 310.6,
-    "rushing_yards": 9.4,
+    "passing_yards": 309.5,
+    "rushing_yards": 8.4,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 2.7,
-    "games_played": 9
+    "carries": 2.6,
+    "games_played": 10
   },
   {
     "player_id": "00-0036443",
@@ -6913,7 +6965,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036480",
@@ -6952,7 +7004,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0036501",
@@ -7082,7 +7134,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036564",
@@ -7095,7 +7147,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0036567",
@@ -7134,7 +7186,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0036589",
@@ -7194,12 +7246,12 @@
     "position": "WR",
     "team": "DEN",
     "passing_yards": 0.0,
-    "rushing_yards": 2.6,
-    "receiving_yards": 37.4,
+    "rushing_yards": 2.3,
+    "receiving_yards": 39.8,
     "receptions": 3.3,
     "targets": 5.8,
     "carries": 0.2,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036616",
@@ -7212,7 +7264,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0036617",
@@ -7325,11 +7377,11 @@
     "team": "WAS",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 4.5,
-    "receptions": 0.8,
-    "targets": 1.0,
+    "receiving_yards": 3.9,
+    "receptions": 0.7,
+    "targets": 0.9,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0036629",
@@ -7381,7 +7433,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0036643",
@@ -7459,7 +7511,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0036658",
@@ -7537,7 +7589,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036695",
@@ -7610,12 +7662,12 @@
     "position": "FB",
     "team": "DEN",
     "passing_yards": 0.0,
-    "rushing_yards": 0.4,
-    "receiving_yards": 1.5,
+    "rushing_yards": 0.7,
+    "receiving_yards": 1.3,
     "receptions": 0.2,
     "targets": 0.2,
-    "carries": 0.1,
-    "games_played": 8
+    "carries": 0.2,
+    "games_played": 9
   },
   {
     "player_id": "00-0036728",
@@ -7680,7 +7732,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0036813",
@@ -7758,7 +7810,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0036844",
@@ -7771,7 +7823,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0036849",
@@ -7797,7 +7849,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036862",
@@ -7875,7 +7927,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0036875",
@@ -7949,11 +8001,11 @@
     "team": "SF",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 4.1,
+    "receiving_yards": 4.4,
     "receptions": 0.4,
     "targets": 0.8,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0036888",
@@ -8014,11 +8066,11 @@
     "team": "CIN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 97.6,
-    "receptions": 7.1,
-    "targets": 9.7,
+    "receiving_yards": 90.9,
+    "receptions": 6.9,
+    "targets": 9.6,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036901",
@@ -8031,7 +8083,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0036902",
@@ -8044,7 +8096,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0036903",
@@ -8239,7 +8291,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0036940",
@@ -8278,7 +8330,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036943",
@@ -8330,7 +8382,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0036954",
@@ -8415,26 +8467,26 @@
     "player_display_name": "Trevor Lawrence",
     "position": "QB",
     "team": "JAX",
-    "passing_yards": 253.8,
-    "rushing_yards": 11.8,
+    "passing_yards": 258.5,
+    "rushing_yards": 11.3,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 2.8,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036972",
     "player_display_name": "Mac Jones",
     "position": "QB",
     "team": "SF",
-    "passing_yards": 0.0,
-    "rushing_yards": -2.5,
+    "passing_yards": 1.7,
+    "rushing_yards": -2.0,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 2.5,
-    "games_played": 2
+    "carries": 2.7,
+    "games_played": 3
   },
   {
     "player_id": "00-0036973",
@@ -8473,7 +8525,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0036976",
@@ -8564,7 +8616,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0036987",
@@ -8577,7 +8629,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0036988",
@@ -8603,7 +8655,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0036990",
@@ -8629,7 +8681,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0036993",
@@ -8681,7 +8733,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0036997",
@@ -8707,7 +8759,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0037001",
@@ -8830,6 +8882,19 @@
     "player_id": "00-0037073",
     "player_display_name": "Jordan Davis",
     "position": "DT",
+    "team": "JAX",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
+    "player_id": "00-0037073",
+    "player_display_name": "Jordan Davis",
+    "position": "DT",
     "team": "PHI",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
@@ -8850,7 +8915,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0037075",
@@ -8928,7 +8993,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0037085",
@@ -8980,7 +9045,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0037093",
@@ -9032,7 +9097,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0037109",
@@ -9214,7 +9279,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0037195",
@@ -9279,7 +9344,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0037228",
@@ -9318,7 +9383,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0037236",
@@ -9474,7 +9539,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0037250",
@@ -9547,12 +9612,12 @@
     "position": "RB",
     "team": "WAS",
     "passing_yards": 0.0,
-    "rushing_yards": 34.4,
-    "receiving_yards": 16.8,
-    "receptions": 2.4,
-    "targets": 2.9,
-    "carries": 8.1,
-    "games_played": 8
+    "rushing_yards": 30.6,
+    "receiving_yards": 14.9,
+    "receptions": 2.1,
+    "targets": 2.6,
+    "carries": 7.2,
+    "games_played": 9
   },
   {
     "player_id": "00-0037258",
@@ -9578,7 +9643,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0037261",
@@ -9747,7 +9812,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0037288",
@@ -9782,11 +9847,11 @@
     "team": "LV",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 15.1,
-    "receptions": 1.9,
-    "targets": 4.0,
+    "receiving_yards": 15.2,
+    "receptions": 1.8,
+    "targets": 4.1,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0037292",
@@ -9825,7 +9890,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0037304",
@@ -9834,11 +9899,11 @@
     "team": "LV",
     "passing_yards": 0.0,
     "rushing_yards": -0.2,
-    "receiving_yards": 3.1,
+    "receiving_yards": 2.8,
     "receptions": 0.4,
     "targets": 0.4,
-    "carries": 0.6,
-    "games_played": 9
+    "carries": 0.5,
+    "games_played": 10
   },
   {
     "player_id": "00-0037305",
@@ -9903,7 +9968,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0037317",
@@ -9929,7 +9994,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0037323",
@@ -10020,7 +10085,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0037404",
@@ -10176,7 +10241,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0037524",
@@ -10197,12 +10262,12 @@
     "position": "RB",
     "team": "MIN",
     "passing_yards": 0.0,
-    "rushing_yards": 48.2,
-    "receiving_yards": 1.4,
-    "receptions": 0.4,
+    "rushing_yards": 46.5,
+    "receiving_yards": 1.0,
+    "receptions": 0.5,
     "targets": 1.2,
-    "carries": 12.0,
-    "games_played": 5
+    "carries": 11.8,
+    "games_played": 6
   },
   {
     "player_id": "00-0037526",
@@ -10228,7 +10293,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0037545",
@@ -10371,7 +10436,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0037614",
@@ -10397,7 +10462,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0037616",
@@ -10410,7 +10475,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0037633",
@@ -10549,11 +10614,11 @@
     "team": "NYJ",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 70.3,
-    "receptions": 5.6,
-    "targets": 8.6,
+    "receiving_yards": 67.2,
+    "receptions": 5.3,
+    "targets": 8.2,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0037741",
@@ -10575,11 +10640,11 @@
     "team": "WAS",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 37.1,
+    "receiving_yards": 36.2,
     "receptions": 2.0,
-    "targets": 3.6,
+    "targets": 3.5,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0037743",
@@ -10592,7 +10657,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0037744",
@@ -10722,7 +10787,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0037801",
@@ -10757,11 +10822,11 @@
     "team": "WAS",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 37.6,
+    "receiving_yards": 41.1,
     "receptions": 3.9,
-    "targets": 5.6,
+    "targets": 5.5,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0037811",
@@ -10937,13 +11002,13 @@
     "player_display_name": "Brock Purdy",
     "position": "QB",
     "team": "SF",
-    "passing_yards": 263.2,
-    "rushing_yards": 24.7,
+    "passing_yards": 262.4,
+    "rushing_yards": 22.2,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 4.6,
-    "games_played": 9
+    "carries": 4.1,
+    "games_played": 10
   },
   {
     "player_id": "00-0037835",
@@ -10965,11 +11030,11 @@
     "team": "NYG",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 63.9,
-    "receptions": 6.1,
-    "targets": 8.9,
+    "receiving_yards": 61.0,
+    "receptions": 5.6,
+    "targets": 8.3,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0037839",
@@ -11047,7 +11112,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0037984",
@@ -11134,11 +11199,11 @@
     "team": "LAC",
     "passing_yards": 0.0,
     "rushing_yards": 0.4,
-    "receiving_yards": 20.7,
-    "receptions": 2.1,
-    "targets": 3.3,
+    "receiving_yards": 19.1,
+    "receptions": 2.0,
+    "targets": 3.0,
     "carries": 0.1,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0038090",
@@ -11164,7 +11229,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038098",
@@ -11229,7 +11294,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0038104",
@@ -11349,17 +11414,30 @@
     "games_played": 1
   },
   {
+    "player_id": "00-0038119",
+    "player_display_name": "Jalyn Armour-Davis",
+    "position": "CB",
+    "team": "LAC",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
     "player_id": "00-0038120",
     "player_display_name": "Breece Hall",
     "position": "RB",
     "team": "NYJ",
     "passing_yards": 0.0,
-    "rushing_yards": 53.0,
-    "receiving_yards": 39.0,
-    "receptions": 3.4,
-    "targets": 3.6,
-    "carries": 15.4,
-    "games_played": 5
+    "rushing_yards": 58.5,
+    "receiving_yards": 34.8,
+    "receptions": 3.3,
+    "targets": 3.5,
+    "carries": 16.2,
+    "games_played": 6
   },
   {
     "player_id": "00-0038121",
@@ -11385,7 +11463,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0038124",
@@ -11476,7 +11554,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038134",
@@ -11671,7 +11749,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038400",
@@ -11796,12 +11874,12 @@
     "position": "RB",
     "team": "LAC",
     "passing_yards": 0.0,
-    "rushing_yards": 20.2,
-    "receiving_yards": 11.4,
-    "receptions": 2.0,
-    "targets": 2.6,
-    "carries": 5.4,
-    "games_played": 9
+    "rushing_yards": 18.2,
+    "receiving_yards": 10.9,
+    "receptions": 1.9,
+    "targets": 2.4,
+    "carries": 4.9,
+    "games_played": 10
   },
   {
     "player_id": "00-0038463",
@@ -11865,6 +11943,19 @@
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
+    "player_id": "00-0038496",
+    "player_display_name": "Xavier Gipson",
+    "position": "WR",
+    "team": "NYG",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 6.0,
+    "receptions": 1.0,
+    "targets": 1.0,
     "carries": 0.0,
     "games_played": 1
   },
@@ -12044,11 +12135,11 @@
     "team": "LAC",
     "passing_yards": 0.0,
     "rushing_yards": 1.0,
-    "receiving_yards": 33.2,
-    "receptions": 1.8,
-    "targets": 3.9,
+    "receiving_yards": 30.6,
+    "receptions": 1.7,
+    "targets": 3.7,
     "carries": 0.4,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0038546",
@@ -12061,7 +12152,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0038547",
@@ -12100,7 +12191,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038551",
@@ -12126,7 +12217,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0038553",
@@ -12152,7 +12243,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038555",
@@ -12230,7 +12321,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038562",
@@ -12264,12 +12355,12 @@
     "position": "WR",
     "team": "LV",
     "passing_yards": 0.0,
-    "rushing_yards": -0.6,
-    "receiving_yards": 53.8,
-    "receptions": 3.4,
-    "targets": 5.8,
+    "rushing_yards": -0.5,
+    "receiving_yards": 53.5,
+    "receptions": 3.3,
+    "targets": 6.2,
     "carries": 0.2,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0038564",
@@ -12334,7 +12425,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038571",
@@ -12356,11 +12447,11 @@
     "team": "LAC",
     "passing_yards": 0.0,
     "rushing_yards": 0.4,
-    "receiving_yards": 2.3,
+    "receiving_yards": 2.1,
     "receptions": 0.2,
-    "targets": 0.6,
+    "targets": 0.5,
     "carries": 0.1,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038574",
@@ -12516,7 +12607,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0038597",
@@ -12524,12 +12615,12 @@
     "position": "RB",
     "team": "CIN",
     "passing_yards": 0.0,
-    "rushing_yards": 49.0,
-    "receiving_yards": 27.3,
+    "rushing_yards": 44.7,
+    "receiving_yards": 27.6,
     "receptions": 5.2,
-    "targets": 6.0,
-    "carries": 12.6,
-    "games_played": 9
+    "targets": 6.2,
+    "carries": 11.9,
+    "games_played": 10
   },
   {
     "player_id": "00-0038599",
@@ -12589,12 +12680,12 @@
     "position": "WR",
     "team": "JAX",
     "passing_yards": 0.0,
-    "rushing_yards": 1.4,
-    "receiving_yards": 71.7,
-    "receptions": 4.0,
-    "targets": 7.1,
+    "rushing_yards": 1.3,
+    "receiving_yards": 74.8,
+    "receptions": 4.4,
+    "targets": 8.1,
     "carries": 0.2,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038608",
@@ -12628,12 +12719,12 @@
     "position": "RB",
     "team": "JAX",
     "passing_yards": 0.0,
-    "rushing_yards": 25.9,
-    "receiving_yards": 4.0,
-    "receptions": 0.4,
+    "rushing_yards": 26.1,
+    "receiving_yards": 4.9,
+    "receptions": 0.5,
     "targets": 0.6,
-    "carries": 6.6,
-    "games_played": 9
+    "carries": 6.3,
+    "games_played": 10
   },
   {
     "player_id": "00-0038614",
@@ -12802,7 +12893,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0038645",
@@ -13075,7 +13166,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038782",
@@ -13096,12 +13187,12 @@
     "position": "TE",
     "team": "DEN",
     "passing_yards": 0.0,
-    "rushing_yards": 1.0,
-    "receiving_yards": 7.3,
+    "rushing_yards": 0.9,
+    "receiving_yards": 6.7,
     "receptions": 1.0,
-    "targets": 1.2,
-    "carries": 0.2,
-    "games_played": 6
+    "targets": 1.3,
+    "carries": 0.1,
+    "games_played": 7
   },
   {
     "player_id": "00-0038788",
@@ -13166,7 +13257,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038820",
@@ -13192,7 +13283,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0038824",
@@ -13270,7 +13361,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0038866",
@@ -13409,11 +13500,11 @@
     "team": "JAX",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 40.6,
-    "receptions": 3.6,
-    "targets": 4.4,
+    "receiving_yards": 38.1,
+    "receptions": 3.5,
+    "targets": 4.3,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0038936",
@@ -13435,11 +13526,11 @@
     "team": "NYG",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 0.0,
-    "receptions": 0.0,
-    "targets": 1.0,
+    "receiving_yards": 2.0,
+    "receptions": 0.5,
+    "targets": 1.5,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0038940",
@@ -13473,12 +13564,12 @@
     "position": "WR",
     "team": "DEN",
     "passing_yards": 0.0,
-    "rushing_yards": 4.3,
-    "receiving_yards": 13.1,
+    "rushing_yards": 5.1,
+    "receiving_yards": 16.0,
     "receptions": 1.4,
-    "targets": 2.3,
-    "carries": 0.7,
-    "games_played": 7
+    "targets": 2.2,
+    "carries": 0.8,
+    "games_played": 8
   },
   {
     "player_id": "00-0038977",
@@ -13621,7 +13712,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0039001",
@@ -13968,11 +14059,11 @@
     "team": "LV",
     "passing_yards": 0.0,
     "rushing_yards": 0.2,
-    "receiving_yards": 40.4,
-    "receptions": 4.1,
-    "targets": 4.9,
+    "receiving_yards": 37.1,
+    "receptions": 3.8,
+    "targets": 4.8,
     "carries": 0.1,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0039067",
@@ -14128,7 +14219,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039112",
@@ -14271,7 +14362,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0039149",
@@ -14284,7 +14375,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039150",
@@ -14427,7 +14518,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0039178",
@@ -14609,7 +14700,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0039323",
@@ -14622,7 +14713,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039324",
@@ -14657,11 +14748,11 @@
     "team": "NYG",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 76.9,
-    "receptions": 6.4,
-    "targets": 9.4,
+    "receiving_yards": 74.7,
+    "receptions": 6.5,
+    "targets": 9.7,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039338",
@@ -14765,7 +14856,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039347",
@@ -14804,7 +14895,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0039351",
@@ -14852,11 +14943,11 @@
     "team": "WAS",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 1.0,
-    "receptions": 0.2,
+    "receiving_yards": 0.9,
+    "receptions": 0.1,
     "targets": 0.3,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0039357",
@@ -14908,7 +14999,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039361",
@@ -14942,12 +15033,12 @@
     "position": "WR",
     "team": "SF",
     "passing_yards": 0.0,
-    "rushing_yards": 1.3,
-    "receiving_yards": 5.8,
-    "receptions": 0.6,
-    "targets": 1.2,
+    "rushing_yards": 1.2,
+    "receiving_yards": 5.2,
+    "receptions": 0.5,
+    "targets": 1.1,
     "carries": 0.2,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039366",
@@ -14973,7 +15064,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0039369",
@@ -14986,7 +15077,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039371",
@@ -14999,7 +15090,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0039372",
@@ -15064,7 +15155,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0039377",
@@ -15163,12 +15254,12 @@
     "position": "RB",
     "team": "LAC",
     "passing_yards": 0.0,
-    "rushing_yards": 20.2,
-    "receiving_yards": 8.8,
-    "receptions": 1.5,
-    "targets": 2.4,
-    "carries": 4.8,
-    "games_played": 8
+    "rushing_yards": 22.0,
+    "receiving_yards": 9.8,
+    "receptions": 1.6,
+    "targets": 2.3,
+    "carries": 5.0,
+    "games_played": 9
   },
   {
     "player_id": "00-0039395",
@@ -15233,7 +15324,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039405",
@@ -15267,12 +15358,12 @@
     "position": "RB",
     "team": "LV",
     "passing_yards": 0.0,
-    "rushing_yards": 0.9,
-    "receiving_yards": 1.5,
+    "rushing_yards": 0.8,
+    "receiving_yards": 1.4,
     "receptions": 0.4,
     "targets": 0.4,
     "carries": 0.5,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0039408",
@@ -15298,7 +15389,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039410",
@@ -15350,7 +15441,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0039423",
@@ -15415,7 +15506,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0039433",
@@ -15429,6 +15520,32 @@
     "targets": 0.0,
     "carries": 0.0,
     "games_played": 2
+  },
+  {
+    "player_id": "00-0039435",
+    "player_display_name": "Tatum Bethune",
+    "position": "LB",
+    "team": "SF",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
+    "player_id": "00-0039446",
+    "player_display_name": "Bryan Hudson",
+    "position": "C",
+    "team": "NYG",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
   },
   {
     "player_id": "00-0039447",
@@ -15727,7 +15844,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0039634",
@@ -15805,7 +15922,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0039686",
@@ -15814,11 +15931,11 @@
     "team": "WAS",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 2.8,
-    "receptions": 0.4,
+    "receiving_yards": 2.4,
+    "receptions": 0.3,
     "targets": 0.6,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0039692",
@@ -15839,12 +15956,12 @@
     "position": "RB",
     "team": "DEN",
     "passing_yards": 0.0,
-    "rushing_yards": 0.0,
+    "rushing_yards": 1.0,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 0.0,
-    "games_played": 2
+    "carries": 0.3,
+    "games_played": 3
   },
   {
     "player_id": "00-0039710",
@@ -15853,11 +15970,11 @@
     "team": "MIN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 10.7,
-    "receptions": 0.3,
-    "targets": 0.3,
+    "receiving_yards": 10.0,
+    "receptions": 0.5,
+    "targets": 0.5,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0039718",
@@ -15903,13 +16020,13 @@
     "player_display_name": "Bo Nix",
     "position": "QB",
     "team": "DEN",
-    "passing_yards": 192.2,
-    "rushing_yards": 12.9,
+    "passing_yards": 195.5,
+    "rushing_yards": 12.1,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 4.1,
-    "games_played": 9
+    "carries": 4.3,
+    "games_played": 10
   },
   {
     "player_id": "00-0039733",
@@ -15922,7 +16039,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0039734",
@@ -16130,7 +16247,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0039753",
@@ -16281,12 +16398,12 @@
     "position": "RB",
     "team": "NYJ",
     "passing_yards": 0.0,
-    "rushing_yards": 63.8,
-    "receiving_yards": 10.8,
-    "receptions": 2.0,
-    "targets": 2.5,
-    "carries": 12.8,
-    "games_played": 10
+    "rushing_yards": 64.8,
+    "receiving_yards": 10.6,
+    "receptions": 1.9,
+    "targets": 2.4,
+    "carries": 13.1,
+    "games_played": 11
   },
   {
     "player_id": "00-0039795",
@@ -16320,12 +16437,12 @@
     "position": "RB",
     "team": "NYJ",
     "passing_yards": 0.0,
-    "rushing_yards": 4.9,
-    "receiving_yards": 7.6,
-    "receptions": 0.6,
-    "targets": 0.7,
-    "carries": 1.7,
-    "games_played": 9
+    "rushing_yards": 4.4,
+    "receiving_yards": 6.8,
+    "receptions": 0.5,
+    "targets": 0.6,
+    "carries": 1.5,
+    "games_played": 10
   },
   {
     "player_id": "00-0039807",
@@ -16494,7 +16611,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039825",
@@ -16598,7 +16715,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0039837",
@@ -16698,11 +16815,11 @@
     "team": "NYG",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 12.6,
+    "receiving_yards": 13.0,
     "receptions": 1.0,
-    "targets": 2.4,
+    "targets": 2.2,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0039849",
@@ -16845,7 +16962,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0039862",
@@ -16893,11 +17010,11 @@
     "team": "DEN",
     "passing_yards": 0.0,
     "rushing_yards": 0.6,
-    "receiving_yards": 12.5,
-    "receptions": 1.1,
+    "receiving_yards": 11.1,
+    "receptions": 1.0,
     "targets": 1.9,
     "carries": 0.1,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0039871",
@@ -17049,11 +17166,11 @@
     "team": "NYJ",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 54.0,
-    "receptions": 3.2,
-    "targets": 7.0,
+    "receiving_yards": 50.6,
+    "receptions": 3.0,
+    "targets": 6.4,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0039893",
@@ -17066,7 +17183,7 @@
     "receptions": 1.6,
     "targets": 3.1,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0039894",
@@ -17131,7 +17248,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0039899",
@@ -17196,7 +17313,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0039908",
@@ -17209,20 +17326,20 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0039910",
     "player_display_name": "Jayden Daniels",
     "position": "QB",
     "team": "WAS",
-    "passing_yards": 214.1,
-    "rushing_yards": 40.0,
+    "passing_yards": 223.5,
+    "rushing_yards": 41.9,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 6.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0039911",
@@ -17270,11 +17387,11 @@
     "team": "LAC",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 47.7,
-    "receptions": 2.8,
-    "targets": 4.0,
+    "receiving_yards": 46.1,
+    "receptions": 3.1,
+    "targets": 4.6,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0039917",
@@ -17333,13 +17450,13 @@
     "player_display_name": "J.J. McCarthy",
     "position": "QB",
     "team": "NYG",
-    "passing_yards": 183.0,
-    "rushing_yards": 17.0,
+    "passing_yards": 181.3,
+    "rushing_yards": 19.7,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 3.0,
-    "games_played": 5
+    "carries": 3.7,
+    "games_played": 6
   },
   {
     "player_id": "00-0039924",
@@ -17352,7 +17469,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0039925",
@@ -17828,12 +17945,12 @@
     "position": "RB",
     "team": "LV",
     "passing_yards": 0.0,
-    "rushing_yards": 38.0,
-    "receiving_yards": 41.7,
+    "rushing_yards": 41.7,
+    "receiving_yards": 46.1,
     "receptions": 4.6,
-    "targets": 5.9,
-    "carries": 12.3,
-    "games_played": 10
+    "targets": 6.1,
+    "carries": 12.2,
+    "games_played": 11
   },
   {
     "player_id": "00-0040123",
@@ -17963,7 +18080,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0040134",
@@ -17971,12 +18088,12 @@
     "position": "WR",
     "team": "DEN",
     "passing_yards": 0.0,
-    "rushing_yards": 3.2,
-    "receiving_yards": 37.8,
-    "receptions": 2.6,
-    "targets": 3.4,
+    "rushing_yards": 2.7,
+    "receiving_yards": 36.8,
+    "receptions": 2.7,
+    "targets": 3.5,
     "carries": 0.2,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0040136",
@@ -18041,7 +18158,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0040141",
@@ -18093,7 +18210,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0040145",
@@ -18107,6 +18224,19 @@
     "targets": 0.0,
     "carries": 0.0,
     "games_played": 2
+  },
+  {
+    "player_id": "00-0040146",
+    "player_display_name": "Wyatt Milum",
+    "position": "OT",
+    "team": "JAX",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
   },
   {
     "player_id": "00-0040147",
@@ -18171,7 +18301,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0040153",
@@ -18193,11 +18323,11 @@
     "team": "MIN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 14.8,
-    "receptions": 1.2,
-    "targets": 2.4,
+    "receiving_yards": 19.3,
+    "receptions": 2.0,
+    "targets": 4.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0040155",
@@ -18236,7 +18366,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0040158",
@@ -18314,7 +18444,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0040166",
@@ -18340,7 +18470,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0040169",
@@ -18388,11 +18518,11 @@
     "team": "SF",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 54.6,
-    "receptions": 2.4,
-    "targets": 3.2,
+    "receiving_yards": 48.7,
+    "receptions": 2.2,
+    "targets": 2.8,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0040173",
@@ -18405,7 +18535,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040174",
@@ -18439,12 +18569,12 @@
     "position": "RB",
     "team": "SF",
     "passing_yards": 0.0,
-    "rushing_yards": 5.3,
-    "receiving_yards": 1.8,
-    "receptions": 0.2,
-    "targets": 0.2,
-    "carries": 1.3,
-    "games_played": 6
+    "rushing_yards": 5.6,
+    "receiving_yards": 1.6,
+    "receptions": 0.1,
+    "targets": 0.1,
+    "carries": 1.4,
+    "games_played": 7
   },
   {
     "player_id": "00-0040178",
@@ -18535,7 +18665,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040187",
@@ -18652,7 +18782,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0040200",
@@ -18725,12 +18855,12 @@
     "position": "RB",
     "team": "CIN",
     "passing_yards": 0.0,
-    "rushing_yards": 2.6,
+    "rushing_yards": 2.2,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 0.9,
-    "games_played": 7
+    "carries": 0.8,
+    "games_played": 8
   },
   {
     "player_id": "00-0040209",
@@ -18743,7 +18873,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040213",
@@ -18765,11 +18895,11 @@
     "team": "MIN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 22.5,
-    "receptions": 2.5,
+    "receiving_yards": 19.0,
+    "receptions": 2.2,
     "targets": 3.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0040216",
@@ -18782,7 +18912,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040218",
@@ -18821,7 +18951,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0040223",
@@ -18834,7 +18964,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0040225",
@@ -18848,6 +18978,19 @@
     "targets": 0.5,
     "carries": 0.0,
     "games_played": 2
+  },
+  {
+    "player_id": "00-0040227",
+    "player_display_name": "Jonah Monheim",
+    "position": "C",
+    "team": "JAX",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
   },
   {
     "player_id": "00-0040228",
@@ -18947,11 +19090,11 @@
     "team": "JAX",
     "passing_yards": 0.0,
     "rushing_yards": 0.1,
-    "receiving_yards": 1.1,
-    "receptions": 0.2,
+    "receiving_yards": 0.9,
+    "receptions": 0.3,
     "targets": 1.0,
     "carries": 0.1,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0040242",
@@ -18959,12 +19102,12 @@
     "position": "RB",
     "team": "WAS",
     "passing_yards": 0.0,
-    "rushing_yards": 47.8,
-    "receiving_yards": 8.0,
-    "receptions": 1.0,
-    "targets": 1.4,
-    "carries": 13.4,
-    "games_played": 5
+    "rushing_yards": 48.8,
+    "receiving_yards": 10.5,
+    "receptions": 1.2,
+    "targets": 1.7,
+    "carries": 13.3,
+    "games_played": 6
   },
   {
     "player_id": "00-0040245",
@@ -19198,7 +19341,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0040326",
@@ -19211,7 +19354,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0040331",
@@ -19484,7 +19627,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040458",
@@ -19510,7 +19653,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040464",
@@ -19552,6 +19695,19 @@
     "games_played": 1
   },
   {
+    "player_id": "00-0040488",
+    "player_display_name": "Carter Runyon",
+    "position": "TE",
+    "team": "LV",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
+  },
+  {
     "player_id": "00-0040494",
     "player_display_name": "Max Brosmer",
     "position": "QB",
@@ -19575,7 +19731,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040500",
@@ -19622,12 +19778,12 @@
     "position": "WR",
     "team": "MIN",
     "passing_yards": 0.0,
-    "rushing_yards": 1.6,
-    "receiving_yards": 9.0,
-    "receptions": 1.1,
+    "rushing_yards": 1.4,
+    "receiving_yards": 10.7,
+    "receptions": 1.2,
     "targets": 1.7,
     "carries": 0.2,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0040507",
@@ -19991,7 +20147,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0040634",
@@ -20004,7 +20160,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040636",
@@ -20186,7 +20342,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0040661",
@@ -20233,12 +20389,12 @@
     "position": "RB",
     "team": "LAC",
     "passing_yards": 0.0,
-    "rushing_yards": 52.7,
-    "receiving_yards": 7.0,
+    "rushing_yards": 56.3,
+    "receiving_yards": 6.7,
     "receptions": 1.3,
-    "targets": 1.7,
+    "targets": 1.6,
     "carries": 13.8,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0040667",
@@ -20329,7 +20485,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0040678",
@@ -20381,7 +20537,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0040688",
@@ -20524,7 +20680,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0040715",
@@ -20532,12 +20688,12 @@
     "position": "RB",
     "team": "NYG",
     "passing_yards": 0.0,
-    "rushing_yards": 70.9,
-    "receiving_yards": 17.1,
-    "receptions": 2.0,
-    "targets": 2.4,
-    "carries": 16.6,
-    "games_played": 7
+    "rushing_yards": 66.2,
+    "receiving_yards": 16.8,
+    "receptions": 2.1,
+    "targets": 3.0,
+    "carries": 16.2,
+    "games_played": 8
   },
   {
     "player_id": "00-0040716",
@@ -20558,12 +20714,12 @@
     "position": "CB",
     "team": "JAX",
     "passing_yards": 0.0,
-    "rushing_yards": 1.2,
-    "receiving_yards": 10.1,
+    "rushing_yards": 2.0,
+    "receiving_yards": 9.4,
     "receptions": 1.0,
     "targets": 1.1,
-    "carries": 0.3,
-    "games_played": 9
+    "carries": 0.4,
+    "games_played": 10
   },
   {
     "player_id": "00-0040719",
@@ -20571,12 +20727,12 @@
     "position": "RB",
     "team": "JAX",
     "passing_yards": 0.0,
-    "rushing_yards": 67.7,
-    "receiving_yards": 22.9,
-    "receptions": 2.0,
-    "targets": 2.2,
-    "carries": 16.4,
-    "games_played": 9
+    "rushing_yards": 64.2,
+    "receiving_yards": 22.6,
+    "receptions": 2.1,
+    "targets": 2.3,
+    "carries": 15.8,
+    "games_played": 10
   },
   {
     "player_id": "00-0040720",
@@ -20589,7 +20745,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0040722",
@@ -20615,7 +20771,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0040724",
@@ -20663,11 +20819,11 @@
     "team": "LAC",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 43.5,
-    "receptions": 3.2,
-    "targets": 5.0,
+    "receiving_yards": 41.8,
+    "receptions": 3.1,
+    "targets": 4.7,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0040728",
@@ -20689,11 +20845,11 @@
     "team": "LV",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 16.8,
-    "receptions": 2.0,
-    "targets": 3.8,
+    "receiving_yards": 31.0,
+    "receptions": 3.2,
+    "targets": 4.8,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0040730",
@@ -20719,7 +20875,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0040733",
@@ -20767,11 +20923,11 @@
     "team": "NYJ",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 23.9,
-    "receptions": 3.1,
-    "targets": 4.1,
+    "receiving_yards": 24.0,
+    "receptions": 3.0,
+    "targets": 3.9,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0040737",
@@ -20797,7 +20953,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0040739",
@@ -21000,12 +21156,12 @@
     "position": "WR",
     "team": "CIN",
     "passing_yards": 0.0,
-    "rushing_yards": 2.9,
-    "receiving_yards": 26.9,
-    "receptions": 2.2,
-    "targets": 3.1,
+    "rushing_yards": 2.6,
+    "receiving_yards": 24.4,
+    "receptions": 2.1,
+    "targets": 3.0,
     "carries": 0.2,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0040865",
@@ -21057,7 +21213,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0040869",
@@ -21143,12 +21299,12 @@
     "position": "RB",
     "team": "LV",
     "passing_yards": 0.0,
-    "rushing_yards": 29.8,
-    "receiving_yards": 1.5,
+    "rushing_yards": 30.9,
+    "receiving_yards": 1.4,
     "receptions": 0.4,
-    "targets": 0.7,
-    "carries": 7.9,
-    "games_played": 10
+    "targets": 0.6,
+    "carries": 8.0,
+    "games_played": 11
   },
   {
     "player_id": "00-0040879",
@@ -21512,7 +21668,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0041027",
@@ -21538,7 +21694,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0041029",
@@ -21586,11 +21742,11 @@
     "team": "NYJ",
     "passing_yards": 0.0,
     "rushing_yards": 0.3,
-    "receiving_yards": 23.8,
-    "receptions": 2.2,
+    "receiving_yards": 24.4,
+    "receptions": 2.3,
     "targets": 3.3,
     "carries": 0.1,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0041033",
@@ -21655,7 +21811,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 4
+    "games_played": 5
   },
   {
     "player_id": "00-0041039",
@@ -21677,11 +21833,11 @@
     "team": "WAS",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 36.2,
-    "receptions": 3.1,
-    "targets": 4.6,
+    "receiving_yards": 44.8,
+    "receptions": 3.7,
+    "targets": 5.2,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0041041",
@@ -21703,11 +21859,11 @@
     "team": "NYG",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 38.9,
+    "receiving_yards": 37.5,
     "receptions": 2.4,
-    "targets": 4.3,
+    "targets": 4.4,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0041043",
@@ -21759,7 +21915,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0041048",
@@ -21819,12 +21975,12 @@
     "position": "RB",
     "team": "SF",
     "passing_yards": 0.0,
-    "rushing_yards": 39.6,
-    "receiving_yards": 1.9,
+    "rushing_yards": 36.4,
+    "receiving_yards": 2.4,
     "receptions": 0.6,
     "targets": 0.9,
-    "carries": 8.8,
-    "games_played": 9
+    "carries": 8.5,
+    "games_played": 10
   },
   {
     "player_id": "00-0041053",
@@ -21850,7 +22006,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0041055",
@@ -21902,7 +22058,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0041060",
@@ -21941,7 +22097,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0041065",
@@ -21993,7 +22149,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0041069",
@@ -22002,11 +22158,11 @@
     "team": "CIN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 4.5,
+    "receiving_yards": 4.3,
     "receptions": 1.0,
-    "targets": 1.0,
+    "targets": 1.3,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0041070",
@@ -22032,7 +22188,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0041074",
@@ -22045,7 +22201,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0041075",
@@ -22084,7 +22240,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 8
+    "games_played": 9
   },
   {
     "player_id": "00-0041080",
@@ -22249,11 +22405,11 @@
     "team": "JAX",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 21.1,
-    "receptions": 1.3,
-    "targets": 1.9,
+    "receiving_yards": 23.4,
+    "receptions": 1.5,
+    "targets": 2.4,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0041102",
@@ -22266,7 +22422,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0041104",
@@ -22366,11 +22522,11 @@
     "team": "CIN",
     "passing_yards": 0.0,
     "rushing_yards": 0.0,
-    "receiving_yards": 3.0,
-    "receptions": 1.0,
-    "targets": 1.3,
+    "receiving_yards": 10.5,
+    "receptions": 1.8,
+    "targets": 2.2,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0041117",
@@ -22397,6 +22553,19 @@
     "targets": 0.0,
     "carries": 0.0,
     "games_played": 8
+  },
+  {
+    "player_id": "00-0041120",
+    "player_display_name": "VJ Payne",
+    "position": "SAF",
+    "team": "NYJ",
+    "passing_yards": 0.0,
+    "rushing_yards": 0.0,
+    "receiving_yards": 0.0,
+    "receptions": 0.0,
+    "targets": 0.0,
+    "carries": 0.0,
+    "games_played": 1
   },
   {
     "player_id": "00-0041125",
@@ -22474,7 +22643,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0041148",
@@ -22578,7 +22747,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0041188",
@@ -22617,7 +22786,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0041227",
@@ -22799,7 +22968,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 5
+    "games_played": 6
   },
   {
     "player_id": "00-0041368",
@@ -22916,7 +23085,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0041393",
@@ -23046,7 +23215,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0041415",
@@ -23280,7 +23449,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0041465",
@@ -23475,7 +23644,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0041496",
@@ -23483,12 +23652,12 @@
     "position": "RB",
     "team": "DEN",
     "passing_yards": 0.0,
-    "rushing_yards": 38.2,
-    "receiving_yards": 25.6,
-    "receptions": 2.6,
-    "targets": 2.8,
-    "carries": 9.4,
-    "games_played": 5
+    "rushing_yards": 50.3,
+    "receiving_yards": 24.3,
+    "receptions": 2.8,
+    "targets": 3.2,
+    "carries": 11.8,
+    "games_played": 6
   },
   {
     "player_id": "00-0041497",
@@ -23553,7 +23722,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 2
+    "games_played": 3
   },
   {
     "player_id": "00-0041508",
@@ -23579,7 +23748,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 9
+    "games_played": 10
   },
   {
     "player_id": "00-0041511",
@@ -23774,7 +23943,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 3
+    "games_played": 4
   },
   {
     "player_id": "00-0041537",
@@ -23891,7 +24060,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 10
+    "games_played": 11
   },
   {
     "player_id": "00-0041550",
@@ -23917,7 +24086,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 1
+    "games_played": 2
   },
   {
     "player_id": "00-0041554",
@@ -23943,7 +24112,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   },
   {
     "player_id": "00-0041557",
@@ -24002,13 +24171,13 @@
     "player_display_name": "Fernando Mendoza",
     "position": "QB",
     "team": "LV",
-    "passing_yards": 95.5,
-    "rushing_yards": 12.5,
+    "passing_yards": 152.7,
+    "rushing_yards": 15.7,
     "receiving_yards": 0.0,
     "receptions": 0.0,
     "targets": 0.0,
-    "carries": 3.5,
-    "games_played": 2
+    "carries": 3.7,
+    "games_played": 3
   },
   {
     "player_id": "00-0041563",
@@ -24021,7 +24190,7 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 6
+    "games_played": 7
   },
   {
     "player_id": "00-0041569",
@@ -24060,6 +24229,6 @@
     "receptions": 0.0,
     "targets": 0.0,
     "carries": 0.0,
-    "games_played": 7
+    "games_played": 8
   }
 ]
